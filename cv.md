@@ -26,6 +26,7 @@ title: John Didion, PhD
 
 
 ## Research Experience
+
 |   |
 |---|---|
 | <span style="white-space:nowrap">2014.09 to Present</span> | __National Human Genome Research Institute, Bethesda, MD__ |
@@ -40,6 +41,7 @@ title: John Didion, PhD
 
 
 ## Industry Experience
+
 |   |
 |---|---|
 | <span style="white-space:nowrap">2004.09 to 2007.08</span> | Muze, Inc., Seattle, WA |
@@ -51,6 +53,7 @@ title: John Didion, PhD
 
 
 ## Teaching Experience
+
 |   |
 |---|---|
 | <span style="white-space:nowrap">2013.09 to 2014.05</span> | University of North Carolina at Chapel Hill |
@@ -77,6 +80,7 @@ title: John Didion, PhD
 
 
 ## Oral Presentations
+
 |   |
 |---|---|
 | 2013.09 | 27th Intl. Mammalian Genome Conference, Salamanca, Spain |
@@ -96,6 +100,7 @@ title: John Didion, PhD
 
 
 ## Poster Presentations
+
 |   |
 |---|---|
 | 2014.10 | 28th Intl. Mammalian Genome Conference Bar Harbor, ME |
@@ -113,6 +118,7 @@ title: John Didion, PhD
 
 
 ## Funding
+
 |   |
 |---|---|
 | <span style="white-space:nowrap"></span> | NIH Intramural Sequencing Center Pilot Grant |
@@ -130,6 +136,7 @@ title: John Didion, PhD
 
 
 ## Honors & Awards
+
 |   |
 |---|---|
 | <span style="white-space:nowrap">2014.12</span> | Dean's Distinguished Dissertation Award |
@@ -147,6 +154,7 @@ title: John Didion, PhD
 
 
 ## Professional Memberships & Service
+
 |   |
 |---|---|
 | <span style="white-space:nowrap"></span> | International Mammalian Genome Society |
