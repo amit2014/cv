@@ -7,7 +7,7 @@ title: John Didion, PhD
 
 ## John Didion, PhD ##
 
-* [PDF](/data/cv.pdf)
+* [PDF](cv.pdf)
 
 ## Contact
 
