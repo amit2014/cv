@@ -1,0 +1,12 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\begin{entrylistTwo}
+~< for poster in items >~
+\entryTwo
+{<< poster.date >>}
+{<< poster.venue >>}
+{<< poster.location >>}
+~< endfor >~
+\end{entrylistTwo}
+~< endblock body >~

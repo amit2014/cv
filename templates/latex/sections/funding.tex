@@ -1,0 +1,13 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\begin{entrylistSix}
+~< for award in items >~
+\entrySix
+{<< award.dates >>}
+{<< award.name >>}
+{<< award.title >>}
+{<< award.descr >>}
+~< endfor >~
+\end{entrylistSix}
+~< endblock body >~

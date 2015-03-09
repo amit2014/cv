@@ -1,0 +1,12 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\begin{entrylistThree}
+~< for item in items >~
+\entryThree
+{<< item.dates >>}
+{<< item.org >>}
+{<< item.position >>}
+~< endfor >~
+\end{entrylistThree}
+~< endblock body >~

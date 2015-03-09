@@ -1,0 +1,14 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\begin{entrylistFive}
+~< for item in items >~
+\entryFive
+{<< item.dates >>}
+{<< item.place >>}
+{<< item.location >>}
+{<< item.title >>, Laboratory of << item.advisor >>}
+{<< item.details >>}
+~< endfor >~
+\end{entrylistFive}
+~< endblock body >~

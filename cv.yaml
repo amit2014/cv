@@ -1,0 +1,196 @@
+name:
+  first: John
+  last: Didion
+title: PhD
+style: banking # casual, classic, oldstyle, or banking
+color: blue # blue, orange, green, red, purple, grey and black
+phone: ~(919)~536~9924
+email: john.didion@nih.gov
+email_obfusc: john DOT didion AT nih DOT gov
+pdf: /data/cv.pdf
+src: https://github.com/jdidion/cv
+url: "john.didion.net"
+social:
+  github: jdidion
+  twitter: jdidion
+  linkedin: jdidion
+  orcid: 0000-0002-8111-6261
+
+publication_config:
+  name: "Didion JP"
+  categories:
+    - heading: Journal Articles
+      type: article
+      keyword: journal
+      prefix: ""
+
+# (tag, section type, title)
+order:
+  - [education, Education]
+  - [research, Research Experience]
+  - [industry, Industry Experience]
+  - [teaching, Teaching Experience]
+  - [publications, Publications]
+  - [talks, Oral Presentations]
+  - [posters, Poster Presentations]
+  - [funding, Funding]
+  - [honors, Honors \& Awards]
+  - [service, Professional Memberships \& Service]
+
+education:
+  - school: University of North Carolina
+    location: Chapel Hill, NC
+    degree: Doctor of Philosophy
+    department: Bioinformatics and Computational Biology
+    dates: 2008.08 to 2014.05
+
+  - school: Northwestern University
+    location: Evanston, IL
+    degree: Bachelor of Science
+    department: Computer Science
+    dates: 1996.09 to 2001.06
+
+research:
+  - place: National Human Genome Research Institute
+    location: Bethesda, MD
+    title: Postdoctoral Fellow
+    advisor: Dr. Francis S Collins
+    dates: 2014.09 to Present
+    area: Computational biology, epignentics of common disease
+    details: 
+        Investigating the role of epigenetics in common complex disese, especially type 2 diabetes.
+  - place: University of North Carolina at Chapel Hill
+    location: Chapel Hill, NC
+    title: Research Assistant
+    advisor: Dr. Fernando Pardo-Manuel de Villena
+    dates: 2009.05 to 2014.08
+    area: Computational biology, mammalian geneitics
+    details:
+      Characterized the genetic determinants of two meiotic drive systems in the mouse. 
+      First, conducted a GWAS of wild mice to identify genes associated with the accumulation 
+      of Robertsonian translocations. Second, mapped a novel meiotic drive locus, R2d2, 
+      and multiple modifier loci responsible for extreme TRD in the Collaborative Cross. Also 
+      developed CLASP, a software tool for validation of cell lines used in research.
+  - place: Institute for Systems Biology
+    location: Seattle, WA
+    title: Computational Biology Software Engineer
+    advisor: Dr. Ruedi Aebersold
+    dates: 2007.08 to 2008.08
+    area: Computational proteomics
+    details:
+      Developed informatics software to support proteomics research. Created TIQAM, a work flow 
+      management system for MRM (Multiple Reaction Monitoring) experiments.
+
+industry:
+  - place: Muze, Inc.
+    location: Seattle, WA
+    title: Software Development Engineer
+    dates: 2004.09 to 2007.08
+  - place: Encyclopaedia Britannica, Online Services
+    location: Chicago, IL
+    title: Software Developer
+    dates: 2003.09 to 2004.09
+  - place: ThoughtWorks, LLC
+    location: Chicago, IL
+    title: Software Developer/Consultant
+    dates: 2001.05 to 2003.08
+
+teaching:
+  - university: University of North Carolina at Chapel Hill
+    course:
+      name: Undergraduate senior research project
+    dates: 2013.09 to 2014.05
+    details: Mentor
+  - university: University of North Carolina at Chapel Hill
+    course:
+      name: Genetic Analysis 2
+    dates: 2013.09 to 2013.12
+    details: Teaching Assistant
+
+publications: publications.bib
+
+talks:
+  - venue: 27th Intl. Mammalian Genome Conference
+    location: Salamanca, Spain
+    date: 2013.09
+  - venue: 12th Annual Meeting of the Complex Traits Community
+    location: Madison, WI
+    date: 2013.05
+  - venue: 16th EBM Conference
+    location: Marseille, France
+    date: 2012.09
+  - venue: UNC Genetics Department Retreat
+    location: Myrtle Beach, SC
+    date: 2012.09
+  - venue: 24th Intl. Mammalian Genome Conference
+    location: Heraklion, Greece
+    date: "2010.10"
+  - venue: 9th Annual Meeting of the Complex Traits Community
+    location: Chicago, IL
+    date: 2010.05
+  - venue: 23rd Intl. Mammalian Genome Conference
+    location: San Diego, CA
+    date: 2009.09
+
+posters:
+  - venue: 28th Intl. Mammalian Genome Conference
+    location: Bar Harbor, ME
+    date: "2014.10"
+  - venue: UNC Genetics Department Retreat
+    location: Myrtle Beach, SC
+    date: 2011.09
+  - venue: Genetics Society of America Mouse Genetics
+    location: Washington D.C.
+    date: 2011.06
+  - venue: National Centers for Systems Biology Annual Meeting
+    location: Duke University
+    date: 2011.06 
+  - venue: UNC Genetics Department Retreat
+    location: Myrtle Beach, SC
+    date: 2010.09
+  - venue: UNC Genetics Department Retreat
+    location: Asheville, NC
+    date: 2009.09
+
+funding:
+  - name: NIH Intramural Sequencing Center Pilot Grant
+    title: Epigenomic regulation of glucose response in a human pancreatic islet $\beta$ cell line
+    dates: 2014.12
+    descr: Institutional award with funding for sequencing services
+  - name: Department of Health and Human Services Ignite
+    dates: 2014.12 to 2015.04
+    title: LabGenius  to  The Smart Lab Notebook for Scientists
+    descr: Incubator program with USD 5,000 funding
+  - name: Bioinformatics and Computational Biology Training Grant
+    title: NIH GM067553-04
+    dates: 2009.09 to 2010.08
+    descr: Institution-awarded fellowship
+  - name: International Mammalian Genome Society Fellowship
+    title: Travel grant
+    dates: 2009.09
+
+honors:
+  - title: Dean's Distinguished Dissertation Award
+    from: University of North Carolina at Chapel Hill
+    dates: 2014.12
+    descr: Nominee from the Bioinformatics and Computational Biology program
+  - title: Verne Chapman Young Scientist Award
+    from: International Mammalian Genome Society
+    dates: 2013.09
+    descr: Best talk at the International Mammalian Genome Conference
+  - title: Chicago Prize
+    from: Complex Traits Consortium
+    dates: 2013.05
+    descr: Best graduate student talk at the Complex Traits Consortium meeting
+  - title: Genome Research Award for Outstanding Poster
+    from: International Mammalian Genome Society
+    dates: "2010.10"
+    descr: Outstanding poster at the International Mammalian Genome Conference
+
+service:
+  - position: Secretariat member (honorary)
+    org: International Mammalian Genome Society
+    dates: 2013.09 to 2015.09
+  - position: Abstract Review Committee
+    org: UNC Genetics Department Retreat
+    dates: 2013.08

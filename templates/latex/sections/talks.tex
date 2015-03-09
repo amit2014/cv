@@ -1,0 +1,12 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\begin{entrylistTwo}
+~< for talk in items >~
+\entryTwo
+{<< talk.date >>}
+{<< talk.venue >>}
+{<< talk.location >>}
+~< endfor >~
+\end{entrylistTwo}
+~< endblock body >~

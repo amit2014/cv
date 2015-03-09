@@ -1,0 +1,12 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\begin{entrylistThree}
+~< for school in items >~
+\entryThree
+{<< school.dates >>}
+{<< school.degree >>, << school.department >>}
+{<< school.school >>, << school.location >>}
+~< endfor >~
+\end{entrylistThree}
+~< endblock body >~

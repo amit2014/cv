@@ -1,0 +1,13 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\begin{entrylistFour}
+~< for item in items >~
+\entryFour
+{<< item.dates >>}
+{<< item.place >>}
+{<< item.location >>}
+{<< item.title >>}
+~< endfor >~
+\end{entrylistFour}
+~< endblock body >~
