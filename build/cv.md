@@ -15,7 +15,7 @@ title: John Didion, PhD
 * **GitHub**: [jdidion](https://github.com/jdidion)
 * **LinkedIn**: [jdidion](https://www.linkedin.com/in/jdidion)
 
-<br><br/>
+<br/>
 
 ## Education
 
@@ -45,6 +45,7 @@ title: John Didion, PhD
 
 
 <br/>
+
 ## Industry Experience
 
 |   |
@@ -58,6 +59,7 @@ title: John Didion, PhD
 
 
 <br/>
+
 ## Teaching Experience
 
 |   |
@@ -69,6 +71,7 @@ title: John Didion, PhD
 
 
 <br/>
+
 ## Publications
 
 ### Journal Articles
@@ -87,6 +90,7 @@ title: John Didion, PhD
 
 
 <br/>
+
 ## Oral Presentations
 
 |   |
@@ -107,6 +111,7 @@ title: John Didion, PhD
 
 
 <br/>
+
 ## Poster Presentations
 
 |   |
@@ -120,6 +125,7 @@ title: John Didion, PhD
 
 
 <br/>
+
 ## Funding
 
 |   |
@@ -139,6 +145,7 @@ title: John Didion, PhD
 
 
 <br/>
+
 ## Honors & Awards
 
 |   |
@@ -158,6 +165,7 @@ title: John Didion, PhD
 
 
 <br/>
+
 ## Professional Memberships & Service
 
 |   |
