@@ -10,7 +10,7 @@ table {
   max-width: 100%;
   background-color: $tableBackground;
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 5;
 }
 
 // BASELINE STYLES
@@ -168,14 +168,6 @@ table {
 
 // TABLE CELL SIZING
 // -----------------
-
-// Reset default grid behavior
-table [class*=span],
-.row-fluid table [class*=span] {
-  display: table-cell;
-  float: none; // undo default grid column styles
-  margin-left: 0; // undo default grid column styles
-}
 
 // Change the column widths to account for td/th padding
 .table {
