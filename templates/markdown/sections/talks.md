@@ -1,10 +1,11 @@
 {% extends "section.md" %}
 
 {% block body %}
+
 |   |
 |---|---|
 {% for talk in items %}
-| {{ talk.date }} | {{ talk.venue }}, {{ talk.location }} |
-| | {% if talk.title %} {{ talk.title }} {% endif %} |
+|  <span class="dates">{{ talk.date }}</span> | **{{ talk.venue }}, {{ talk.location }}** |
+| | {% if talk.title %} _{{ talk.title }}_ {% endif %} |
 {% endfor %}
 {% endblock body %}

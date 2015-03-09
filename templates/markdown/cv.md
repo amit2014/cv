@@ -1,10 +1,7 @@
 ---
-layout: layout
+layout: default
 title: John Didion, PhD
 ---
-
-<section class="content">
-
 ## {{ name.first }} {{ name.last }}, {{title}} ##
 
 * [PDF]({{ pdf }})
@@ -22,5 +19,3 @@ title: John Didion, PhD
 
 [source]({{ src }}) |
 Generated {{ today }}.
-
-</section>

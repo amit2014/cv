@@ -1,10 +1,11 @@
 {% extends "section.md" %}
 
 {% block body %}
+
 |   |
 |---|---|
 {% for poster in items %}
-| {{ poster.date }} | {{ poster.venue }} {{ poster.location}} |
-| | {% if poster.title %} {{ poster.title }} {% endif %} |
+|  <span class="dates">{{ poster.date }}</span> | **{{ poster.venue }} {{ poster.location}}** |
+| | {% if poster.title %} _{{ poster.title }}_ {% endif %} |
 {% endfor %}
 {% endblock body %}
