@@ -19,9 +19,9 @@ title: John Didion, PhD
 
 |   |
 |---|---|
-| <span class="dates"2008.08 to 2014.05</span> | **Doctor of Philosophy, Bioinformatics and Computational Biology** |
+| <span class="dates">2008.08 to 2014.05</span> | **Doctor of Philosophy, Bioinformatics and Computational Biology** |
 | | _University of North Carolina, Chapel Hill, NC_ |
-| <span class="dates"1996.09 to 2001.06</span> | **Bachelor of Science, Computer Science** |
+| <span class="dates">1996.09 to 2001.06</span> | **Bachelor of Science, Computer Science** |
 | | _Northwestern University, Evanston, IL_ |
 
 
