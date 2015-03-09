@@ -132,16 +132,15 @@ title: John Didion, PhD
 |---|---|
 | <span class="dates">2014.12</span> | **NIH Intramural Sequencing Center Pilot Grant** |
 | | _Epigenomic regulation of glucose response in a human pancreatic islet Beta cell line_ |
-| | Institutional award with funding for sequencing services |
+| | Institutional award with funding for sequencing services | 
 | <span class="dates">2014.12 to 2015.04</span> | **Department of Health and Human Services Ignite** |
 | | _LabGenius  to  The Smart Lab Notebook for Scientists_ |
-| | Incubator program with USD 5,000 funding |
+| | Incubator program with USD 5,000 funding | 
 | <span class="dates">2009.09 to 2010.08</span> | **Bioinformatics and Computational Biology Training Grant** |
 | | _NIH GM067553-04_ |
-| | Institution-awarded fellowship |
+| | Institution-awarded fellowship | 
 | <span class="dates">2009.09</span> | **International Mammalian Genome Society Fellowship** |
 | | _Travel grant_ |
-| |  |
 
 
 <br/>
