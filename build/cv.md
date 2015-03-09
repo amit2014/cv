@@ -19,9 +19,9 @@ title: John Didion, PhD
 
 |   |
 |---|---|
-| <span class="dates">2008.08 to 2014.05</span> | **Doctor of Philosophy, Bioinformatics and Computational Biology** |
+| <span class="dates"2008.08 to 2014.05</span> | **Doctor of Philosophy, Bioinformatics and Computational Biology** |
 | | _University of North Carolina, Chapel Hill, NC_ |
-| <span class="dates">1996.09 to 2001.06</span> | **Bachelor of Science, Computer Science** |
+| <span class="dates"1996.09 to 2001.06</span> | **Bachelor of Science, Computer Science** |
 | | _Northwestern University, Evanston, IL_ |
 
 
@@ -84,19 +84,18 @@ title: John Didion, PhD
 |   |
 |---|---|
 |  <span class="dates">2013.09</span> | **27th Intl. Mammalian Genome Conference, Salamanca, Spain** |
-| |  |
+ 
 |  <span class="dates">2013.05</span> | **12th Annual Meeting of the Complex Traits Community, Madison, WI** |
-| |  |
+ 
 |  <span class="dates">2012.09</span> | **16th EBM Conference, Marseille, France** |
-| |  |
+ 
 |  <span class="dates">2012.09</span> | **UNC Genetics Department Retreat, Myrtle Beach, SC** |
-| |  |
+ 
 |  <span class="dates">2010.10</span> | **24th Intl. Mammalian Genome Conference, Heraklion, Greece** |
-| |  |
+ 
 |  <span class="dates">2010.05</span> | **9th Annual Meeting of the Complex Traits Community, Chicago, IL** |
-| |  |
+ 
 |  <span class="dates">2009.09</span> | **23rd Intl. Mammalian Genome Conference, San Diego, CA** |
-| |  |
 
 
 ## Poster Presentations
@@ -104,17 +103,11 @@ title: John Didion, PhD
 |   |
 |---|---|
 |  <span class="dates">2014.10</span> | **28th Intl. Mammalian Genome Conference Bar Harbor, ME** |
-| |  |
 |  <span class="dates">2011.09</span> | **UNC Genetics Department Retreat Myrtle Beach, SC** |
-| |  |
 |  <span class="dates">2011.06</span> | **Genetics Society of America Mouse Genetics Washington D.C.** |
-| |  |
 |  <span class="dates">2011.06</span> | **National Centers for Systems Biology Annual Meeting Duke University** |
-| |  |
 |  <span class="dates">2010.09</span> | **UNC Genetics Department Retreat Myrtle Beach, SC** |
-| |  |
 |  <span class="dates">2009.09</span> | **UNC Genetics Department Retreat Asheville, NC** |
-| |  |
 
 
 ## Funding
@@ -164,6 +157,8 @@ title: John Didion, PhD
 
 
 
+
+---
 
 [source](https://github.com/jdidion/cv) |
 Generated March 09, 2015.
