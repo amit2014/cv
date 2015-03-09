@@ -7,6 +7,10 @@ title: John Didion, PhD
 
 ## John Didion, PhD ##
 
+| test | test |
+|------|------|
+|  x   |  y   |
+
 * [PDF](cv.pdf)
 
 ## Contact
