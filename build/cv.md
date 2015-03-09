@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_page
 title: John Didion, PhD
 ---
 
