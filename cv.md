@@ -2,9 +2,6 @@
 layout: default
 title: John Didion, PhD
 ---
-
-<section class="content">
-
 ## John Didion, PhD ##
 
 * [PDF](cv.pdf)
@@ -161,5 +158,3 @@ title: John Didion, PhD
 
 [source](https://github.com/jdidion/cv) |
 Generated March 09, 2015.
-
-</section>
