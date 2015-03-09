@@ -7,7 +7,7 @@ color: blue # blue, orange, green, red, purple, grey and black
 phone: ~(919)~536~9924
 email: john.didion@nih.gov
 email_obfusc: john DOT didion AT nih DOT gov
-pdf: /data/cv.pdf
+pdf: /cv/build/cv.pdf
 src: https://github.com/jdidion/cv
 url: "john.didion.net"
 social:
@@ -154,7 +154,7 @@ posters:
 
 funding:
   - name: NIH Intramural Sequencing Center Pilot Grant
-    title: Epigenomic regulation of glucose response in a human pancreatic islet $\beta$ cell line
+    title: Epigenomic regulation of glucose response in a human pancreatic islet Beta cell line
     dates: 2014.12
     descr: Institutional award with funding for sequencing services
   - name: Department of Health and Human Services Ignite
