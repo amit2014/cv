@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: default
 title: John Didion, PhD
 ---
 
