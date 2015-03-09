@@ -17,5 +17,7 @@ title: John Didion, PhD
 
 {{ body }}
 
+---
+
 [source]({{ src }}) |
 Generated {{ today }}.
