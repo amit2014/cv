@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: post
 title: John Didion, PhD
 ---
+
+<section class="content">
 
 ## John Didion, PhD ##
 
@@ -159,3 +161,5 @@ title: John Didion, PhD
 
 [source](https://github.com/jdidion/cv) |
 Generated March 09, 2015.
+
+</section>
