@@ -4,17 +4,18 @@ title: John Didion, PhD
 ---
 ## John Didion, PhD ##
 
-* [PDF](/data/cv.pdf)
+* [PDF](/cv/build/cv.pdf)
 
 ## Contact
 
-* Email: john DOT didion AT nih DOT gov
-* Website: john.didion.net
-* ORCiD: [0000-0002-8111-6261](http://orcid.org/0000-0002-8111-6261)
-* Twitter: [jdidion](http://twitter.com/jdidion)
-* GitHub: [jdidion](https://github.com/jdidion)
-* LinkedIn: [jdidion](https://www.linkedin.com/in/jdidion)
+* **Email**: john DOT didion AT nih DOT gov
+* **Website**: john.didion.net
+* **ORCiD**: [0000-0002-8111-6261](http://orcid.org/0000-0002-8111-6261)
+* **Twitter**: [jdidion](http://twitter.com/jdidion)
+* **GitHub**: [jdidion](https://github.com/jdidion)
+* **LinkedIn**: [jdidion](https://www.linkedin.com/in/jdidion)
 
+<br/>
 ## Education
 
 |   |
@@ -25,6 +26,7 @@ title: John Didion, PhD
 | | _Northwestern University, Evanston, IL_ |
 
 
+<br/>
 ## Research Experience
 
 |   |
@@ -40,6 +42,7 @@ title: John Didion, PhD
 |               | Developed informatics software to support proteomics research. Created TIQAM, a work flow management system for MRM (Multiple Reaction Monitoring) experiments. |
 
 
+<br/>
 ## Industry Experience
 
 |   |
@@ -52,6 +55,7 @@ title: John Didion, PhD
 | | _Software Developer/Consultant_ |
 
 
+<br/>
 ## Teaching Experience
 
 |   |
@@ -62,6 +66,7 @@ title: John Didion, PhD
 | | _Genetic Analysis 2, Teaching Assistant_ |
 
 
+<br/>
 ## Publications
 
 ### Journal Articles
@@ -75,10 +80,11 @@ title: John Didion, PhD
 [8] **Didion JP**, Yang H, Sheppard K, et al., "Discovery of novel variants in genotyping arrays improves genotype retention and reduces ascertainment bias," <em>BMC Genomics</em>, 2012<br><br>
 [9] Aylor DL, ...11 others..., **Didion JP**, et al., "Genetic analysis of complex traits in the emerging Collaborative Cross," <em>Genome Research</em>, 2011<br><br>
 [10] Yang H, Wang JR, **Didion JP**, et al., "Subspecific origin and haplotype diversity in the laboratory mouse," <em>Nature Genetics</em>, 2011<br><br>
-[11] AF, Eisener-Dorman, **Didion JP**, , C, Santos, and JD, Calaway, "The 23rd International Mammalian Genome Conference meeting report," <em>Mammalian Genome</em>, 2010<br><br>
-[12] Lange V, Malmstr\"{o}m JA, **Didion JP**, et al., "Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring," <em>Molecular \& Cellular Proteomics</em>, 2008<br><br>
+[11] Eisener-Dorman AF, **Didion JP**, Santos C, Calaway JD, "The 23rd International Mammalian Genome Conference meeting report," <em>Mammalian Genome</em>, 2010<br><br>
+[12] Lange V, Malmstrom JA, **Didion JP**, et al., "Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring," <em>Molecular and Cellular Proteomics</em>, 2008<br><br>
 
 
+<br/>
 ## Oral Presentations
 
 |   |
@@ -98,6 +104,7 @@ title: John Didion, PhD
 |  <span class="dates">2009.09</span> | **23rd Intl. Mammalian Genome Conference, San Diego, CA** |
 
 
+<br/>
 ## Poster Presentations
 
 |   |
@@ -110,12 +117,13 @@ title: John Didion, PhD
 |  <span class="dates">2009.09</span> | **UNC Genetics Department Retreat Asheville, NC** |
 
 
+<br/>
 ## Funding
 
 |   |
 |---|---|
 | <span class="dates">2014.12</span> | **NIH Intramural Sequencing Center Pilot Grant** |
-| | _Epigenomic regulation of glucose response in a human pancreatic islet $\beta$ cell line_ |
+| | _Epigenomic regulation of glucose response in a human pancreatic islet Beta cell line_ |
 | | Institutional award with funding for sequencing services |
 | <span class="dates">2014.12 to 2015.04</span> | **Department of Health and Human Services Ignite** |
 | | _LabGenius  to  The Smart Lab Notebook for Scientists_ |
@@ -128,6 +136,7 @@ title: John Didion, PhD
 | |  |
 
 
+<br/>
 ## Honors & Awards
 
 |   |
@@ -146,6 +155,7 @@ title: John Didion, PhD
 | | Outstanding poster at the International Mammalian Genome Conference |
 
 
+<br/>
 ## Professional Memberships & Service
 
 |   |

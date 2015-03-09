@@ -236,13 +236,13 @@
     \endentry
     \entry{Eisener-Dorman2010}{article}{}
       \name{labelname}{1}{}{%
-        {{hash=45136d4c6525574a89a7005fdd6a0178}{{Eisener-Dorman\bibnamedelimb AF\bibnamedelimb and\bibnamedelimb \authorname\bibnamedelimb and\bibnamedelimb Santos\bibnamedelimb C\bibnamedelimb and\bibnamedelimb Calaway\bibnamedelimb JD}}{E\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=12482102bdcdefaa5ff4955aa33f7d90}{{Eisener-Dorman\bibnamedelimb AF,\bibnamedelimb \authorname,\bibnamedelimb Santos\bibnamedelimb C,\bibnamedelimb Calaway\bibnamedelimb JD}}{E\bibinitperiod}{}{}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=45136d4c6525574a89a7005fdd6a0178}{{Eisener-Dorman\bibnamedelimb AF\bibnamedelimb and\bibnamedelimb \authorname\bibnamedelimb and\bibnamedelimb Santos\bibnamedelimb C\bibnamedelimb and\bibnamedelimb Calaway\bibnamedelimb JD}}{E\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=12482102bdcdefaa5ff4955aa33f7d90}{{Eisener-Dorman\bibnamedelimb AF,\bibnamedelimb \authorname,\bibnamedelimb Santos\bibnamedelimb C,\bibnamedelimb Calaway\bibnamedelimb JD}}{E\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \strng{namehash}{45136d4c6525574a89a7005fdd6a0178}
-      \strng{fullhash}{45136d4c6525574a89a7005fdd6a0178}
+      \strng{namehash}{12482102bdcdefaa5ff4955aa33f7d90}
+      \strng{fullhash}{12482102bdcdefaa5ff4955aa33f7d90}
       \field{sortinit}{2}
       \field{labeltitle}{{The 23rd International Mammalian Genome Conference meeting report}}
       \field{journaltitle}{Mammalian Genome}
@@ -258,16 +258,16 @@
     \endentry
     \entry{Lange:2008kl}{article}{}
       \name{labelname}{1}{}{%
-        {{hash=88aab68fb58032405f7393c103a37533}{{Lange\bibnamedelimb V,\bibnamedelimb Malmstr\"{o}m\bibnamedelimb JA,\bibnamedelimb \authorname,\bibnamedelimb et\bibnamedelimb al.}}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=7131d23694452c3a8d3875df3f2a292d}{{Lange\bibnamedelimb V,\bibnamedelimb Malmstrom\bibnamedelimb JA,\bibnamedelimb \authorname,\bibnamedelimb et\bibnamedelimb al.}}{L\bibinitperiod}{}{}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=88aab68fb58032405f7393c103a37533}{{Lange\bibnamedelimb V,\bibnamedelimb Malmstr\"{o}m\bibnamedelimb JA,\bibnamedelimb \authorname,\bibnamedelimb et\bibnamedelimb al.}}{L\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=7131d23694452c3a8d3875df3f2a292d}{{Lange\bibnamedelimb V,\bibnamedelimb Malmstrom\bibnamedelimb JA,\bibnamedelimb \authorname,\bibnamedelimb et\bibnamedelimb al.}}{L\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \strng{namehash}{88aab68fb58032405f7393c103a37533}
-      \strng{fullhash}{88aab68fb58032405f7393c103a37533}
+      \strng{namehash}{7131d23694452c3a8d3875df3f2a292d}
+      \strng{fullhash}{7131d23694452c3a8d3875df3f2a292d}
       \field{sortinit}{2}
       \field{labeltitle}{{Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring}}
-      \field{journaltitle}{Molecular \& Cellular Proteomics}
+      \field{journaltitle}{Molecular and Cellular Proteomics}
       \field{number}{8}
       \field{title}{{Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring}}
       \field{volume}{7}
