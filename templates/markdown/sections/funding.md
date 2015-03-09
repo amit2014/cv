@@ -7,6 +7,6 @@
 {% for award in items %}
 | <span class="dates">{{ award.dates }}</span> | **{{ award.name }}** |
 | | _{{ award.title }}_ |
-| | {{ award.descr }} |
+{% if award.descr %}| | {{ award.descr }} |{% endif %} 
 {% endfor %}
 {% endblock body %}
