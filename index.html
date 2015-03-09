@@ -3,8 +3,7 @@ layout: default
 ---
 
 <div class="home">
-	{{ site.pages }}
-	{{ site.posts }}
-	{{ site.static_files }}
-	{{ site.html_pages }}
+	{% for page in site.pages %}
+	{{ page.url }
+	{% endfor %}
 </div>
