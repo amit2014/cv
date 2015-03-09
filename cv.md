@@ -7,7 +7,7 @@ title: John Didion, PhD
 * [PDF](cv.pdf)
 
 
-| test | test |
+|  |  |
 |------|------|
 |  x   |  y   |
 
