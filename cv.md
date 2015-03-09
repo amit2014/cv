@@ -16,7 +16,7 @@ title: John Didion, PhD
 * LinkedIn: [jdidion](https://www.linkedin.com/in/jdidion)
 
 ## Education
-|   |
+|   |   |
 |---|---|
 | <span style="white-space:nowrap">2008.08 to 2014.05</span> | Doctor of Philosophy, Bioinformatics and Computational Biology |
 | | _University of North Carolina, Chapel Hill, NC_ |
