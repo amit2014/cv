@@ -15,7 +15,8 @@ title: John Didion, PhD
 * **GitHub**: [jdidion](https://github.com/jdidion)
 * **LinkedIn**: [jdidion](https://www.linkedin.com/in/jdidion)
 
-<br/>
+<br><br/>
+
 ## Education
 
 |   |
@@ -27,6 +28,7 @@ title: John Didion, PhD
 
 
 <br/>
+
 ## Research Experience
 
 |   |
