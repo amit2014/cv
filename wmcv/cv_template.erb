@@ -1,0 +1,276 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{<%=name%>}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{<%=website%>}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {<%=keywords%>},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+<% address = address[0] %>
+<% home_phone = home_phone[0]%>
+<% work_phone = work_phone[0]%>
+
+\begin{minipage}{0.45\linewidth}
+  <%=address.street1%> \\<% if address.key?('street2') %>
+  <%=address.street2%> \\<% end %>
+  <%=address.city%>, <%=address.state%> <%=address['zip']%> \\
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & <%=work_phone.area%>.<%=work_phone.prefix%>.<%=work_phone.number%> \\
+    Email: & \href{mailto:<%=email%>}{\tt <%=email%>} \\
+    Homepage: & \href{<%=website%>}{\tt <%=website%>} \\
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Education}
+
+\begin{list}{}{\setlength{\leftmargin}{1.5em}}
+<% degrees.each do |deg| %>
+  \item <%=deg['type']%>, <%=deg.major%>, <%=deg.institution%>, <%=deg.location%>, <% if deg.year.is_a?(String) %><%=deg.year%><% else %><%=deg.year[0].start%>-<%=deg.year[0].end%><% end %>.
+<% end %>
+\end{list}
+
+
+\section*{Academic Experience}
+
+\begin{list}{}{\setlength{\leftmargin}{1.5em}}
+<% academic_experience.each do |job| %>
+  <% dates = job.dates.is_a?(Array) ? job.dates[0] : job.dates %>
+  \item \textbf{<%=job.title%>}, <%=job.employer%><% if job.key?('division') %>, <%=job.division%><% end %>, <%=job.location%>, <% if dates.is_a?(Hash) %><%=dates.start%>-<%=dates.end%><% else %><%=dates%><% end %><% if job.key?('summary') || job.key?('accomplishments' )%> \\<% end%>
+  <% if job.key?('summary') %><%=job.summary%><% end %>
+  <% if job.key?('accomplishments') %>
+  \begin{itemize}  
+  <% job.accomplishments.each do |acc| %>
+    \item <%=acc.value%>
+  <% end %>
+  \end{itemize}
+  <% end %>
+<% end%>
+\end{list}
+
+
+<% if defined?(industry_experience) %>
+\section*{Industry Experience}
+
+\begin{list}{}{\setlength{\leftmargin}{1.5em}}
+<% industry_experience.each do |job| %>
+  <% dates = job.dates[0] %>
+  \item \textbf{<%=job.title%>}, <%=job.employer%><% if job.key?('division') %>, <%=job.division%><% end %>, <%=job.location%>, <%=dates.start%>-<%=dates.end%><% if job.key?('summary') || job.key?('accomplishments' )%> \\<% end%>
+  <% if job.key?('summary') %><%=job.summary%><% end %>
+  <% if job.key?('accomplishments') %>
+  \begin{itemize}  
+    <% job.accomplishments.each do |acc| %>
+    \item <%=acc.value%>
+    <% end %>
+  \end{itemize}
+  <% end%>
+<% end%>
+\end{list}
+
+
+<% end %>
+\section*{Publications}
+
+<% if publications[0].__class__ == 'CV:list' %>
+  <% publications.each do |plist| %>
+    <% if plist.key?('heading') %>
+\subsection*{<%=plist.heading%>}
+    <% end %>
+\begin{list}{}{\setlength{\leftmargin}{3em}}
+    <% plist.items.each do |pub| %>
+  \item <% if pub.key?('doi') %>\href{http://dx.doi.org/<%=pub.doi%>}{<%=pub.value%>}<% else %><%=pub.value%><% end %>
+    <% end %>
+\end{list}
+  <% end %>
+<% else %>
+\begin{list}{}{\setlength{\leftmargin}{1.5em}}
+  <% publications.each do |pub| %>
+  \item <% if pub.key?('doi') %>\href{http://dx.doi.org/<%=pub.doi%>}{<%=pub.value%>}<% else %><%=pub.value%><% end %>
+  <% end %>
+\end{list}
+<% end %>
+
+
+<% if defined?(grants) %>
+\section*{Grant Funding}
+
+<% if grants[0].__class__ == 'CV:list' %>
+  <% grants.each do |glist| %>
+    <% if glist.key?('heading') %>
+\subsection*{<%=glist.heading%>}
+    <% end %>
+\begin{list}{}{\setlength{\leftmargin}{3em}}
+    <% glist.items.each do |grant| %>
+      <% period = grant.period.is_a?(Array) ? grant.period[0] : grant.period %>
+	  <% amount = grant.key?('amount') ? grant.amount[0] : nil %>
+  \item \textbf{<%=grant.title%>}, <%=grant.grantor%>, <% if period.is_a?(Hash) %><%=period.start%>-<%=period.end%><% else %><%=period%><% end %><% unless amount.nil? %>, <% if amount.key?('symbol') %><%=amount.symbol%><% else %>\$<% end %><%=amount.amount%><% end %>.
+    <% end %>
+\end{list}
+  <% end %>
+<% else %>
+\begin{list}{}{\setlength{\leftmargin}{1.5em}}
+  <% grants.each do |grant| %>
+    <% period = grant.period[0] %>
+    <% amount = grant.amount[0] %>
+  \item \textbf{<%=grant.title%>}, <%=grant.grantor%>, <%=period.start%>-<%=period.end%>, <% if amount.key?('symbol') %><%=amount.symbol%><% else %>\$<% end %><%=amount.amount%>.
+  <% end %>
+\end{list}
+<% end %>
+
+
+<% end %>
+<% if defined?(presentations) %>
+\section*{Invited Presentations}
+
+<% if presentations[0].__class__ == 'CV:list' %>
+  <% presentations.each do |plist| %>
+    <% if plist.key?('heading') %>
+\subsection*{<%=plist.heading%>}
+    <% end %>
+\begin{list}{}{\setlength{\leftmargin}{3em}}
+    <% plist.items.each do |pre| %>
+      <% date = pre.date[0] %>
+  \item <%=pre.title%>, <%=pre.event%>, <%=pre.location%>, <%=date.m%> <%=date.d%>, <%=date.y%><% if pre.key?('award') %>, <%=pre.award%><% end %>
+    <% end %>
+\end{list}
+  <% end %>
+<% else %>
+\begin{list}{}{\setlength{\leftmargin}{1.5em}}
+  <% presentations.each do |pre| %>
+    <% date = i.date[0] %>
+  \item <%=pre.title%>, <%=pre.event%>, <%=pre.location%>, <%=date.m%> <%=date.d%>, <%=date.y%><% if pre.key?('award') %>, <%=pre.award%><% end %>
+  <% end %>
+\end{list}
+<% end %>
+
+
+<% end %>
+<% if defined?(awards) %>
+\section*{Awards}
+
+<% if awards[0].__class__ == 'CV:list' %>
+  <% awards.each do |plist| %>
+    <% if plist.key?('heading') %>
+\subsection*{<%=plist.heading%>}
+    <% end %>
+\begin{list}{}{\setlength{\leftmargin}{3em}}
+    <% plist.items.each do |award| %>
+  \item <%=award.title%>
+    <% end %>
+\end{list}
+  <% end %>
+<% else %>
+\begin{list}{}{\setlength{\leftmargin}{1.5em}}
+  <% awards.each do |award| %>
+  \item <%=award.title%>
+  <% end %>
+\end{list}
+<% end %>
+
+
+<% end %>
+<% if defined?(interests) %>
+\section*{Research Interests}
+
+<% if interests[0].__class__ == 'CV:list' %>
+  <% interests.each do |ilist| %>
+    <% if ilist.key?('heading') %>
+\subsection*{<%=ilist.heading%>}
+    <% end %>
+\begin{list}{}{\setlength{\leftmargin}{3em}}
+    <% ilist.items.each do |int| %>
+  \item <%=int.value%>
+    <% end %>
+\end{list}
+  <% end %>
+<% else %>
+\begin{list}{}{\setlength{\leftmargin}{1.5em}}
+  <% interests.each do |int| %>
+  \item <%=int.value%>
+  <% end %>
+\end{list}
+<% end %>
+
+
+<% end %>
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
