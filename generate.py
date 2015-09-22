@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 """Generates LaTeX, markdown, and plaintext copies of my cv."""
 
@@ -262,7 +262,7 @@ def main():
     # Parse the command line arguments
     parser = argparse.ArgumentParser(description=
         'Generates HTML, LaTeX, and Markdown resumes from data in YAML files.')
-    parser.add_argument('yamls', metavar='YAML_FILE', nargs='+', default="cv.yaml",
+    parser.add_argument('yamls', metavar='YAML_FILE', nargs='+',
         help='the YAML files that contain the resume/cv details, in order of '
              'increasing precedence')
     parser.add_argument('-p', '--preview', action='store_true', default=False,
