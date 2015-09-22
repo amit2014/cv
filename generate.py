@@ -262,10 +262,10 @@ def main():
     # Parse the command line arguments
     parser = argparse.ArgumentParser(description=
         'Generates HTML, LaTeX, and Markdown resumes from data in YAML files.')
-    parser.add_argument('yamls', metavar='YAML_FILE', nargs='+',
+    parser.add_argument('yamls', metavar='YAML_FILE', nargs='+', default="cv.yaml",
         help='the YAML files that contain the resume/cv details, in order of '
              'increasing precedence')
-    parser.add_argument('-p', '--preview', action='store_true',
+    parser.add_argument('-p', '--preview', action='store_true', default=False,
         help='prints generated content to stdout instead of writing to file')
     group = parser.add_mutually_exclusive_group()
     group.add_argument('-l', '--latex', action='store_true',
