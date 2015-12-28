@@ -279,11 +279,10 @@ def main():
         with open(yaml_file) as f:
             yaml_data.update(yaml.load(f))
 
-    if args.latex or args.markdown:
-        if args.latex:
-            process_resume(LATEX_CONTEXT, yaml_data, args.preview)
-        elif args.markdown:
-            process_resume(MARKDOWN_CONTEXT, yaml_data, args.preview)
+    if args.latex:
+        process_resume(LATEX_CONTEXT, yaml_data, args.preview)
+    elif args.markdown:
+        process_resume(MARKDOWN_CONTEXT, yaml_data, args.preview)
     else:
         process_resume(LATEX_CONTEXT, yaml_data, args.preview)
         process_resume(MARKDOWN_CONTEXT, yaml_data, args.preview)
