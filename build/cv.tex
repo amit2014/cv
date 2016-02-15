@@ -1,0 +1,384 @@
+\documentclass[11pt,letter,sans]{moderncv}
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+%\renewcommand{\familydefault}{\sfdefault}
+%\newcommand*{\orcidsocialsymbol} {https://orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.png}
+
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+\usepackage[backend=biber,style=ieee,defernumbers=true,sorting=ydnt]{biblatex}
+
+\AtDataInput{%
+  \csnumgdef{entrycount:\therefsection}{%
+    \csuse{entrycount:\therefsection}+1}}
+
+% Print the labelnumber as the total number of entries in the
+% current refsection, minus the actual labelnumber, plus one
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\newrobustcmd*{\mkbibdesc}[1]{%
+  \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
+
+\addbibresource{../publications.bib}
+
+% Make the author's name bold in publications.
+\DeclareNameFormat{author}{%
+  \ifthenelse{\equal{#1}{Didion}}%
+    {\textbf{\ifblank{#4}{}{#4\space}#1}}%
+    {\ifblank{#4}{}{#4\space}#1}%
+  \ifthenelse{\value{listcount}=1 \AND \value{liststop}=2}%
+    {\space and\space}
+    {\ifthenelse{\value{listcount}<\value{liststop}}%
+      {\addcomma\space}
+      {}
+    }
+}
+
+\usepackage{lastpage}
+\cfoot{\addressfont\itshape\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+
+\newcommand\authorname{\textbf{Didion JP}}
+
+\setlength{\tabcolsep}{6pt}
+\newenvironment{entrylistTwo}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryTwo}[3]{%
+  #1&\parbox[t]{140mm}{%
+    \textbf{#2}%
+    \hfill%
+    {\footnotesize #3}%
+	\vspace{\parsep}%
+  }\\}
+
+\newenvironment{entrylistThree}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryThree}[3]{%
+  #1&\parbox[t]{127mm}{%
+    \textbf{#2}\\%
+    \textit{#3}\vspace{\parsep}%
+  }\\}
+
+\newenvironment{entrylistFour}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryFour}[4]{%
+  #1&\parbox[t]{127mm}{%
+    \textbf{#2}%
+    \hfill%
+    {\footnotesize #3}\\%
+	\emph{#4}%
+    \vspace{\parsep}%
+  }\\}
+
+\newenvironment{entrylistFive}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryFive}[5]{%
+  #1&\parbox[t]{127mm}{%
+    \textbf{#2}%
+    \hfill%
+    {\footnotesize #3}\\%
+	\emph{#4}\\%
+    #5\vspace{\parsep}%
+  }\\}
+
+\newenvironment{entrylistSix}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entrySix}[4]{%
+  #1&\parbox[t]{127mm}{%
+    \textbf{#2}%
+    \hfill\\%
+    \emph{#3}\\%
+    #4\vspace{\parsep}%
+  }\\}
+
+\newenvironment{entrylistSeven}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entrySeven}[4]{%
+  #1&\parbox[t]{124mm}{%
+    \textbf{#2}%
+    \hfill\\%
+    \emph{#3}\\%
+    #4\vspace{\parsep}%
+  }\\}
+
+\name{John}{Didion}
+\title{PhD}
+%\address{street and number}{postcode city}{country}
+\phone{~(919)~536~9924}
+\email{john.didion@nih.gov}
+\homepage{john.didion.net}
+\social[linkedin]{jdidion}
+\social[twitter]{jdidion}
+\social[github]{jdidion}
+\social[ORCiD][orcid.org/0000-0002-8111-6261]{ORCiD 0000-0002-8111-6261}
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture}
+%\quote{Some quote}
+
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\begin{entrylistThree}
+\entryThree
+{2008.08 to 2014.05}
+{Doctor of Philosophy, Bioinformatics and Computational Biology}
+{University of North Carolina, Chapel Hill, NC}
+\entryThree
+{1996.09 to 2001.06}
+{Bachelor of Science, Computer Science}
+{Northwestern University, Evanston, IL}
+\end{entrylistThree}
+
+
+\section{Research Experience}
+\begin{entrylistFive}
+\entryFive
+{2014.09 to Present}
+{National Human Genome Research Institute}
+{Bethesda, MD}
+{Postdoctoral Fellow, Laboratory of Dr. Francis S Collins}
+{Investigating the role of epigenetics in common complex disese, especially type 2 diabetes.}
+\entryFive
+{2009.05 to 2014.08}
+{University of North Carolina at Chapel Hill}
+{Chapel Hill, NC}
+{Research Assistant, Laboratory of Dr. Fernando Pardo-Manuel de Villena}
+{Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, R2d2, and multiple modifier loci responsible for extreme TRD in the Collaborative Cross. Also developed CLASP, a software tool for validation of cell lines used in research.}
+\entryFive
+{2007.08 to 2008.08}
+{Institute for Systems Biology}
+{Seattle, WA}
+{Computational Biology Software Engineer, Laboratory of Dr. Ruedi Aebersold}
+{Developed informatics software to support proteomics research. Created TIQAM, a work flow management system for MRM (Multiple Reaction Monitoring) experiments.}
+\end{entrylistFive}
+
+
+\section{Industry Experience}
+\begin{entrylistFour}
+\entryFour
+{2004.09 to 2007.08}
+{Muze, Inc.}
+{Seattle, WA}
+{Software Development Engineer}
+\entryFour
+{2003.09 to 2004.09}
+{Encyclopaedia Britannica, Online Services}
+{Chicago, IL}
+{Software Developer}
+\entryFour
+{2001.05 to 2003.08}
+{ThoughtWorks, LLC}
+{Chicago, IL}
+{Software Developer/Consultant}
+\end{entrylistFour}
+
+
+\section{Teaching Experience}
+\begin{entrylistThree}
+\entryThree
+{2015.06 to 2015.09}
+{NHGRI}
+{Summer student reserach project, Mentor}
+\entryThree
+{2013.09 to 2014.05}
+{University of North Carolina at Chapel Hill}
+{Undergraduate senior research project, Mentor}
+\entryThree
+{2013.09 to 2013.12}
+{University of North Carolina at Chapel Hill}
+{Genetic Analysis 2, Teaching Assistant}
+\end{entrylistThree}
+
+
+\section{Publications}
+\nocite{*}
+
+\renewcommand*{\bibfont}{\small}
+\subsection{Journal Articles}
+\printbibliography[heading=none,type=article,keyword=journal,resetnumbers=true]
+
+
+\section{Oral Presentations}
+\begin{entrylistTwo}
+\entryTwo
+{2013.09}
+{27th Intl. Mammalian Genome Conference}
+{Salamanca, Spain}
+\entryTwo
+{2013.05}
+{12th Annual Meeting of the Complex Traits Community}
+{Madison, WI}
+\entryTwo
+{2012.09}
+{16th EBM Conference}
+{Marseille, France}
+\entryTwo
+{2012.09}
+{UNC Genetics Department Retreat}
+{Myrtle Beach, SC}
+\entryTwo
+{2010.10}
+{24th Intl. Mammalian Genome Conference}
+{Heraklion, Greece}
+\entryTwo
+{2010.05}
+{9th Annual Meeting of the Complex Traits Community}
+{Chicago, IL}
+\entryTwo
+{2009.09}
+{23rd Intl. Mammalian Genome Conference}
+{San Diego, CA}
+\end{entrylistTwo}
+
+
+\section{Poster Presentations}
+\begin{entrylistTwo}
+\entryTwo
+{2015.10}
+{American Society of Human Genetics Conference}
+{Baltimore, MD}
+\entryTwo
+{2015.05}
+{Biology of Genomes Conference}
+{Cold Spring Harbor, NY}
+\entryTwo
+{2014.10}
+{28th Intl. Mammalian Genome Conference}
+{Bar Harbor, ME}
+\entryTwo
+{2011.09}
+{UNC Genetics Department Retreat}
+{Myrtle Beach, SC}
+\entryTwo
+{2011.06}
+{Genetics Society of America Mouse Genetics}
+{Washington D.C.}
+\entryTwo
+{2011.06}
+{National Centers for Systems Biology Annual Meeting}
+{Duke University}
+\entryTwo
+{2010.09}
+{UNC Genetics Department Retreat}
+{Myrtle Beach, SC}
+\entryTwo
+{2009.09}
+{UNC Genetics Department Retreat}
+{Asheville, NC}
+\end{entrylistTwo}
+
+
+\section{Funding}
+\begin{entrylistSix}
+\entrySix
+{2015.11}
+{NIH Intramural Sequencing Center Pilot Grant}
+{Extending ATAC-Seq to archival frozen and fixed tissue samples}
+{}
+\entrySix
+{2015.05}
+{NIH Intramural Sequencing Center Pilot Grant}
+{Identifying functional variants in T2D GWAS loci using CATCh-PET}
+{}
+\entrySix
+{2014.12}
+{NIH Intramural Sequencing Center Pilot Grant}
+{Epigenomic regulation of glucose response in a human pancreatic islet Beta cell line}
+{Institutional award with funding for sequencing services}
+\entrySix
+{2014.12 to 2015.04}
+{Department of Health and Human Services Ignite}
+{LabGenius: The Smart Lab Notebook for Scientists}
+{Incubator program with USD 5000 funding}
+\entrySix
+{2009.09 to 2010.08}
+{Bioinformatics and Computational Biology Training Grant}
+{NIH GM067553-04}
+{Institution-awarded fellowship}
+\entrySix
+{2009.09}
+{International Mammalian Genome Society Fellowship}
+{Travel grant}
+{}
+\end{entrylistSix}
+
+
+\section{Honors \& Awards}
+\begin{entrylistSeven}
+\entrySeven
+{2014.12}
+{Dean's Distinguished Dissertation Award (Nominee)}
+{University of North Carolina at Chapel Hill}
+{Nominee from the Bioinformatics and Computational Biology program}
+\entrySeven
+{2013.09}
+{Verne Chapman Young Scientist Award}
+{International Mammalian Genome Society}
+{Best talk at the International Mammalian Genome Conference}
+\entrySeven
+{2013.05}
+{Chicago Prize}
+{Complex Traits Consortium}
+{Best graduate student talk at the Complex Traits Consortium meeting}
+\entrySeven
+{2010.10}
+{Genome Research Award for Outstanding Poster}
+{International Mammalian Genome Society}
+{Outstanding poster at the International Mammalian Genome Conference}
+\end{entrylistSeven}
+
+
+\section{Professional Memberships \& Service}
+\begin{entrylistThree}
+\entryThree
+{2016.01 to present}
+{NHGRI Preprint Journal Club}
+{Organizer}
+\entryThree
+{2016.01}
+{NCBI Hackathon}
+{Team Lead}
+\entryThree
+{2013.09 to 2015.09}
+{International Mammalian Genome Society}
+{Secretariat member (honorary)}
+\entryThree
+{2013.08}
+{UNC Genetics Department Retreat}
+{Abstract Review Committee}
+\end{entrylistThree}
+
+
+
+
+\end{document}
