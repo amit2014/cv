@@ -42,7 +42,7 @@ class BibtexMd:
         return formatted_authors
 
     def _get_filtered_publications(self,category,publications):
-        filtered = list(filter(lambda x: x['type'] == category['type'],
+        filtered = list(filter(lambda x: x['ENTRYTYPE'] == category['type'],
                                publications))
         if 'keyword' in category:
             for x in filtered:
@@ -189,6 +189,7 @@ class RenderContext(object):
                 elif self._file_ending == ".md":
                     with open(section_content, 'r') as f:
                         p = BibTexParser(f.read(), author).get_entry_list()
+                        print(p)
                         bibtexMd = BibtexMd(p,yaml_data['publication_config'])
                         section_data['items'] = bibtexMd.get_md_str()
                 section_template_name = os.path.join(
@@ -261,8 +262,8 @@ def process_resume(context, yaml_data, preview):
 def main():
     # Parse the command line arguments
     parser = argparse.ArgumentParser(description=
-        'Generates HTML, LaTeX, and Markdown resumes from data in YAML files.')
-    parser.add_argument('yamls', metavar='YAML_FILE', nargs='+', default="cv.yaml",
+        'Generates LaTeX and/or Markdown resumes from data in YAML files.')
+    parser.add_argument("-y", '--yamls', metavar='YAML_FILE', nargs='+', default=["cv.yaml"],
         help='the YAML files that contain the resume/cv details, in order of '
              'increasing precedence')
     parser.add_argument('-p', '--preview', action='store_true', default=False,
@@ -276,7 +277,7 @@ def main():
 
     yaml_data = {}
     for yaml_file in args.yamls:
-        with open(yaml_file) as f:
+        with open(yaml_file, "rU") as f:
             yaml_data.update(yaml.load(f))
 
     if args.latex:

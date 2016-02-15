@@ -96,6 +96,11 @@ industry:
     dates: 2001.05 to 2003.08
 
 teaching:
+  - university: NHGRI
+    course:
+      name: Summer student reserach project
+    dates: 2015.06 to 2015.09
+    details: Mentor
   - university: University of North Carolina at Chapel Hill
     course:
       name: Undergraduate senior research project
@@ -133,12 +138,15 @@ talks:
     date: 2009.09
 
 posters:
+  - venue: American Society of Human Genetics Conference
+    location: Baltimore, MD
+    date: "2015.10"
   - venue: Biology of Genomes Conference
     location: Cold Spring Harbor, NY
     date: 2015.05
   - venue: 28th Intl. Mammalian Genome Conference
     location: Bar Harbor, ME
-    date: 2014.10
+    date: "2014.10"
   - venue: UNC Genetics Department Retreat
     location: Myrtle Beach, SC
     date: 2011.09
@@ -156,6 +164,9 @@ posters:
     date: 2009.09
 
 funding:
+  - name: NIH Intramural Sequencing Center Pilot Grant
+    title: Extending ATAC-Seq to archival frozen and fixed tissue samples
+    dates: 2015.11
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Identifying functional variants in T2D GWAS loci using CATCh-PET
     dates: 2015.05
@@ -194,6 +205,12 @@ honors:
     descr: Outstanding poster at the International Mammalian Genome Conference
 
 service:
+  - position: Organizer
+    org: NHGRI Preprint Journal Club
+    dates: 2016.01 to present
+  - position: Team Lead
+    org: NCBI Hackathon
+    dates: 2016.01
   - position: Secretariat member (honorary)
     org: International Mammalian Genome Society
     dates: 2013.09 to 2015.09
