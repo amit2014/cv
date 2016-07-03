@@ -28,11 +28,36 @@
       }
       \strng{namehash}{71d00772ea0a5fe0762af1345041eb38}
       \strng{fullhash}{71d00772ea0a5fe0762af1345041eb38}
-      \field{sortinit}{i}
+      \field{sortinit}{2}
       \field{labeltitle}{{ \textit{R2d2} drives selfish sweeps in the house mouse}}
       \field{journaltitle}{Molecular Biology and Evolution}
+      \field{number}{6}
       \field{title}{{ \textit{R2d2} drives selfish sweeps in the house mouse}}
-      \field{year}{in press}
+      \field{volume}{33}
+      \field{year}{2016}
+      \field{pages}{1381\bibrangedash 1395}
+      \verb{doi}
+      \verb 10.1093/molbev/msw036
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Morgan:2016}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=c5ec3dc418381ff34b1d37ce0fc1d0c5}{{Morgan\bibnamedelimb AP,\bibnamedelimb Holt\bibnamedelimb JM,\bibnamedelimb McMullan\bibnamedelimb RC,\bibnamedelimb Bell\bibnamedelimb TA,\bibnamedelimb Clayshulte\bibnamedelimb AM-F,\bibnamedelimb \authorname,\bibnamedelimb et\bibnamedelimb al.}}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c5ec3dc418381ff34b1d37ce0fc1d0c5}{{Morgan\bibnamedelimb AP,\bibnamedelimb Holt\bibnamedelimb JM,\bibnamedelimb McMullan\bibnamedelimb RC,\bibnamedelimb Bell\bibnamedelimb TA,\bibnamedelimb Clayshulte\bibnamedelimb AM-F,\bibnamedelimb \authorname,\bibnamedelimb et\bibnamedelimb al.}}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{c5ec3dc418381ff34b1d37ce0fc1d0c5}
+      \strng{fullhash}{c5ec3dc418381ff34b1d37ce0fc1d0c5}
+      \field{sortinit}{2}
+      \field{labeltitle}{{The many evolutionary fates of a large segmental duplication in mouse}}
+      \field{journaltitle}{Genetics}
+      \field{title}{{The many evolutionary fates of a large segmental duplication in mouse}}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1534/genetics.116.191007
+      \endverb
       \keyw{journal}
     \endentry
     \entry{Scott:2015zz}{article}{}
@@ -44,11 +69,16 @@
       }
       \strng{namehash}{73027230195b7d4ae00e9eda9618b48b}
       \strng{fullhash}{73027230195b7d4ae00e9eda9618b48b}
-      \field{sortinit}{i}
+      \field{sortinit}{2}
       \field{labeltitle}{{The genetic regulatory signature of type 2 diabetes in human skeletal muscle}}
       \field{journaltitle}{Nature Communications}
       \field{title}{{The genetic regulatory signature of type 2 diabetes in human skeletal muscle}}
-      \field{year}{in press}
+      \field{volume}{7}
+      \field{year}{2016}
+      \field{pages}{11764}
+      \verb{doi}
+      \verb 10.1038/ncomms11764
+      \endverb
       \keyw{journal}
     \endentry
     \entry{Chandler:2015ku}{article}{}
@@ -84,9 +114,11 @@
       \field{sortinit}{2}
       \field{labeltitle}{{Analyses of allele-specific gene expression in highly divergent mouse crosses identifies pervasive allelic imbalance}}
       \field{journaltitle}{Nature Genetics}
+      \field{number}{4}
       \field{title}{{Analyses of allele-specific gene expression in highly divergent mouse crosses identifies pervasive allelic imbalance}}
+      \field{volume}{47}
       \field{year}{2015}
-      \field{pages}{online}
+      \field{pages}{353\bibrangedash 360}
       \verb{doi}
       \verb 10.1038/ng.3222
       \endverb

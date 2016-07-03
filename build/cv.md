@@ -77,21 +77,22 @@ title: John Didion, PhD
 ## Publications
 
 ### Journal Articles
-[1] Scott LJ, Erdos MR, Huyghe JR, Welch RP, Beck AT, Wolford BN, Chines PS, **Didion JP**, et al., "The genetic regulatory signature of type 2 diabetes in human skeletal muscle," <em>Nature Communications</em>, in press<br><br>
-[2] **Didion JP**, Morgan AP, et al., " \textit{R2d2} drives selfish sweeps in the house mouse," <em>Molecular Biology and Evolution</em>, in press<br><br>
-[3] Morgan AP, Fu C-P, Kao C-Y, Welsh CE, **Didion JP**, et al., "The Mouse Universal Genotyping Array: from substrains to subspecies," <em>G3</em>, 2015<br><br>
-[4] Crowley JJ, ...13 others..., **Didion JP**, et al., "Analyses of allele-specific gene expression in highly divergent mouse crosses identifies pervasive allelic imbalance," <em>Nature Genetics</em>, 2015<br><br>
-[5] **Didion JP**, Morgan AP, Clayshulte AMF, et al., "A Multi-Megabase Copy Number Gain Causes Maternal Transmission Ratio Distortion on Mouse Chromosome 2," <em>PLoS Genetics</em>, 2015<br><br>
-[6] Chandler RL, Damrauer JS, Raab JR, Schisler JC, Wilkerson MD, **Didion JP**, et al., "Coexistent ARID1A--PIK3CA mutations promote ovarian clear-cell tumorigenesis through pro-tumorigenic inflammatory cytokine signaling," <em>Nature Communications</em>, 2015<br><br>
-[7] **Didion JP**, Buus RJ, Naghashfar Z, et al., "SNP array profiling of mouse cell lines identifies their strains of origin and reveals cross-contamination and widespread aneuploidy," <em>BMC Genomics</em>, 2014<br><br>
-[8] Calaway JD, Lenarcic AB, **Didion JP**, et al., "Genetic architecture of skewed X inactivation in the laboratory mouse," <em>PLoS Genetics</em>, 2013<br><br>
-[9] Consortium, Collaborative Cross, "The genome architecture of the Collaborative Cross mouse genetic reference population," <em>Genetics</em>, 2012<br><br>
-[10] **Didion JP**, , and Villena F, Pardo-Manuel de, "Deconstructing \textit{Mus gemischus}: advances in understanding ancestry, structure, and variation in the genome of the laboratory mouse," <em>Mammalian Genome</em>, 2013<br><br>
-[11] **Didion JP**, Yang H, Sheppard K, et al., "Discovery of novel variants in genotyping arrays improves genotype retention and reduces ascertainment bias," <em>BMC Genomics</em>, 2012<br><br>
-[12] Aylor DL, ...11 others..., **Didion JP**, et al., "Genetic analysis of complex traits in the emerging Collaborative Cross," <em>Genome Research</em>, 2011<br><br>
-[13] Yang H, Wang JR, **Didion JP**, et al., "Subspecific origin and haplotype diversity in the laboratory mouse," <em>Nature Genetics</em>, 2011<br><br>
-[14] Eisener-Dorman AF, **Didion JP**, Santos C, Calaway JD, "The 23rd International Mammalian Genome Conference meeting report," <em>Mammalian Genome</em>, 2010<br><br>
-[15] Lange V, Malmstrom JA, **Didion JP**, et al., "Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring," <em>Molecular and Cellular Proteomics</em>, 2008<br><br>
+[1] Morgan AP, Holt JM, McMullan RC, Bell TA, Clayshulte AM-F, **Didion JP**, et al., "The many evolutionary fates of a large segmental duplication in mouse," <em>Genetics</em>, 2016<br><br>
+[2] Scott LJ, Erdos MR, Huyghe JR, Welch RP, Beck AT, Wolford BN, Chines PS, **Didion JP**, et al., "The genetic regulatory signature of type 2 diabetes in human skeletal muscle," <em>Nature Communications</em>, 2016<br><br>
+[3] **Didion JP**, Morgan AP, et al., " \textit{R2d2} drives selfish sweeps in the house mouse," <em>Molecular Biology and Evolution</em>, 2016<br><br>
+[4] Morgan AP, Fu C-P, Kao C-Y, Welsh CE, **Didion JP**, et al., "The Mouse Universal Genotyping Array: from substrains to subspecies," <em>G3</em>, 2015<br><br>
+[5] Crowley JJ, ...13 others..., **Didion JP**, et al., "Analyses of allele-specific gene expression in highly divergent mouse crosses identifies pervasive allelic imbalance," <em>Nature Genetics</em>, 2015<br><br>
+[6] **Didion JP**, Morgan AP, Clayshulte AMF, et al., "A Multi-Megabase Copy Number Gain Causes Maternal Transmission Ratio Distortion on Mouse Chromosome 2," <em>PLoS Genetics</em>, 2015<br><br>
+[7] Chandler RL, Damrauer JS, Raab JR, Schisler JC, Wilkerson MD, **Didion JP**, et al., "Coexistent ARID1A--PIK3CA mutations promote ovarian clear-cell tumorigenesis through pro-tumorigenic inflammatory cytokine signaling," <em>Nature Communications</em>, 2015<br><br>
+[8] **Didion JP**, Buus RJ, Naghashfar Z, et al., "SNP array profiling of mouse cell lines identifies their strains of origin and reveals cross-contamination and widespread aneuploidy," <em>BMC Genomics</em>, 2014<br><br>
+[9] Calaway JD, Lenarcic AB, **Didion JP**, et al., "Genetic architecture of skewed X inactivation in the laboratory mouse," <em>PLoS Genetics</em>, 2013<br><br>
+[10] Consortium, Collaborative Cross, "The genome architecture of the Collaborative Cross mouse genetic reference population," <em>Genetics</em>, 2012<br><br>
+[11] **Didion JP**, , and Villena F, Pardo-Manuel de, "Deconstructing \textit{Mus gemischus}: advances in understanding ancestry, structure, and variation in the genome of the laboratory mouse," <em>Mammalian Genome</em>, 2013<br><br>
+[12] **Didion JP**, Yang H, Sheppard K, et al., "Discovery of novel variants in genotyping arrays improves genotype retention and reduces ascertainment bias," <em>BMC Genomics</em>, 2012<br><br>
+[13] Aylor DL, ...11 others..., **Didion JP**, et al., "Genetic analysis of complex traits in the emerging Collaborative Cross," <em>Genome Research</em>, 2011<br><br>
+[14] Yang H, Wang JR, **Didion JP**, et al., "Subspecific origin and haplotype diversity in the laboratory mouse," <em>Nature Genetics</em>, 2011<br><br>
+[15] Eisener-Dorman AF, **Didion JP**, Santos C, Calaway JD, "The 23rd International Mammalian Genome Conference meeting report," <em>Mammalian Genome</em>, 2010<br><br>
+[16] Lange V, Malmstrom JA, **Didion JP**, et al., "Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring," <em>Molecular and Cellular Proteomics</em>, 2008<br><br>
 
 
 <br/>
@@ -197,4 +198,4 @@ title: John Didion, PhD
 ---
 
 [source](https://github.com/jdidion/cv) |
-Generated February 15, 2016.
+Generated July 03, 2016.
