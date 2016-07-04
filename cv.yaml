@@ -57,7 +57,7 @@ research:
     advisor: Dr. Francis S Collins
     dates: 2014.09 to Present
     area: Computational biology, epignentics of common disease
-    details: 
+    details:
         Investigating the role of epigenetics in common complex disese, especially type 2 diabetes.
   - place: University of North Carolina at Chapel Hill
     location: Chapel Hill, NC
@@ -66,10 +66,10 @@ research:
     dates: 2009.05 to 2014.08
     area: Computational biology, mammalian geneitics
     details:
-      Characterized the genetic determinants of two meiotic drive systems in the mouse. 
-      First, conducted a GWAS of wild mice to identify genes associated with the accumulation 
-      of Robertsonian translocations. Second, mapped a novel meiotic drive locus, R2d2, 
-      and multiple modifier loci responsible for extreme TRD in the Collaborative Cross. Also 
+      Characterized the genetic determinants of two meiotic drive systems in the mouse.
+      First, conducted a GWAS of wild mice to identify genes associated with the accumulation
+      of Robertsonian translocations. Second, mapped a novel meiotic drive locus, R2d2,
+      and multiple modifier loci responsible for extreme TRD in the Collaborative Cross. Also
       developed CLASP, a software tool for validation of cell lines used in research.
   - place: Institute for Systems Biology
     location: Seattle, WA
@@ -78,7 +78,7 @@ research:
     dates: 2007.08 to 2008.08
     area: Computational proteomics
     details:
-      Developed informatics software to support proteomics research. Created TIQAM, a work flow 
+      Developed informatics software to support proteomics research. Created TIQAM, a work flow
       management system for MRM (Multiple Reaction Monitoring) experiments.
 
 industry:
@@ -155,7 +155,7 @@ posters:
     date: 2011.06
   - venue: National Centers for Systems Biology Annual Meeting
     location: Duke University
-    date: 2011.06 
+    date: 2011.06
   - venue: UNC Genetics Department Retreat
     location: Myrtle Beach, SC
     date: 2010.09
@@ -194,14 +194,14 @@ honors:
   - title: Verne Chapman Young Scientist Award
     from: International Mammalian Genome Society
     dates: 2013.09
-    descr: Best talk at the International Mammalian Genome Conference
+    descr: Best trainee talk at the International Mammalian Genome Conference
   - title: Chicago Prize
     from: Complex Traits Consortium
     dates: 2013.05
     descr: Best graduate student talk at the Complex Traits Consortium meeting
   - title: Genome Research Award for Outstanding Poster
     from: International Mammalian Genome Society
-    dates: "2010.10"
+    dates: 2010.10
     descr: Outstanding poster at the International Mammalian Genome Conference
 
 service:
