@@ -96,25 +96,33 @@ industry:
     dates: 2001.05 to 2003.08
 
 teaching:
+  - university: NIH
+    name: Software Carpentry
+    dates: 2016.10 to present (intermittent dates)
+    details: Instructor
   - university: NHGRI
-    course:
-      name: Summer student reserach project
+    name: Post-baccalaureate project
+    dates: 2016.06 to present
+    details: Mentor
+  - university: NHGRI
+    name: Summer student reserach project
     dates: 2015.06 to 2015.09
     details: Mentor
   - university: University of North Carolina at Chapel Hill
-    course:
-      name: Undergraduate senior research project
+    name: Undergraduate senior research project
     dates: 2013.09 to 2014.05
     details: Mentor
   - university: University of North Carolina at Chapel Hill
-    course:
-      name: Genetic Analysis 2
+    name: Genetic Analysis 2
     dates: 2013.09 to 2013.12
     details: Teaching Assistant
 
 publications: publications.bib
 
 talks:
+  - venue: NIH Digital Summit
+    location: Bethesda, MD
+    date: 2015.10.09
   - venue: 27th Intl. Mammalian Genome Conference
     location: Salamanca, Spain
     date: 2013.09
@@ -164,6 +172,11 @@ posters:
     date: 2009.09
 
 funding:
+  - name: American Diabetes Association Postdoctoral Fellowship
+    dates: 2017.01 to 2019.12
+  - name: NIH Intramural Sequencing Center Pilot Grant
+    title: Transcriptome analysis at single-molecule resolution
+    dates: 2016.09
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Extending ATAC-Seq to archival frozen and fixed tissue samples
     dates: 2015.11
@@ -205,12 +218,18 @@ honors:
     descr: Outstanding poster at the International Mammalian Genome Conference
 
 service:
+  - position: Team Lead
+    org: Biological Data Science Hackathon
+    dates: 2016.10
+  - position: Certified Instructor
+    org: Software Carpentry
+    dates: 2016.08.03 to present
   - position: Organizer
     org: NHGRI Preprint Journal Club
     dates: 2016.01 to present
   - position: Team Lead
     org: NCBI Hackathon
-    dates: 2016.01
+    dates: 2016.01, 2016.08
   - position: Secretariat member (honorary)
     org: International Mammalian Genome Society
     dates: 2013.09 to 2015.09
