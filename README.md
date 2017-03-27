@@ -63,6 +63,10 @@ Ellis' portions are also distributed under the MIT license
 (`LICENSE-emichael.mit`) and include
 a re-write of `generate.py` and template restructuring.
 
+# TODO
+
+* Generate visual resume from https://ndphillips.github.io/blog/Introducing-the-VisualResume-(v0.1.0)-R-Package/
+
 # Similar Projects
 There are many approaches to managing a resume or CV in git,
 and this project uses unique Markdown and LaTeX templates.

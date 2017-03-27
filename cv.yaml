@@ -57,7 +57,7 @@ research:
     advisor: Dr. Francis S Collins
     dates: 2014.09 to Present
     area: Computational biology, epignentics of common disease
-    details: 
+    details:
         Investigating the role of epigenetics in common complex disese, especially type 2 diabetes.
   - place: University of North Carolina at Chapel Hill
     location: Chapel Hill, NC
@@ -66,10 +66,10 @@ research:
     dates: 2009.05 to 2014.08
     area: Computational biology, mammalian geneitics
     details:
-      Characterized the genetic determinants of two meiotic drive systems in the mouse. 
-      First, conducted a GWAS of wild mice to identify genes associated with the accumulation 
-      of Robertsonian translocations. Second, mapped a novel meiotic drive locus, R2d2, 
-      and multiple modifier loci responsible for extreme TRD in the Collaborative Cross. Also 
+      Characterized the genetic determinants of two meiotic drive systems in the mouse.
+      First, conducted a GWAS of wild mice to identify genes associated with the accumulation
+      of Robertsonian translocations. Second, mapped a novel meiotic drive locus, R2d2,
+      and multiple modifier loci responsible for extreme TRD in the Collaborative Cross. Also
       developed CLASP, a software tool for validation of cell lines used in research.
   - place: Institute for Systems Biology
     location: Seattle, WA
@@ -78,7 +78,7 @@ research:
     dates: 2007.08 to 2008.08
     area: Computational proteomics
     details:
-      Developed informatics software to support proteomics research. Created TIQAM, a work flow 
+      Developed informatics software to support proteomics research. Created TIQAM, a work flow
       management system for MRM (Multiple Reaction Monitoring) experiments.
 
 industry:
@@ -96,20 +96,33 @@ industry:
     dates: 2001.05 to 2003.08
 
 teaching:
+  - university: NIH
+    name: Software Carpentry
+    dates: 2016.10 to present (intermittent dates)
+    details: Instructor
+  - university: NHGRI
+    name: Post-baccalaureate project
+    dates: 2016.06 to present
+    details: Mentor
+  - university: NHGRI
+    name: Summer student reserach project
+    dates: 2015.06 to 2015.09
+    details: Mentor
   - university: University of North Carolina at Chapel Hill
-    course:
-      name: Undergraduate senior research project
+    name: Undergraduate senior research project
     dates: 2013.09 to 2014.05
     details: Mentor
   - university: University of North Carolina at Chapel Hill
-    course:
-      name: Genetic Analysis 2
+    name: Genetic Analysis 2
     dates: 2013.09 to 2013.12
     details: Teaching Assistant
 
 publications: publications.bib
 
 talks:
+  - venue: NIH Digital Summit
+    location: Bethesda, MD
+    date: 2015.10.09
   - venue: 27th Intl. Mammalian Genome Conference
     location: Salamanca, Spain
     date: 2013.09
@@ -133,12 +146,15 @@ talks:
     date: 2009.09
 
 posters:
+  - venue: American Society of Human Genetics Conference
+    location: Baltimore, MD
+    date: "2015.10"
   - venue: Biology of Genomes Conference
     location: Cold Spring Harbor, NY
     date: 2015.05
   - venue: 28th Intl. Mammalian Genome Conference
     location: Bar Harbor, ME
-    date: 2014.10
+    date: "2014.10"
   - venue: UNC Genetics Department Retreat
     location: Myrtle Beach, SC
     date: 2011.09
@@ -147,7 +163,7 @@ posters:
     date: 2011.06
   - venue: National Centers for Systems Biology Annual Meeting
     location: Duke University
-    date: 2011.06 
+    date: 2011.06
   - venue: UNC Genetics Department Retreat
     location: Myrtle Beach, SC
     date: 2010.09
@@ -156,6 +172,14 @@ posters:
     date: 2009.09
 
 funding:
+  - name: American Diabetes Association Postdoctoral Fellowship
+    dates: 2017.01 to 2019.12
+  - name: NIH Intramural Sequencing Center Pilot Grant
+    title: Transcriptome analysis at single-molecule resolution
+    dates: 2016.09
+  - name: NIH Intramural Sequencing Center Pilot Grant
+    title: Extending ATAC-Seq to archival frozen and fixed tissue samples
+    dates: 2015.11
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Identifying functional variants in T2D GWAS loci using CATCh-PET
     dates: 2015.05
@@ -183,17 +207,29 @@ honors:
   - title: Verne Chapman Young Scientist Award
     from: International Mammalian Genome Society
     dates: 2013.09
-    descr: Best talk at the International Mammalian Genome Conference
+    descr: Best trainee talk at the International Mammalian Genome Conference
   - title: Chicago Prize
     from: Complex Traits Consortium
     dates: 2013.05
     descr: Best graduate student talk at the Complex Traits Consortium meeting
   - title: Genome Research Award for Outstanding Poster
     from: International Mammalian Genome Society
-    dates: "2010.10"
+    dates: 2010.10
     descr: Outstanding poster at the International Mammalian Genome Conference
 
 service:
+  - position: Team Lead
+    org: Biological Data Science Hackathon
+    dates: 2016.10
+  - position: Certified Instructor
+    org: Software Carpentry
+    dates: 2016.08.03 to present
+  - position: Organizer
+    org: NHGRI Preprint Journal Club
+    dates: 2016.01 to present
+  - position: Team Lead
+    org: NCBI Hackathon
+    dates: 2016.01, 2016.08
   - position: Secretariat member (honorary)
     org: International Mammalian Genome Society
     dates: 2013.09 to 2015.09

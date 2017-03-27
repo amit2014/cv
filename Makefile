@@ -10,6 +10,7 @@ BUILD_DIR=build
 TEX=$(BUILD_DIR)/cv.tex
 PDF=$(BUILD_DIR)/cv.pdf
 MD=$(BUILD_DIR)/cv.md
+#HTML=$(BUILD_DIR)/cv.html
 
 ifneq ("$(wildcard cv.hidden.yaml)","")
 	YAML_FILES = cv.yaml cv.hidden.yaml
@@ -19,20 +20,24 @@ endif
 
 .PHONY: all public viewpdf stage jekyll push clean
 
-all: $(PDF) $(MD) $(HTML)
+#all: $(PDF) $(MD) $(HTML)
+all: $(PDF) $(MD)
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
 public: $(BUILD_DIR) $(TEMPLATES) $(YAML_FILES) generate.py
-	./generate.py cv.yaml
+	./generate.py -y cv.yaml
 
 $(TEX) $(MD): $(BUILD_DIR) $(TEMPLATES) $(YAML_FILES) generate.py
-	./generate.py $(YAML_FILES)
+	./generate.py -y $(YAML_FILES)
 
 $(PDF): $(TEX)
 	latexmk -pdf -cd- -jobname=$(BUILD_DIR)/cv $(BUILD_DIR)/cv
 	latexmk -c -cd $(BUILD_DIR)/cv
+
+$(HTML): $(PDF)
+	pdftohtml -c $(BUILD_DIR)/cv.pdf $(BUILD_DIR)/cv.html
 
 viewpdf: $(PDF)
 	gnome-open $(PDF)
@@ -40,6 +45,7 @@ viewpdf: $(PDF)
 stage: $(PDF) $(MD)
 	cp $(PDF) $(BLOG_DIR)/data/cv.pdf
 	cp $(MD) $(BLOG_DIR)/cv.md
+	cp $(HTML) $(BLOG_DIR)/cv.html
 
 jekyll: stage
 	cd $(BLOG_DIR) && jekyll server
