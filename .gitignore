@@ -5,3 +5,7 @@ __pycache__
 *.pdf
 venv
 *.blg
+*.xml
+*.fdb*
+*.bcf
+*.fls

@@ -58,7 +58,16 @@ research:
     dates: 2014.09 to Present
     area: Computational biology, epignentics of common disease
     details:
-        Investigating the role of epigenetics in common complex disese, especially type 2 diabetes.
+      - Leveraging a large, multi-`omics dataset to investigate epigenetic mechanisms
+        underlying regulatory variants implicated in type 2 diabetes.
+      - Developing machine-learning approaches to imputation for multi-`omics data.
+      - Designed and currently optimizing a novel sequencing assay for single-molecule 
+        resolution transcriptome analysis.
+      - Using single-cell gene expression and chromatin accessibility data to understand
+        cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.
+      - Developed user-friendly software tools for QC and pre-processing of NGS reads.
+      - Applied for and awarded six grants, including an American Diabetes Association fellowship
+        and an NIH K22.
   - place: University of North Carolina at Chapel Hill
     location: Chapel Hill, NC
     title: Research Assistant
@@ -66,11 +75,11 @@ research:
     dates: 2009.05 to 2014.08
     area: Computational biology, mammalian geneitics
     details:
-      Characterized the genetic determinants of two meiotic drive systems in the mouse.
-      First, conducted a GWAS of wild mice to identify genes associated with the accumulation
-      of Robertsonian translocations. Second, mapped a novel meiotic drive locus, R2d2,
-      and multiple modifier loci responsible for extreme TRD in the Collaborative Cross. Also
-      developed CLASP, a software tool for validation of cell lines used in research.
+      - Characterized the genetic determinants of two meiotic drive systems in the mouse.
+        First, conducted a GWAS of wild mice to identify genes associated with the accumulation
+        of Robertsonian translocations. Second, mapped a novel meiotic drive locus, *R2d2*,
+        and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross. 
+      - Developed CLASP, a software tool for validation of cell lines used in research.
   - place: Institute for Systems Biology
     location: Seattle, WA
     title: Computational Biology Software Engineer
@@ -97,32 +106,48 @@ industry:
 
 teaching:
   - university: NIH
-    name: Software Carpentry
-    dates: 2016.10 to present (intermittent dates)
+    course:
+      name: Software Carpentry
+    dates: 2016.10 to present
     details: Instructor
+  - university: FAES (NIH)
+    course:
+      name: American Academy of Bioinformatics
+    dates: 2016.10 to present
+    details: Instructor (paid)
   - university: NHGRI
-    name: Post-baccalaureate project
+    course:
+      name: Post-baccalaureate project
     dates: 2016.06 to present
     details: Mentor
   - university: NHGRI
-    name: Summer student reserach project
+    course:
+      name: Summer student reserach project
     dates: 2015.06 to 2015.09
     details: Mentor
   - university: University of North Carolina at Chapel Hill
-    name: Undergraduate senior research project
+    course:
+      name: Undergraduate senior research project
     dates: 2013.09 to 2014.05
     details: Mentor
   - university: University of North Carolina at Chapel Hill
-    name: Genetic Analysis 2
+    course:
+      name: Genetic Analysis 2
     dates: 2013.09 to 2013.12
     details: Teaching Assistant
 
 publications: publications.bib
 
 talks:
+  - venue: NIAID Genomics and Immunology Speaker Series
+    location: Bethesda, MD
+    date: 2017.04
+  - venue: NIH Data Science Interest Group
+    location: Bethesda, MD
+    date: 2017.01
   - venue: NIH Digital Summit
     location: Bethesda, MD
-    date: 2015.10.09
+    date: 2015.10
   - venue: 27th Intl. Mammalian Genome Conference
     location: Salamanca, Spain
     date: 2013.09
@@ -172,17 +197,26 @@ posters:
     date: 2009.09
 
 funding:
+  - name: NIH 1 K22 ES028024-01 BD2K Career Transition Award
+    title: A Big Data Approach to Learning the Type 2 Diabetes Regulome
+    dates: 2017.04 to 2021.04
+    descr: Career transition award with 3 years tenure-track funding
   - name: American Diabetes Association Postdoctoral Fellowship
+    title: "The Type 2 Diabetes Epigenome: A Multi-Tissue and Multi-Omics Investigaton of a Complex Disease"
     dates: 2017.01 to 2019.12
+    descr: Postdoctoral fellowship with up to 3 years salary and research support
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Transcriptome analysis at single-molecule resolution
     dates: 2016.09
+    descr: Institutional award with funding for sequencing services
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Extending ATAC-Seq to archival frozen and fixed tissue samples
     dates: 2015.11
+    descr: Institutional award with funding for sequencing services
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Identifying functional variants in T2D GWAS loci using CATCh-PET
     dates: 2015.05
+    descr: Institutional award with funding for sequencing services
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Epigenomic regulation of glucose response in a human pancreatic islet Beta cell line
     dates: 2014.12
@@ -214,16 +248,16 @@ honors:
     descr: Best graduate student talk at the Complex Traits Consortium meeting
   - title: Genome Research Award for Outstanding Poster
     from: International Mammalian Genome Society
-    dates: 2010.10
+    dates: "2010.10"
     descr: Outstanding poster at the International Mammalian Genome Conference
 
 service:
   - position: Team Lead
-    org: Biological Data Science Hackathon
-    dates: 2016.10
+    org: CSHL Biological Data Science Hackathon
+    dates: "2016.10"
   - position: Certified Instructor
     org: Software Carpentry
-    dates: 2016.08.03 to present
+    dates: 2016.08 to present
   - position: Organizer
     org: NHGRI Preprint Journal Club
     dates: 2016.01 to present

@@ -1,0 +1,461 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{ydnt/global/}
+    \entry{Didion:2017a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=259ebd01b7b95bdfe91038cd12d4d3cb}{%
+           family={{\authorname, Martin M, and Collins FS}},
+           family_i={{\authorname, Martin M, and Collins FS}\bibinitperiod}}}%
+      }
+      \strng{namehash}{259ebd01b7b95bdfe91038cd12d4d3cb}
+      \strng{fullhash}{259ebd01b7b95bdfe91038cd12d4d3cb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprint, Submitted}
+      \field{title}{{Atropos: specific, sensitive, and speedy trimming of sequencing reads}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.7287/peerj.preprints.2452v3
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Varshney:2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9711b2d8e06351c9b4c4cc124a352fa9}{%
+           family={{Varshneya A, Scott LJ, Welch R, Erdos MR, Chines PS, Narisu N, D'Oliveira RA, Orchard P, Wolford BN, Kursawee R, Vadlamudi S, Cannon ME, \authorname, et al.}},
+           family_i={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{9711b2d8e06351c9b4c4cc124a352fa9}
+      \strng{fullhash}{9711b2d8e06351c9b4c4cc124a352fa9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Proc Nat Acad Sci USA}}
+      \field{title}{{Genetic regulatory signatures underlying islet gene expression and type 2 diabetes}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1073/pnas.1621192114
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Morgan:2016b}{article}{}
+      \name{author}{1}{}{%
+        {{hash=05179319211a6f375c2e1989eaab74a7}{%
+           family={{Morgan AP, \authorname, et al.}},
+           family_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{05179319211a6f375c2e1989eaab74a7}
+      \strng{fullhash}{05179319211a6f375c2e1989eaab74a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{G3}
+      \field{title}{{Genome report: whole genome sequence of two wild-derived \textit{Mus musculus domesticus} inbred strains, LEWES/EiJ and ZALENDE/EiJ, with different diploid numbers}}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1534/g3.116.034751
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Didion:2015xx}{article}{}
+      \name{author}{1}{}{%
+        {{hash=71d00772ea0a5fe0762af1345041eb38}{%
+           family={{\authorname, Morgan AP, et al.}},
+           family_i={{\authorname, Morgan AP, et al.}\bibinitperiod}}}%
+      }
+      \strng{namehash}{71d00772ea0a5fe0762af1345041eb38}
+      \strng{fullhash}{71d00772ea0a5fe0762af1345041eb38}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Molecular Biology and Evolution}}
+      \field{number}{6}
+      \field{title}{\textit{R2d2} drives selfish sweeps in the house mouse}
+      \field{volume}{33}
+      \field{year}{2016}
+      \field{pages}{1381\bibrangedash 1395}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1093/molbev/msw036
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Morgan:2016a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c5ec3dc418381ff34b1d37ce0fc1d0c5}{%
+           family={{Morgan AP, Holt JM, McMullan RC, Bell TA, Clayshulte AM-F, \authorname, et al.}},
+           family_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5ec3dc418381ff34b1d37ce0fc1d0c5}
+      \strng{fullhash}{c5ec3dc418381ff34b1d37ce0fc1d0c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genetics}
+      \field{title}{{The many evolutionary fates of a large segmental duplication in mouse}}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1534/genetics.116.191007
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Scott:2015zz}{article}{}
+      \name{author}{1}{}{%
+        {{hash=73027230195b7d4ae00e9eda9618b48b}{%
+           family={{Scott LJ, Erdos MR, Huyghe JR, Welch RP, Beck AT, Wolford BN, Chines PS, \authorname, et al.}},
+           family_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{73027230195b7d4ae00e9eda9618b48b}
+      \strng{fullhash}{73027230195b7d4ae00e9eda9618b48b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Nature Communications}}
+      \field{title}{{The genetic regulatory signature of type 2 diabetes in human skeletal muscle}}
+      \field{volume}{7}
+      \field{year}{2016}
+      \field{pages}{11764}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/ncomms11764
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Chandler:2015ku}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c69ec834736d0fa7ca7228b24f573e2a}{%
+           family={{Chandler RL, Damrauer JS, Raab JR, Schisler JC, Wilkerson MD, \authorname, et al.}},
+           family_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c69ec834736d0fa7ca7228b24f573e2a}
+      \strng{fullhash}{c69ec834736d0fa7ca7228b24f573e2a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Nature Communications}}
+      \field{title}{{Coexistent ARID1A--PIK3CA mutations promote ovarian clear-cell tumorigenesis through pro-tumorigenic inflammatory cytokine signaling}}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{6118}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/ncomms7118
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Crowley:2015di}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3a0347abeec7b736ab622387594d3676}{%
+           family={{Crowley JJ, ...13 others..., \authorname, et al.}},
+           family_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a0347abeec7b736ab622387594d3676}
+      \strng{fullhash}{3a0347abeec7b736ab622387594d3676}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Nature Genetics}}
+      \field{number}{4}
+      \field{title}{{Analyses of allele-specific gene expression in highly divergent mouse crosses identifies pervasive allelic imbalance}}
+      \field{volume}{47}
+      \field{year}{2015}
+      \field{pages}{353\bibrangedash 360}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/ng.3222
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Didion:2015hl}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0b02d48c92eb2b74707754d445856f4e}{%
+           family={{\authorname, Morgan AP, Clayshulte AMF, et al.}},
+           family_i={{\authorname, Morgan AP, Clayshulte AMF, et al.}\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b02d48c92eb2b74707754d445856f4e}
+      \strng{fullhash}{0b02d48c92eb2b74707754d445856f4e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{PLoS Genetics}}
+      \field{number}{2}
+      \field{title}{{A Multi-Megabase Copy Number Gain Causes Maternal Transmission Ratio Distortion on Mouse Chromosome 2}}
+      \field{volume}{11}
+      \field{year}{2015}
+      \field{pages}{e1004850}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pgen.1004850
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Morgan:2015yy}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c9a99a083570872ac782b9d14a1182ac}{%
+           family={{Morgan AP, Fu C-P, Kao C-Y, Welsh CE, \authorname, et al.}},
+           family_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9a99a083570872ac782b9d14a1182ac}
+      \strng{fullhash}{c9a99a083570872ac782b9d14a1182ac}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{G3}
+      \field{number}{2}
+      \field{title}{{The Mouse Universal Genotyping Array: from substrains to subspecies}}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{263\bibrangedash 279}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1534/g3.115.022087
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Didion:2014fv}{article}{}
+      \name{author}{1}{}{%
+        {{hash=07889b0c405b3896d5c89a8ea38c6494}{%
+           family={{\authorname, Buus RJ, Naghashfar Z, et al.}},
+           family_i={{\authorname, Buus RJ, Naghashfar Z, et al.}\bibinitperiod}}}%
+      }
+      \strng{namehash}{07889b0c405b3896d5c89a8ea38c6494}
+      \strng{fullhash}{07889b0c405b3896d5c89a8ea38c6494}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{BMC Genomics}}
+      \field{title}{{SNP array profiling of mouse cell lines identifies their strains of origin and reveals cross-contamination and widespread aneuploidy}}
+      \field{volume}{15}
+      \field{year}{2014}
+      \field{pages}{847}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1471-2164-15-847
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Didion:2012da}{article}{}
+      \name{author}{1}{}{%
+        {{hash=976e47fb4debaf1cc7cf4a4946e00f72}{%
+           family={{\authorname and Pardo-Manuel de Villena F}},
+           family_i={{\authorname and Pardo\bibinithyphendelim Manuel de Villena F}\bibinitperiod}}}%
+      }
+      \strng{namehash}{976e47fb4debaf1cc7cf4a4946e00f72}
+      \strng{fullhash}{976e47fb4debaf1cc7cf4a4946e00f72}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Mammalian Genome}}
+      \field{number}{1--2}
+      \field{title}{{Deconstructing \textit{Mus gemischus}: advances in understanding ancestry, structure, and variation in the genome of the laboratory mouse}}
+      \field{volume}{24}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/s00335-012-9441-z
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Calaway:2013df}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6063430c11e507c3257c3cb99d68c3a5}{%
+           family={{Calaway JD, Lenarcic AB, \authorname, et al.}},
+           family_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6063430c11e507c3257c3cb99d68c3a5}
+      \strng{fullhash}{6063430c11e507c3257c3cb99d68c3a5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{PLoS Genetics}}
+      \field{number}{10}
+      \field{title}{{Genetic architecture of skewed X inactivation in the laboratory mouse}}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{e1003853}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pgen.1003853
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{CollaborativeCrossConsortium:2012ja}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c7333a6d64a1e9760cc6901a6e51d2ab}{%
+           family={{Collaborative Cross Consortium}},
+           family_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7333a6d64a1e9760cc6901a6e51d2ab}
+      \strng{fullhash}{c7333a6d64a1e9760cc6901a6e51d2ab}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genetics}
+      \field{number}{2}
+      \field{title}{{The genome architecture of the Collaborative Cross mouse genetic reference population}}
+      \field{volume}{190}
+      \field{year}{2012}
+      \field{pages}{389\bibrangedash 401}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1534/genetics.111.132639
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Didion:2012em}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4bdcc3626ec245ea5227adb10ce12d80}{%
+           family={{\authorname, Yang H, Sheppard K, et al.}},
+           family_i={{\authorname, Yang H, Sheppard K, et al.}\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bdcc3626ec245ea5227adb10ce12d80}
+      \strng{fullhash}{4bdcc3626ec245ea5227adb10ce12d80}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{BMC Genomics}}
+      \field{title}{{Discovery of novel variants in genotyping arrays improves genotype retention and reduces ascertainment bias}}
+      \field{volume}{13}
+      \field{year}{2012}
+      \field{pages}{34}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1471-2164-13-34
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Aylor:2011ct}{article}{}
+      \name{author}{1}{}{%
+        {{hash=14302ca6b3dbe617e3a1fb9b05a1ea14}{%
+           family={{Aylor DL, ...11 others..., \authorname, et al.}},
+           family_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{14302ca6b3dbe617e3a1fb9b05a1ea14}
+      \strng{fullhash}{14302ca6b3dbe617e3a1fb9b05a1ea14}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Genome Research}}
+      \field{number}{8}
+      \field{title}{{Genetic analysis of complex traits in the emerging Collaborative Cross}}
+      \field{volume}{21}
+      \field{year}{2011}
+      \field{pages}{1213\bibrangedash 1222}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1101/gr.111310.110
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Yang:2011cc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=16ae315da244d3f3d7db54cfdf872675}{%
+           family={{Yang H, Wang JR, \authorname, et al.}},
+           family_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{16ae315da244d3f3d7db54cfdf872675}
+      \strng{fullhash}{16ae315da244d3f3d7db54cfdf872675}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Nature Genetics}}
+      \field{number}{7}
+      \field{title}{{Subspecific origin and haplotype diversity in the laboratory mouse}}
+      \field{volume}{43}
+      \field{year}{2011}
+      \field{pages}{648\bibrangedash 655}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/ng.847
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Eisener-Dorman2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=12482102bdcdefaa5ff4955aa33f7d90}{%
+           family={{Eisener-Dorman AF, \authorname, Santos C, Calaway JD}},
+           family_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{12482102bdcdefaa5ff4955aa33f7d90}
+      \strng{fullhash}{12482102bdcdefaa5ff4955aa33f7d90}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Mammalian Genome}}
+      \field{number}{5--6}
+      \field{title}{{The 23rd International Mammalian Genome Conference meeting report}}
+      \field{volume}{21}
+      \field{year}{2010}
+      \field{pages}{217\bibrangedash 223}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/s00335-010-9265-7
+      \endverb
+      \keyw{journal}
+    \endentry
+    \entry{Lange:2008kl}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7131d23694452c3a8d3875df3f2a292d}{%
+           family={{Lange V, Malmstrom JA, \authorname, et al.}},
+           family_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{7131d23694452c3a8d3875df3f2a292d}
+      \strng{fullhash}{7131d23694452c3a8d3875df3f2a292d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Molecular and Cellular Proteomics}}
+      \field{number}{8}
+      \field{title}{{Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring}}
+      \field{volume}{7}
+      \field{year}{2008}
+      \field{pages}{1489\bibrangedash 1500}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1074/mcp.M800032-MCP200
+      \endverb
+      \keyw{journal}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -8,7 +8,17 @@
 {<< item.place >>}
 {<< item.location >>}
 {<< item.title >>, Laboratory of << item.advisor >>}
+~< if item.details is string >~
 {<< item.details >>}
+~< else >~
+{\vspace{-5mm}
+\begin{itemize}
+~< for detail in item.details >~
+\item {<< detail >>}
+~< endfor >~
+\end{itemize}
+}
+~< endif >~
 ~< endfor >~
 \end{entrylistFive}
 ~< endblock body >~
