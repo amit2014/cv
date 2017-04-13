@@ -41,7 +41,7 @@ title: John Didion, PhD
 |               |   {::nomarkdown}<ul><li>Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, *R2d2*, and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross.</li><li>Developed CLASP, a software tool for validation of cell lines used in research.</li></ul>{:/}   |
 | <span class="dates">2007.08 to 2008.08</span> | __Institute for Systems Biology, Seattle, WA__ |
 |               | _Computational Biology Software Engineer, Laboratory of Dr. Ruedi Aebersold_ |
-|               |  Developed informatics software to support proteomics research. Created TIQAM, a work flow management system for MRM (Multiple Reaction Monitoring) experiments.  |
+|               |  Developed informatics software to support proteomics research. Created TIQAM, a work flow management system for Multiple Reaction Monitoring (MRM) experiments.  |
 
 
 <br/>
@@ -69,9 +69,9 @@ title: John Didion, PhD
 | <span class="dates">2016.10 to present</span> | **FAES (NIH)** |
 | | _American Academy of Bioinformatics, Instructor (paid)_ |
 | <span class="dates">2016.06 to present</span> | **NHGRI** |
-| | _Post-baccalaureate project, Mentor_ |
+| | _Post-baccalaureate student, Mentor_ |
 | <span class="dates">2015.06 to 2015.09</span> | **NHGRI** |
-| | _Summer student reserach project, Mentor_ |
+| | _Summer student, Mentor_ |
 | <span class="dates">2013.09 to 2014.05</span> | **University of North Carolina at Chapel Hill** |
 | | _Undergraduate senior research project, Mentor_ |
 | <span class="dates">2013.09 to 2013.12</span> | **University of North Carolina at Chapel Hill** |
