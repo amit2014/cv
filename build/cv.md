@@ -9,7 +9,7 @@ title: John Didion, PhD
 ## Contact
 
 * **Email**: john DOT didion AT nih DOT gov
-* **Website**: john.didion.net
+* **Website**: [john.didion.net](http://john.didion.net)
 * **ORCiD**: [0000-0002-8111-6261](http://orcid.org/0000-0002-8111-6261)
 * **Twitter**: [jdidion](http://twitter.com/jdidion)
 * **GitHub**: [jdidion](https://github.com/jdidion)
@@ -35,7 +35,7 @@ title: John Didion, PhD
 |---|---|
 | <span class="dates">2014.09 to Present</span> | __National Human Genome Research Institute, Bethesda, MD__ |
 |               | _Postdoctoral Fellow, Laboratory of Dr. Francis S Collins_ |
-|               |   * Leveraging a large, multi-`omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.  * Developing machine-learning approaches to imputation for multi-`omics data.  * Designed and currently optimizing a novel sequencing assay for single-molecule resolution transcriptome analysis.  * Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.  * Developed user-friendly software tools for QC and pre-processing of NGS reads.  * Applied for and awarded six grants, including an American Diabetes Association fellowship and an NIH K22.   |
+|               |   * Leveraging a large, multi-'omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.  * Developing machine-learning approaches to imputation for multi-'omics data.  * Designed and currently optimizing a novel sequencing assay for single-molecule resolution transcriptome analysis.  * Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.  * Developed user-friendly software tools for QC and pre-processing of NGS reads.  * Applied for and awarded six grants, including an American Diabetes Association fellowship and an NIH K22.   |
 | <span class="dates">2009.05 to 2014.08</span> | __University of North Carolina at Chapel Hill, Chapel Hill, NC__ |
 |               | _Research Assistant, Laboratory of Dr. Fernando Pardo-Manuel de Villena_ |
 |               |   * Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, *R2d2*, and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross.  * Developed CLASP, a software tool for validation of cell lines used in research.   |
