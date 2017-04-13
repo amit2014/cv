@@ -34,9 +34,9 @@
 
 % Make the author's name bold in publications.
 \DeclareNameFormat{author}{%
-  \ifthenelse{\equal{#1}{Didion}}%
-    {\textbf{\ifblank{#4}{}{#4\space}#1}}%
-    {\ifblank{#4}{}{#4\space}#1}%
+  \ifthenelse{\equal{\namepartfamily}{Didion}}%
+    {\textbf{\ifblank{\namepartsuffix}{}{\namepartsuffix\space}#1}}%
+    {\ifblank{\namepartsuffix}{}{\namepartsuffix\space}\namepartfamily}%
   \ifthenelse{\value{listcount}=1 \AND \value{liststop}=2}%
     {\space and\space}
     {\ifthenelse{\value{listcount}<\value{liststop}}%
@@ -167,13 +167,27 @@
 {National Human Genome Research Institute}
 {Bethesda, MD}
 {Postdoctoral Fellow, Laboratory of Dr. Francis S Collins}
-{Investigating the role of epigenetics in common complex disese, especially type 2 diabetes.}
+{\vspace{-5mm}
+\begin{itemize}
+\item {Leveraging a large, multi-`omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.}
+\item {Developing machine-learning approaches to imputation for multi-`omics data.}
+\item {Designed and currently optimizing a novel sequencing assay for single-molecule resolution transcriptome analysis.}
+\item {Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.}
+\item {Developed user-friendly software tools for QC and pre-processing of NGS reads.}
+\item {Applied for and awarded six grants, including an American Diabetes Association fellowship and an NIH K22.}
+\end{itemize}
+}
 \entryFive
 {2009.05 to 2014.08}
 {University of North Carolina at Chapel Hill}
 {Chapel Hill, NC}
 {Research Assistant, Laboratory of Dr. Fernando Pardo-Manuel de Villena}
-{Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, R2d2, and multiple modifier loci responsible for extreme TRD in the Collaborative Cross. Also developed CLASP, a software tool for validation of cell lines used in research.}
+{\vspace{-5mm}
+\begin{itemize}
+\item {Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, *R2d2*, and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross.}
+\item {Developed CLASP, a software tool for validation of cell lines used in research.}
+\end{itemize}
+}
 \entryFive
 {2007.08 to 2008.08}
 {Institute for Systems Biology}
@@ -206,6 +220,18 @@
 \section{Teaching Experience}
 \begin{entrylistThree}
 \entryThree
+{2016.10 to present}
+{NIH}
+{Software Carpentry, Instructor}
+\entryThree
+{2016.10 to present}
+{FAES (NIH)}
+{American Academy of Bioinformatics, Instructor (paid)}
+\entryThree
+{2016.06 to present}
+{NHGRI}
+{Post-baccalaureate project, Mentor}
+\entryThree
 {2015.06 to 2015.09}
 {NHGRI}
 {Summer student reserach project, Mentor}
@@ -230,6 +256,18 @@
 
 \section{Oral Presentations}
 \begin{entrylistTwo}
+\entryTwo
+{2017.04}
+{NIAID Genomics and Immunology Speaker Series}
+{Bethesda, MD}
+\entryTwo
+{2017.01}
+{NIH Data Science Interest Group}
+{Bethesda, MD}
+\entryTwo
+{2015.1}
+{NIH Digital Summit}
+{Bethesda, MD}
 \entryTwo
 {2013.09}
 {27th Intl. Mammalian Genome Conference}
@@ -301,15 +339,30 @@
 \section{Funding}
 \begin{entrylistSix}
 \entrySix
+{2017.04 to 2021.04}
+{NIH 1 K22 ES028024-01 BD2K Career Transition Award}
+{A Big Data Approach to Learning the Type 2 Diabetes Regulome}
+{Career transition award with 3 years tenure-track funding}
+\entrySix
+{2017.01 to 2019.12}
+{American Diabetes Association Postdoctoral Fellowship}
+{The Type 2 Diabetes Epigenome: A Multi-Tissue and Multi-Omics Investigaton of a Complex Disease}
+{Postdoctoral fellowship with up to 3 years salary and research support}
+\entrySix
+{2016.09}
+{NIH Intramural Sequencing Center Pilot Grant}
+{Transcriptome analysis at single-molecule resolution}
+{Institutional award with funding for sequencing services}
+\entrySix
 {2015.11}
 {NIH Intramural Sequencing Center Pilot Grant}
 {Extending ATAC-Seq to archival frozen and fixed tissue samples}
-{}
+{Institutional award with funding for sequencing services}
 \entrySix
 {2015.05}
 {NIH Intramural Sequencing Center Pilot Grant}
 {Identifying functional variants in T2D GWAS loci using CATCh-PET}
-{}
+{Institutional award with funding for sequencing services}
 \entrySix
 {2014.12}
 {NIH Intramural Sequencing Center Pilot Grant}
@@ -344,7 +397,7 @@
 {2013.09}
 {Verne Chapman Young Scientist Award}
 {International Mammalian Genome Society}
-{Best talk at the International Mammalian Genome Conference}
+{Best trainee talk at the International Mammalian Genome Conference}
 \entrySeven
 {2013.05}
 {Chicago Prize}
@@ -361,11 +414,19 @@
 \section{Professional Memberships \& Service}
 \begin{entrylistThree}
 \entryThree
+{2016.10}
+{CSHL Biological Data Science Hackathon}
+{Team Lead}
+\entryThree
+{2016.08 to present}
+{Software Carpentry}
+{Certified Instructor}
+\entryThree
 {2016.01 to present}
 {NHGRI Preprint Journal Club}
 {Organizer}
 \entryThree
-{2016.01}
+{2016.01, 2016.08}
 {NCBI Hackathon}
 {Team Lead}
 \entryThree

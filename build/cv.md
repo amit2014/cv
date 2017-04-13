@@ -35,10 +35,10 @@ title: John Didion, PhD
 |---|---|
 | <span class="dates">2014.09 to Present</span> | __National Human Genome Research Institute, Bethesda, MD__ |
 |               | _Postdoctoral Fellow, Laboratory of Dr. Francis S Collins_ |
-|               | Investigating the role of epigenetics in common complex disese, especially type 2 diabetes. |
+|               | ['Leveraging a large, multi-`omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.', 'Developing machine-learning approaches to imputation for multi-`omics data.', 'Designed and currently optimizing a novel sequencing assay for single-molecule resolution transcriptome analysis.', 'Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.', 'Developed user-friendly software tools for QC and pre-processing of NGS reads.', 'Applied for and awarded six grants, including an American Diabetes Association fellowship and an NIH K22.'] |
 | <span class="dates">2009.05 to 2014.08</span> | __University of North Carolina at Chapel Hill, Chapel Hill, NC__ |
 |               | _Research Assistant, Laboratory of Dr. Fernando Pardo-Manuel de Villena_ |
-|               | Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, R2d2, and multiple modifier loci responsible for extreme TRD in the Collaborative Cross. Also developed CLASP, a software tool for validation of cell lines used in research. |
+|               | ['Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, *R2d2*, and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross.', 'Developed CLASP, a software tool for validation of cell lines used in research.'] |
 | <span class="dates">2007.08 to 2008.08</span> | __Institute for Systems Biology, Seattle, WA__ |
 |               | _Computational Biology Software Engineer, Laboratory of Dr. Ruedi Aebersold_ |
 |               | Developed informatics software to support proteomics research. Created TIQAM, a work flow management system for MRM (Multiple Reaction Monitoring) experiments. |
@@ -64,6 +64,12 @@ title: John Didion, PhD
 
 |   |
 |---|---|
+| <span class="dates">2016.10 to present</span> | **NIH** |
+| | _Software Carpentry, Instructor_ |
+| <span class="dates">2016.10 to present</span> | **FAES (NIH)** |
+| | _American Academy of Bioinformatics, Instructor (paid)_ |
+| <span class="dates">2016.06 to present</span> | **NHGRI** |
+| | _Post-baccalaureate project, Mentor_ |
 | <span class="dates">2015.06 to 2015.09</span> | **NHGRI** |
 | | _Summer student reserach project, Mentor_ |
 | <span class="dates">2013.09 to 2014.05</span> | **University of North Carolina at Chapel Hill** |
@@ -77,22 +83,25 @@ title: John Didion, PhD
 ## Publications
 
 ### Journal Articles
-[1] Morgan AP, Holt JM, McMullan RC, Bell TA, Clayshulte AM-F, **Didion JP**, et al., "The many evolutionary fates of a large segmental duplication in mouse," <em>Genetics</em>, 2016<br><br>
-[2] Scott LJ, Erdos MR, Huyghe JR, Welch RP, Beck AT, Wolford BN, Chines PS, **Didion JP**, et al., "The genetic regulatory signature of type 2 diabetes in human skeletal muscle," <em>Nature Communications</em>, 2016<br><br>
-[3] **Didion JP**, Morgan AP, et al., " \textit{R2d2} drives selfish sweeps in the house mouse," <em>Molecular Biology and Evolution</em>, 2016<br><br>
-[4] Morgan AP, Fu C-P, Kao C-Y, Welsh CE, **Didion JP**, et al., "The Mouse Universal Genotyping Array: from substrains to subspecies," <em>G3</em>, 2015<br><br>
-[5] Crowley JJ, ...13 others..., **Didion JP**, et al., "Analyses of allele-specific gene expression in highly divergent mouse crosses identifies pervasive allelic imbalance," <em>Nature Genetics</em>, 2015<br><br>
-[6] **Didion JP**, Morgan AP, Clayshulte AMF, et al., "A Multi-Megabase Copy Number Gain Causes Maternal Transmission Ratio Distortion on Mouse Chromosome 2," <em>PLoS Genetics</em>, 2015<br><br>
-[7] Chandler RL, Damrauer JS, Raab JR, Schisler JC, Wilkerson MD, **Didion JP**, et al., "Coexistent ARID1A--PIK3CA mutations promote ovarian clear-cell tumorigenesis through pro-tumorigenic inflammatory cytokine signaling," <em>Nature Communications</em>, 2015<br><br>
-[8] **Didion JP**, Buus RJ, Naghashfar Z, et al., "SNP array profiling of mouse cell lines identifies their strains of origin and reveals cross-contamination and widespread aneuploidy," <em>BMC Genomics</em>, 2014<br><br>
-[9] Calaway JD, Lenarcic AB, **Didion JP**, et al., "Genetic architecture of skewed X inactivation in the laboratory mouse," <em>PLoS Genetics</em>, 2013<br><br>
-[10] Consortium, Collaborative Cross, "The genome architecture of the Collaborative Cross mouse genetic reference population," <em>Genetics</em>, 2012<br><br>
-[11] **Didion JP**, , and Villena F, Pardo-Manuel de, "Deconstructing \textit{Mus gemischus}: advances in understanding ancestry, structure, and variation in the genome of the laboratory mouse," <em>Mammalian Genome</em>, 2013<br><br>
-[12] **Didion JP**, Yang H, Sheppard K, et al., "Discovery of novel variants in genotyping arrays improves genotype retention and reduces ascertainment bias," <em>BMC Genomics</em>, 2012<br><br>
-[13] Aylor DL, ...11 others..., **Didion JP**, et al., "Genetic analysis of complex traits in the emerging Collaborative Cross," <em>Genome Research</em>, 2011<br><br>
-[14] Yang H, Wang JR, **Didion JP**, et al., "Subspecific origin and haplotype diversity in the laboratory mouse," <em>Nature Genetics</em>, 2011<br><br>
-[15] Eisener-Dorman AF, **Didion JP**, Santos C, Calaway JD, "The 23rd International Mammalian Genome Conference meeting report," <em>Mammalian Genome</em>, 2010<br><br>
-[16] Lange V, Malmstrom JA, **Didion JP**, et al., "Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring," <em>Molecular and Cellular Proteomics</em>, 2008<br><br>
+[1] **Didion JP**, Martin M,, and FS, Collins, "Atropos: specific, sensitive, and speedy trimming of sequencing reads," <em>Preprint, Submitted</em>, 2017<br><br>
+[2] Varshneya A, Scott LJ, Welch R, Erdos MR, Chines PS, Narisu N, D'Oliveira RA, Orchard P, Wolford BN, Kursawee R, Vadlamudi S, Cannon ME, **Didion JP**, et al., "Genetic regulatory signatures underlying islet gene expression and type 2 diabetes," <em>Proc Nat Acad Sci USA</em>, 2017<br><br>
+[3] Morgan AP, **Didion JP**, et al., "Genome report: whole genome sequence of two wild-derived \textit{Mus musculus domesticus} inbred strains, LEWES/EiJ and ZALENDE/EiJ, with different diploid numbers," <em>G3</em>, 2016<br><br>
+[4] Morgan AP, Holt JM, McMullan RC, Bell TA, Clayshulte AM-F, **Didion JP**, et al., "The many evolutionary fates of a large segmental duplication in mouse," <em>Genetics</em>, 2016<br><br>
+[5] Scott LJ, Erdos MR, Huyghe JR, Welch RP, Beck AT, Wolford BN, Chines PS, **Didion JP**, et al., "The genetic regulatory signature of type 2 diabetes in human skeletal muscle," <em>Nature Communications</em>, 2016<br><br>
+[6] **Didion JP**, Morgan AP, et al., "\textit{R2d2} drives selfish sweeps in the house mouse," <em>Molecular Biology and Evolution</em>, 2016<br><br>
+[7] Morgan AP, Fu C-P, Kao C-Y, Welsh CE, **Didion JP**, et al., "The Mouse Universal Genotyping Array: from substrains to subspecies," <em>G3</em>, 2015<br><br>
+[8] Crowley JJ, ...13 others..., **Didion JP**, et al., "Analyses of allele-specific gene expression in highly divergent mouse crosses identifies pervasive allelic imbalance," <em>Nature Genetics</em>, 2015<br><br>
+[9] **Didion JP**, Morgan AP, Clayshulte AMF, et al., "A Multi-Megabase Copy Number Gain Causes Maternal Transmission Ratio Distortion on Mouse Chromosome 2," <em>PLoS Genetics</em>, 2015<br><br>
+[10] Chandler RL, Damrauer JS, Raab JR, Schisler JC, Wilkerson MD, **Didion JP**, et al., "Coexistent ARID1A--PIK3CA mutations promote ovarian clear-cell tumorigenesis through pro-tumorigenic inflammatory cytokine signaling," <em>Nature Communications</em>, 2015<br><br>
+[11] **Didion JP**, Buus RJ, Naghashfar Z, et al., "SNP array profiling of mouse cell lines identifies their strains of origin and reveals cross-contamination and widespread aneuploidy," <em>BMC Genomics</em>, 2014<br><br>
+[12] Calaway JD, Lenarcic AB, **Didion JP**, et al., "Genetic architecture of skewed X inactivation in the laboratory mouse," <em>PLoS Genetics</em>, 2013<br><br>
+[13] Consortium, Collaborative Cross, "The genome architecture of the Collaborative Cross mouse genetic reference population," <em>Genetics</em>, 2012<br><br>
+[14] **Didion JP**, , and Villena F, Pardo-Manuel de, "Deconstructing \textit{Mus gemischus}: advances in understanding ancestry, structure, and variation in the genome of the laboratory mouse," <em>Mammalian Genome</em>, 2013<br><br>
+[15] **Didion JP**, Yang H, Sheppard K, et al., "Discovery of novel variants in genotyping arrays improves genotype retention and reduces ascertainment bias," <em>BMC Genomics</em>, 2012<br><br>
+[16] Aylor DL, ...11 others..., **Didion JP**, et al., "Genetic analysis of complex traits in the emerging Collaborative Cross," <em>Genome Research</em>, 2011<br><br>
+[17] Yang H, Wang JR, **Didion JP**, et al., "Subspecific origin and haplotype diversity in the laboratory mouse," <em>Nature Genetics</em>, 2011<br><br>
+[18] Eisener-Dorman AF, **Didion JP**, Santos C, Calaway JD, "The 23rd International Mammalian Genome Conference meeting report," <em>Mammalian Genome</em>, 2010<br><br>
+[19] Lange V, Malmstrom JA, **Didion JP**, et al., "Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring," <em>Molecular and Cellular Proteomics</em>, 2008<br><br>
 
 
 <br/>
@@ -101,6 +110,12 @@ title: John Didion, PhD
 
 |   |
 |---|---|
+|  <span class="dates">2017.04</span> | **NIAID Genomics and Immunology Speaker Series, Bethesda, MD** |
+ 
+|  <span class="dates">2017.01</span> | **NIH Data Science Interest Group, Bethesda, MD** |
+ 
+|  <span class="dates">2015.1</span> | **NIH Digital Summit, Bethesda, MD** |
+ 
 |  <span class="dates">2013.09</span> | **27th Intl. Mammalian Genome Conference, Salamanca, Spain** |
  
 |  <span class="dates">2013.05</span> | **12th Annual Meeting of the Complex Traits Community, Madison, WI** |
@@ -138,12 +153,21 @@ title: John Didion, PhD
 
 |   |
 |---|---|
+| <span class="dates">2017.04 to 2021.04</span> | **NIH 1 K22 ES028024-01 BD2K Career Transition Award** |
+| | _A Big Data Approach to Learning the Type 2 Diabetes Regulome_ |
+| | Career transition award with 3 years tenure-track funding | 
+| <span class="dates">2017.01 to 2019.12</span> | **American Diabetes Association Postdoctoral Fellowship** |
+| | _The Type 2 Diabetes Epigenome: A Multi-Tissue and Multi-Omics Investigaton of a Complex Disease_ |
+| | Postdoctoral fellowship with up to 3 years salary and research support | 
+| <span class="dates">2016.09</span> | **NIH Intramural Sequencing Center Pilot Grant** |
+| | _Transcriptome analysis at single-molecule resolution_ |
+| | Institutional award with funding for sequencing services | 
 | <span class="dates">2015.11</span> | **NIH Intramural Sequencing Center Pilot Grant** |
 | | _Extending ATAC-Seq to archival frozen and fixed tissue samples_ |
- 
+| | Institutional award with funding for sequencing services | 
 | <span class="dates">2015.05</span> | **NIH Intramural Sequencing Center Pilot Grant** |
 | | _Identifying functional variants in T2D GWAS loci using CATCh-PET_ |
- 
+| | Institutional award with funding for sequencing services | 
 | <span class="dates">2014.12</span> | **NIH Intramural Sequencing Center Pilot Grant** |
 | | _Epigenomic regulation of glucose response in a human pancreatic islet Beta cell line_ |
 | | Institutional award with funding for sequencing services | 
@@ -168,7 +192,7 @@ title: John Didion, PhD
 | | Nominee from the Bioinformatics and Computational Biology program |
 | <span class="dates">2013.09</span> | **Verne Chapman Young Scientist Award** |
 | | _International Mammalian Genome Society_ |
-| | Best talk at the International Mammalian Genome Conference |
+| | Best trainee talk at the International Mammalian Genome Conference |
 | <span class="dates">2013.05</span> | **Chicago Prize** |
 | | _Complex Traits Consortium_ |
 | | Best graduate student talk at the Complex Traits Consortium meeting |
@@ -183,9 +207,13 @@ title: John Didion, PhD
 
 |   |
 |---|---|
+| <span class="dates">2016.10</span> | **CSHL Biological Data Science Hackathon** |
+| | _Team Lead_ |
+| <span class="dates">2016.08 to present</span> | **Software Carpentry** |
+| | _Certified Instructor_ |
 | <span class="dates">2016.01 to present</span> | **NHGRI Preprint Journal Club** |
 | | _Organizer_ |
-| <span class="dates">2016.01</span> | **NCBI Hackathon** |
+| <span class="dates">2016.01, 2016.08</span> | **NCBI Hackathon** |
 | | _Team Lead_ |
 | <span class="dates">2013.09 to 2015.09</span> | **International Mammalian Genome Society** |
 | | _Secretariat member (honorary)_ |
@@ -198,4 +226,4 @@ title: John Didion, PhD
 ---
 
 [source](https://github.com/jdidion/cv) |
-Generated July 03, 2016.
+Generated April 12, 2017.
