@@ -22,6 +22,7 @@ endif
 
 #all: $(PDF) $(MD) $(HTML)
 all: $(PDF) $(MD)
+md: $(MD)
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
