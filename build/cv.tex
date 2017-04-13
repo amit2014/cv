@@ -13,11 +13,13 @@
 \moderncvcolor{blue}
 %\renewcommand{\familydefault}{\sfdefault}
 %\newcommand*{\orcidsocialsymbol} {https://orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.png}
-
-\usepackage[scale=0.75]{geometry}
+\usepackage[margin=0.7in,scale=0.7]{geometry}
+\addtolength{\topmargin}{-0.1in}
+\addtolength{\textheight}{0.1in}
 \setlength{\hintscolumnwidth}{3cm}
 %\setlength{\makecvtitlenamewidth}{10cm}
 
+\usepackage[american]{babel}
 \usepackage[backend=biber,style=ieee,defernumbers=true,sorting=ydnt]{biblatex}
 
 \AtDataInput{%
@@ -170,11 +172,11 @@
 {\vspace{-5mm}
 \begin{itemize}
 \item {Leveraging a large, multi-`omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.}
-\item {Developing machine-learning approaches to imputation for multi-`omics data.}
-\item {Designed and currently optimizing a novel sequencing assay for single-molecule resolution transcriptome analysis.}
+\item {Developing machine-learning approaches for imputation of multi-`omics data.}
+\item {Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.}
 \item {Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.}
 \item {Developed user-friendly software tools for QC and pre-processing of NGS reads.}
-\item {Applied for and awarded six grants, including an American Diabetes Association fellowship and an NIH K22.}
+\item {Awarded six grants, including an American Diabetes Association fellowship and an NIH K22.}
 \end{itemize}
 }
 \entryFive
@@ -184,7 +186,7 @@
 {Research Assistant, Laboratory of Dr. Fernando Pardo-Manuel de Villena}
 {\vspace{-5mm}
 \begin{itemize}
-\item {Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, *R2d2*, and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross.}
+\item {Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, \textit{R2d2}, and multiple modifier loci responsible for extreme transmission distortion in interspecific crosses.}
 \item {Developed CLASP, a software tool for validation of cell lines used in research.}
 \end{itemize}
 }
@@ -193,7 +195,7 @@
 {Institute for Systems Biology}
 {Seattle, WA}
 {Computational Biology Software Engineer, Laboratory of Dr. Ruedi Aebersold}
-{Developed informatics software to support proteomics research. Created TIQAM, a work flow management system for MRM (Multiple Reaction Monitoring) experiments.}
+{Created TIQAM, a work flow management system to support Multiple Reaction Monitoring (MRM) proteomics experiments.}
 \end{entrylistFive}
 
 
@@ -216,6 +218,62 @@
 {Software Developer/Consultant}
 \end{entrylistFour}
 
+\section{Publications}
+\nocite{*}
+
+\renewcommand*{\bibfont}{\small}
+\subsection{Journal Articles}
+\printbibliography[heading=none,type=article,keyword=journal,resetnumbers=true]
+
+
+\section{Funding}
+\begin{entrylistSix}
+\entrySix
+{2017.04 to 2021.04}
+{NIH 1 K22 ES028024-01 BD2K Career Transition Award}
+{A Big Data Approach to Learning the Type 2 Diabetes Regulome}
+{Career transition award with 3 years tenure-track funding}
+\entrySix
+{2017.01 to 2019.12}
+{American Diabetes Association Postdoctoral Fellowship}
+{A Multi-Tissue and Multi-Omics Investigaton Type 2 Diabetes}
+{Postdoctoral fellowship with up to 3 years salary and research support}
+\entrySix
+{2016.09}
+{NIH Intramural Sequencing Center Pilot Grant}
+{Transcriptome analysis at single-molecule resolution}
+{Institutional award with funding for sequencing services}
+\entrySix
+{2015.11}
+{NIH Intramural Sequencing Center Pilot Grant}
+{Extending ATAC-Seq to archival frozen and fixed tissue samples}
+{Institutional award with funding for sequencing services}
+\entrySix
+{2015.05}
+{NIH Intramural Sequencing Center Pilot Grant}
+{Identifying functional variants in T2D GWAS loci using CATCh-PET}
+{Institutional award with funding for sequencing services}
+\entrySix
+{2014.12}
+{NIH Intramural Sequencing Center Pilot Grant}
+{Epigenomic regulation of glucose response in a human pancreatic Beta cell line}
+{Institutional award with funding for sequencing services}
+\entrySix
+{2014.12 to 2015.04}
+{Department of Health and Human Services Ignite}
+{LabGenius: The Smart Lab Notebook for Scientists}
+{Incubator program to fund innovative projects within HHS}
+\entrySix
+{2009.09 to 2010.08}
+{Bioinformatics and Computational Biology Training Grant}
+{NIH GM067553-04}
+{Institution-awarded fellowship}
+\entrySix
+{2009.09}
+{International Mammalian Genome Society Fellowship}
+{Travel grant}
+{}
+\end{entrylistSix}
 
 \section{Teaching Experience}
 \begin{entrylistThree}
@@ -228,31 +286,18 @@
 {FAES (NIH)}
 {American Academy of Bioinformatics, Instructor (paid)}
 \entryThree
-{2016.06 to present}
+{2015.06 to present}
 {NHGRI}
-{Post-baccalaureate project, Mentor}
-\entryThree
-{2015.06 to 2015.09}
-{NHGRI}
-{Summer student reserach project, Mentor}
+{Graduate and undergraduate students, Mentor}
 \entryThree
 {2013.09 to 2014.05}
 {University of North Carolina at Chapel Hill}
-{Undergraduate senior research project, Mentor}
+{Undergraduate (senior research project), Mentor}
 \entryThree
 {2013.09 to 2013.12}
 {University of North Carolina at Chapel Hill}
 {Genetic Analysis 2, Teaching Assistant}
 \end{entrylistThree}
-
-
-\section{Publications}
-\nocite{*}
-
-\renewcommand*{\bibfont}{\small}
-\subsection{Journal Articles}
-\printbibliography[heading=none,type=article,keyword=journal,resetnumbers=true]
-
 
 \section{Oral Presentations}
 \begin{entrylistTwo}
@@ -265,7 +310,7 @@
 {NIH Data Science Interest Group}
 {Bethesda, MD}
 \entryTwo
-{2015.1}
+{2015.10}
 {NIH Digital Summit}
 {Bethesda, MD}
 \entryTwo
@@ -336,54 +381,7 @@
 \end{entrylistTwo}
 
 
-\section{Funding}
-\begin{entrylistSix}
-\entrySix
-{2017.04 to 2021.04}
-{NIH 1 K22 ES028024-01 BD2K Career Transition Award}
-{A Big Data Approach to Learning the Type 2 Diabetes Regulome}
-{Career transition award with 3 years tenure-track funding}
-\entrySix
-{2017.01 to 2019.12}
-{American Diabetes Association Postdoctoral Fellowship}
-{The Type 2 Diabetes Epigenome: A Multi-Tissue and Multi-Omics Investigaton of a Complex Disease}
-{Postdoctoral fellowship with up to 3 years salary and research support}
-\entrySix
-{2016.09}
-{NIH Intramural Sequencing Center Pilot Grant}
-{Transcriptome analysis at single-molecule resolution}
-{Institutional award with funding for sequencing services}
-\entrySix
-{2015.11}
-{NIH Intramural Sequencing Center Pilot Grant}
-{Extending ATAC-Seq to archival frozen and fixed tissue samples}
-{Institutional award with funding for sequencing services}
-\entrySix
-{2015.05}
-{NIH Intramural Sequencing Center Pilot Grant}
-{Identifying functional variants in T2D GWAS loci using CATCh-PET}
-{Institutional award with funding for sequencing services}
-\entrySix
-{2014.12}
-{NIH Intramural Sequencing Center Pilot Grant}
-{Epigenomic regulation of glucose response in a human pancreatic islet Beta cell line}
-{Institutional award with funding for sequencing services}
-\entrySix
-{2014.12 to 2015.04}
-{Department of Health and Human Services Ignite}
-{LabGenius: The Smart Lab Notebook for Scientists}
-{Incubator program with USD 5000 funding}
-\entrySix
-{2009.09 to 2010.08}
-{Bioinformatics and Computational Biology Training Grant}
-{NIH GM067553-04}
-{Institution-awarded fellowship}
-\entrySix
-{2009.09}
-{International Mammalian Genome Society Fellowship}
-{Travel grant}
-{}
-\end{entrylistSix}
+
 
 
 \section{Honors \& Awards}
@@ -414,10 +412,6 @@
 \section{Professional Memberships \& Service}
 \begin{entrylistThree}
 \entryThree
-{2016.10}
-{CSHL Biological Data Science Hackathon}
-{Team Lead}
-\entryThree
 {2016.08 to present}
 {Software Carpentry}
 {Certified Instructor}
@@ -426,8 +420,8 @@
 {NHGRI Preprint Journal Club}
 {Organizer}
 \entryThree
-{2016.01, 2016.08}
-{NCBI Hackathon}
+{2016.01, 2016.08, 2016.10}
+{NCBI Hackathons}
 {Team Lead}
 \entryThree
 {2013.09 to 2015.09}
@@ -438,8 +432,4 @@
 {UNC Genetics Department Retreat}
 {Abstract Review Committee}
 \end{entrylistThree}
-
-
-
-
 \end{document}

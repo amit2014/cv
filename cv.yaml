@@ -60,13 +60,12 @@ research:
     details:
       - Leveraging a large, multi-`omics dataset to investigate epigenetic mechanisms
         underlying regulatory variants implicated in type 2 diabetes.
-      - Developing machine-learning approaches to imputation for multi-`omics data.
-      - Designed and currently optimizing a novel sequencing assay for single-molecule 
-        resolution transcriptome analysis.
+      - Developing machine-learning approaches for imputation of multi-`omics data.
+      - Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.
       - Using single-cell gene expression and chromatin accessibility data to understand
         cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.
       - Developed user-friendly software tools for QC and pre-processing of NGS reads.
-      - Applied for and awarded six grants, including an American Diabetes Association fellowship
+      - Awarded six grants, including an American Diabetes Association fellowship
         and an NIH K22.
   - place: University of North Carolina at Chapel Hill
     location: Chapel Hill, NC
@@ -78,7 +77,7 @@ research:
       - Characterized the genetic determinants of two meiotic drive systems in the mouse.
         First, conducted a GWAS of wild mice to identify genes associated with the accumulation
         of Robertsonian translocations. Second, mapped a novel meiotic drive locus, *R2d2*,
-        and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross. 
+        and multiple modifier loci responsible for extreme transmission distortion in interspecific crosses. 
       - Developed CLASP, a software tool for validation of cell lines used in research.
   - place: Institute for Systems Biology
     location: Seattle, WA
@@ -87,8 +86,8 @@ research:
     dates: 2007.08 to 2008.08
     area: Computational proteomics
     details:
-      Developed informatics software to support proteomics research. Created TIQAM, a work flow
-      management system for MRM (Multiple Reaction Monitoring) experiments.
+      Created TIQAM, a work flow management system to support MRM 
+      (Multiple Reaction Monitoring) proteomics experiments.
 
 industry:
   - place: Muze, Inc.
@@ -117,12 +116,12 @@ teaching:
     details: Instructor (paid)
   - university: NHGRI
     course:
-      name: Post-baccalaureate project
+      name: Post-baccalaureate student
     dates: 2016.06 to present
     details: Mentor
   - university: NHGRI
     course:
-      name: Summer student reserach project
+      name: Summer student
     dates: 2015.06 to 2015.09
     details: Mentor
   - university: University of North Carolina at Chapel Hill
@@ -147,7 +146,7 @@ talks:
     date: 2017.01
   - venue: NIH Digital Summit
     location: Bethesda, MD
-    date: 2015.10
+    date: "2015.10"
   - venue: 27th Intl. Mammalian Genome Conference
     location: Salamanca, Spain
     date: 2013.09
@@ -224,7 +223,7 @@ funding:
   - name: Department of Health and Human Services Ignite
     dates: 2014.12 to 2015.04
     title: "LabGenius: The Smart Lab Notebook for Scientists"
-    descr: Incubator program with USD 5000 funding
+    descr: Incubator program to fund innovated projects within HHS
   - name: Bioinformatics and Computational Biology Training Grant
     title: NIH GM067553-04
     dates: 2009.09 to 2010.08

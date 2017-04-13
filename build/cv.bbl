@@ -79,7 +79,7 @@
       \endverb
       \keyw{journal}
     \endentry
-    \entry{Didion:2015xx}{article}{}
+    \entry{SubDidion:2015xx}{article}{}
       \name{author}{1}{}{%
         {{hash=71d00772ea0a5fe0762af1345041eb38}{%
            family={{\authorname, Morgan AP, et al.}},
@@ -123,7 +123,7 @@
       \endverb
       \keyw{journal}
     \endentry
-    \entry{Scott:2015zz}{article}{}
+    \entry{SubScott:2015zz}{article}{}
       \name{author}{1}{}{%
         {{hash=73027230195b7d4ae00e9eda9618b48b}{%
            family={{Scott LJ, Erdos MR, Huyghe JR, Welch RP, Beck AT, Wolford BN, Chines PS, \authorname, et al.}},
