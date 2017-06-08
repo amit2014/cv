@@ -35,18 +35,10 @@ title: John Didion, PhD
 |---|---|
 | <span class="dates">2014 to Present</span> | __National Human Genome Research Institute, Bethesda, MD__ |
 |               | _Postdoctoral Fellow, Laboratory of Dr. Francis S Collins_ |
-|               |   
-* Leveraging a large, multi-omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.  
-* Developing machine-learning approaches to imputation for multi-omics data.  
-* Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.  
-* Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.  
-* Developed Atropos, user-friendly software for QC and pre-processing of NGS reads.  
-* Applied for and awarded six grants, including an American Diabetes Association fellowship and an NIH K22.   |
+|               |   * Leveraging a large, multi-omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.  * Developing machine-learning approaches to imputation for multi-omics data.  * Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.  * Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.  * Developed Atropos, user-friendly software for QC and pre-processing of NGS reads.  * Awarded six grants, including an American Diabetes Association fellowship and an NIH K22.   |
 | <span class="dates">2009 to 2014</span> | __University of North Carolina at Chapel Hill, Chapel Hill, NC__ |
 |               | _Research Assistant, Laboratory of Dr. Fernando Pardo-Manuel de Villena_ |
-|               |   * Mapped a novel meiotic drive locus, *R2d2*, and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross.  
-* Conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. 
-* Developed CLASP, a software tool for validation of cell lines used in research.   |
+|               |   * Mapped a novel meiotic drive locus, *R2d2*, and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross.  * Conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations.  * Developed CLASP, a software tool for validation of cell lines used in research.   |
 | <span class="dates">2007 to 2008</span> | __Institute for Systems Biology, Seattle, WA__ |
 |               | _Computational Biology Software Engineer, Laboratory of Dr. Ruedi Aebersold_ |
 |               |  Developed informatics software to support proteomics research. Created TIQAM, a work flow management system for MRM (Multiple Reaction Monitoring) experiments.  |
