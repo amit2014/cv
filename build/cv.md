@@ -196,9 +196,9 @@ title: John Didion, PhD
 
 |   |
 |---|---|
-| <span class="dates">2016 to present</span> | **Software Carpentry** |
+| <span class="dates">2016 to Present</span> | **Software Carpentry** |
 | | _Certified Instructor_ |
-| <span class="dates">2016 to present</span> | **NHGRI Preprint Journal Club** |
+| <span class="dates">2016 to Present</span> | **NHGRI Preprint Journal Club** |
 | | _Organizer_ |
 | <span class="dates">2016</span> | **NCBI Hackathon (multiple dates)** |
 | | _Team Lead_ |
