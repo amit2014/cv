@@ -91,31 +91,31 @@ title: John Didion, PhD
 
 |   |
 |---|---|
-| <span class="dates">2017.04 to 2021.04</span> | **NIH 1 K22 ES028024-01 BD2K Career Transition Award** |
+| <span class="dates">2017</span> | **NIH 1 K22 ES028024-01 BD2K Career Transition Award** |
 | | _A Big Data Approach to Learning the Type 2 Diabetes Regulome_ |
 | | Career transition award with 3 years tenure-track funding | 
-| <span class="dates">2017.01 to 2019.12</span> | **American Diabetes Association Postdoctoral Fellowship** |
+| <span class="dates">2017</span> | **American Diabetes Association Postdoctoral Fellowship** |
 | | _The Type 2 Diabetes Epigenome: A Multi-Tissue and Multi-Omics Investigaton of a Complex Disease_ |
 | | Postdoctoral fellowship with up to 3 years salary and research support | 
-| <span class="dates">2016.09</span> | **NIH Intramural Sequencing Center Pilot Grant** |
+| <span class="dates">2016</span> | **NIH Intramural Sequencing Center Pilot Grant** |
 | | _Transcriptome analysis at single-molecule resolution_ |
 | | Institutional award with funding for sequencing services | 
-| <span class="dates">2015.11</span> | **NIH Intramural Sequencing Center Pilot Grant** |
+| <span class="dates">2015</span> | **NIH Intramural Sequencing Center Pilot Grant** |
 | | _Extending ATAC-Seq to archival frozen and fixed tissue samples_ |
 | | Institutional award with funding for sequencing services | 
-| <span class="dates">2015.05</span> | **NIH Intramural Sequencing Center Pilot Grant** |
+| <span class="dates">2015</span> | **NIH Intramural Sequencing Center Pilot Grant** |
 | | _Identifying functional variants in T2D GWAS loci using CATCh-PET_ |
 | | Institutional award with funding for sequencing services | 
-| <span class="dates">2014.12</span> | **NIH Intramural Sequencing Center Pilot Grant** |
+| <span class="dates">2014</span> | **NIH Intramural Sequencing Center Pilot Grant** |
 | | _Epigenomic regulation of glucose response in a human pancreatic islet Beta cell line_ |
 | | Institutional award with funding for sequencing services | 
-| <span class="dates">2014.12 to 2015.04</span> | **Department of Health and Human Services Ignite** |
+| <span class="dates">2014</span> | **Department of Health and Human Services Ignite** |
 | | _LabGenius: The Smart Lab Notebook for Scientists_ |
-| | Incubator program with USD 5000 funding | 
-| <span class="dates">2009.09 to 2010.08</span> | **Bioinformatics and Computational Biology Training Grant** |
+| | 3-month incubator program incubator program to fund innovative projects within HHS |
+| <span class="dates">2009</span> | **Bioinformatics and Computational Biology Training Grant** |
 | | _NIH GM067553-04_ |
-| | Institution-awarded fellowship | 
-| <span class="dates">2009.09</span> | **International Mammalian Genome Society Fellowship** |
+| | Institution-awarded fellowship; 1 year stipend support | 
+| <span class="dates">2009</span> | **International Mammalian Genome Society Fellowship** |
 | | _Travel grant_ |
 
 
@@ -194,10 +194,8 @@ title: John Didion, PhD
 | | _Software Carpentry, Instructor_ |
 | <span class="dates">2016 to Present</span> | **FAES (NIH)** |
 | | _American Academy of Bioinformatics, Instructor (paid)_ |
-| <span class="dates">2016 to Present</span> | **NHGRI** |
-| | _Post-baccalaureate project, Mentor_ |
-| <span class="dates">2015 to 2015</span> | **NHGRI** |
-| | _Summer student reserach project, Mentor_ |
+| <span class="dates">2015 to Present</span> | **NHGRI** |
+| | _Graduate and undergraduate students, Mentor_ |
 | <span class="dates">2013 to 2014</span> | **University of North Carolina at Chapel Hill** |
 | | _Undergraduate senior research project, Mentor_ |
 | <span class="dates">2013 Fall</span> | **University of North Carolina at Chapel Hill** |
@@ -210,17 +208,15 @@ title: John Didion, PhD
 
 |   |
 |---|---|
-| <span class="dates">2016.10</span> | **CSHL Biological Data Science Hackathon** |
-| | _Team Lead_ |
-| <span class="dates">2016.08 to present</span> | **Software Carpentry** |
+| <span class="dates">2016 to present</span> | **Software Carpentry** |
 | | _Certified Instructor_ |
-| <span class="dates">2016.01 to present</span> | **NHGRI Preprint Journal Club** |
+| <span class="dates">2016 to present</span> | **NHGRI Preprint Journal Club** |
 | | _Organizer_ |
-| <span class="dates">2016.01, 2016.08</span> | **NCBI Hackathon** |
+| <span class="dates">2016</span> | **NCBI Hackathon (multiple dates)** |
 | | _Team Lead_ |
-| <span class="dates">2013.09 to 2015.09</span> | **International Mammalian Genome Society** |
+| <span class="dates">2013 to 2015</span> | **International Mammalian Genome Society** |
 | | _Secretariat member (honorary)_ |
-| <span class="dates">2013.08</span> | **UNC Genetics Department Retreat** |
+| <span class="dates">2013</span> | **UNC Genetics Department Retreat** |
 | | _Abstract Review Committee_ |
 
 
