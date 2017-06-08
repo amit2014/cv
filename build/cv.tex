@@ -66,13 +66,31 @@
 	\vspace{\parsep}%
   }\\}
 
+\usepackage{ifthen}
+
+\setlength{\tabcolsep}{6pt}
+\newenvironment{entrylistTwoFour}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryTwoFour}[4]{%
+  #1&\parbox[t]{140mm}{%
+    \textbf{#2}%
+    \ifthenelse{\equal{#3}{}}{ }{, }%
+    #3%
+    \hfill%
+    {\footnotesize #4}%
+	\vspace{\parsep}%
+  }\\}
+
 \newenvironment{entrylistThree}{%
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
   \end{tabular*}
 }
 \newcommand{\entryThree}[3]{%
-  #1&\parbox[t]{127mm}{%
+  #1&\parbox[t]{140mm}{%
     \textbf{#2}\\%
     \textit{#3}\vspace{\parsep}%
   }\\}
@@ -83,7 +101,7 @@
   \end{tabular*}
 }
 \newcommand{\entryFour}[4]{%
-  #1&\parbox[t]{127mm}{%
+  #1&\parbox[t]{140mm}{%
     \textbf{#2}%
     \hfill%
     {\footnotesize #3}\\%
@@ -97,7 +115,7 @@
   \end{tabular*}
 }
 \newcommand{\entryFive}[5]{%
-  #1&\parbox[t]{127mm}{%
+  #1&\parbox[t]{140mm}{%
     \textbf{#2}%
     \hfill%
     {\footnotesize #3}\\%
@@ -111,7 +129,7 @@
   \end{tabular*}
 }
 \newcommand{\entrySix}[4]{%
-  #1&\parbox[t]{127mm}{%
+  #1&\parbox[t]{140mm}{%
     \textbf{#2}%
     \hfill\\%
     \emph{#3}\\%
@@ -124,7 +142,7 @@
   \end{tabular*}
 }
 \newcommand{\entrySeven}[4]{%
-  #1&\parbox[t]{124mm}{%
+  #1&\parbox[t]{140mm}{%
     \textbf{#2}%
     \hfill\\%
     \emph{#3}\\%
@@ -152,11 +170,11 @@
 \section{Education}
 \begin{entrylistThree}
 \entryThree
-{2008.08 to 2014.05}
+{2008 to 2014}
 {Doctor of Philosophy, Bioinformatics and Computational Biology}
 {University of North Carolina, Chapel Hill, NC}
 \entryThree
-{1996.09 to 2001.06}
+{1996 to 2001}
 {Bachelor of Science, Computer Science}
 {Northwestern University, Evanston, IL}
 \end{entrylistThree}
@@ -165,33 +183,34 @@
 \section{Research Experience}
 \begin{entrylistFive}
 \entryFive
-{2014.09 to Present}
+{2014 to Present}
 {National Human Genome Research Institute}
 {Bethesda, MD}
 {Postdoctoral Fellow, Laboratory of Dr. Francis S Collins}
 {\vspace{-5mm}
 \begin{itemize}
-\item {Leveraging a large, multi-`omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.}
-\item {Developing machine-learning approaches for imputation of multi-`omics data.}
-\item {Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.}
+\item {Leveraging a large, multi-omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.}
+\item {Developing machine-learning approaches for imputation of multi-omics data.}
 \item {Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.}
-\item {Developed user-friendly software tools for QC and pre-processing of NGS reads.}
+\item {Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.}
+\item {Developed Atropos, user-friendly software for QC and pre-processing of NGS reads.}
 \item {Awarded six grants, including an American Diabetes Association fellowship and an NIH K22.}
 \end{itemize}
 }
 \entryFive
-{2009.05 to 2014.08}
+{2009 to 2014}
 {University of North Carolina at Chapel Hill}
 {Chapel Hill, NC}
 {Research Assistant, Laboratory of Dr. Fernando Pardo-Manuel de Villena}
 {\vspace{-5mm}
 \begin{itemize}
-\item {Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, \textit{R2d2}, and multiple modifier loci responsible for extreme transmission distortion in interspecific crosses.}
+\item {Characterized a novel meiotic drive locus, \textit{R2d2}, and multiple modifier loci responsible for extreme transmission distortion in interspecific crosses.}
+\item {Conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations.}
 \item {Developed CLASP, a software tool for validation of cell lines used in research.}
 \end{itemize}
 }
 \entryFive
-{2007.08 to 2008.08}
+{2007 to 2008}
 {Institute for Systems Biology}
 {Seattle, WA}
 {Computational Biology Software Engineer, Laboratory of Dr. Ruedi Aebersold}
@@ -202,17 +221,17 @@
 \section{Industry Experience}
 \begin{entrylistFour}
 \entryFour
-{2004.09 to 2007.08}
+{2004 to 2007}
 {Muze, Inc.}
 {Seattle, WA}
 {Software Development Engineer}
 \entryFour
-{2003.09 to 2004.09}
+{2003 to 2004}
 {Encyclopaedia Britannica, Online Services}
 {Chicago, IL}
 {Software Developer}
 \entryFour
-{2001.05 to 2003.08}
+{2001 to 2003}
 {ThoughtWorks, LLC}
 {Chicago, IL}
 {Software Developer/Consultant}
@@ -229,166 +248,58 @@
 \section{Funding}
 \begin{entrylistSix}
 \entrySix
-{2017.04 to 2021.04}
+{2017}
 {NIH 1 K22 ES028024-01 BD2K Career Transition Award}
 {A Big Data Approach to Learning the Type 2 Diabetes Regulome}
 {Career transition award with 3 years tenure-track funding}
 \entrySix
-{2017.01 to 2019.12}
+{2017}
 {American Diabetes Association Postdoctoral Fellowship}
-{A Multi-Tissue and Multi-Omics Investigaton Type 2 Diabetes}
+{A Multi-Tissue and Multi-Omics Investigaton of Type 2 Diabetes}
 {Postdoctoral fellowship with up to 3 years salary and research support}
 \entrySix
-{2016.09}
+{2016}
 {NIH Intramural Sequencing Center Pilot Grant}
 {Transcriptome analysis at single-molecule resolution}
 {Institutional award with funding for sequencing services}
 \entrySix
-{2015.11}
+{2015}
 {NIH Intramural Sequencing Center Pilot Grant}
 {Extending ATAC-Seq to archival frozen and fixed tissue samples}
 {Institutional award with funding for sequencing services}
 \entrySix
-{2015.05}
+{2015}
 {NIH Intramural Sequencing Center Pilot Grant}
 {Identifying functional variants in T2D GWAS loci using CATCh-PET}
 {Institutional award with funding for sequencing services}
 \entrySix
-{2014.12}
+{2014}
 {NIH Intramural Sequencing Center Pilot Grant}
 {Epigenomic regulation of glucose response in a human pancreatic Beta cell line}
 {Institutional award with funding for sequencing services}
 \entrySix
-{2014.12 to 2015.04}
+{2014}
 {Department of Health and Human Services Ignite}
 {LabGenius: The Smart Lab Notebook for Scientists}
-{Incubator program to fund innovative projects within HHS}
+{3-month incubator program to fund innovative projects within HHS}
 \entrySix
-{2009.09 to 2010.08}
+{2009}
 {Bioinformatics and Computational Biology Training Grant}
 {NIH GM067553-04}
-{Institution-awarded fellowship}
+{Institution-awarded fellowship, 1 year stipend support}
 \entrySix
-{2009.09}
+{2009}
 {International Mammalian Genome Society Fellowship}
 {Travel grant}
 {}
 \end{entrylistSix}
-
-\section{Teaching Experience}
-\begin{entrylistThree}
-\entryThree
-{2016.10 to present}
-{NIH}
-{Software Carpentry, Instructor}
-\entryThree
-{2016.10 to present}
-{FAES (NIH)}
-{American Academy of Bioinformatics, Instructor (paid)}
-\entryThree
-{2015.06 to present}
-{NHGRI}
-{Graduate and undergraduate students, Mentor}
-\entryThree
-{2013.09 to 2014.05}
-{University of North Carolina at Chapel Hill}
-{Undergraduate (senior research project), Mentor}
-\entryThree
-{2013.09 to 2013.12}
-{University of North Carolina at Chapel Hill}
-{Genetic Analysis 2, Teaching Assistant}
-\end{entrylistThree}
-
-\section{Oral Presentations}
-\begin{entrylistTwo}
-\entryTwo
-{2017.04}
-{NIAID Genomics and Immunology Speaker Series}
-{Bethesda, MD}
-\entryTwo
-{2017.01}
-{NIH Data Science Interest Group}
-{Bethesda, MD}
-\entryTwo
-{2015.10}
-{NIH Digital Summit}
-{Bethesda, MD}
-\entryTwo
-{2013.09}
-{27th Intl. Mammalian Genome Conference}
-{Salamanca, Spain}
-\entryTwo
-{2013.05}
-{12th Annual Meeting of the Complex Traits Community}
-{Madison, WI}
-\entryTwo
-{2012.09}
-{16th EBM Conference}
-{Marseille, France}
-\entryTwo
-{2012.09}
-{UNC Genetics Department Retreat}
-{Myrtle Beach, SC}
-\entryTwo
-{2010.10}
-{24th Intl. Mammalian Genome Conference}
-{Heraklion, Greece}
-\entryTwo
-{2010.05}
-{9th Annual Meeting of the Complex Traits Community}
-{Chicago, IL}
-\entryTwo
-{2009.09}
-{23rd Intl. Mammalian Genome Conference}
-{San Diego, CA}
-\end{entrylistTwo}
-
-
-\section{Poster Presentations}
-\begin{entrylistTwo}
-\entryTwo
-{2015.10}
-{American Society of Human Genetics Conference}
-{Baltimore, MD}
-\entryTwo
-{2015.05}
-{Biology of Genomes Conference}
-{Cold Spring Harbor, NY}
-\entryTwo
-{2014.10}
-{28th Intl. Mammalian Genome Conference}
-{Bar Harbor, ME}
-\entryTwo
-{2011.09}
-{UNC Genetics Department Retreat}
-{Myrtle Beach, SC}
-\entryTwo
-{2011.06}
-{Genetics Society of America Mouse Genetics}
-{Washington D.C.}
-\entryTwo
-{2011.06}
-{National Centers for Systems Biology Annual Meeting}
-{Duke University}
-\entryTwo
-{2010.09}
-{UNC Genetics Department Retreat}
-{Myrtle Beach, SC}
-\entryTwo
-{2009.09}
-{UNC Genetics Department Retreat}
-{Asheville, NC}
-\end{entrylistTwo}
-
-
-
 
 
 \section{Honors \& Awards}
 \begin{entrylistSeven}
 \entrySeven
 {2014.12}
-{Dean's Distinguished Dissertation Award (Nominee)}
+{Dean's Distinguished Dissertation Award (Department Nominee)}
 {University of North Carolina at Chapel Hill}
 {Nominee from the Bioinformatics and Computational Biology program}
 \entrySeven
@@ -409,26 +320,137 @@
 \end{entrylistSeven}
 
 
+\section{Conference Participation}
+\begin{entrylistTwoFour}
+\entryTwoFour
+{2016.10}
+{Biological Data Science Meeting}
+{}
+{Cold Spring Harbor, NY}
+\entryTwoFour
+{2015.10}
+{American Society of Human Genetics Conference}
+{Poster}
+{Baltimore, MD}
+\entryTwoFour
+{2015.05}
+{Biology of Genomes Conference}
+{Poster}
+{Cold Spring Harbor, NY}
+\entryTwoFour
+{2014.10}
+{28th Intl. Mammalian Genome Conference}
+{Poster}
+{Bar Harbor, ME}
+\entryTwoFour
+{2013.09}
+{27th Intl. Mammalian Genome Conference}
+{Talk}
+{Salamanca, Spain}
+\entryTwoFour
+{2013.05}
+{12th Annual Meeting of the Complex Traits Community}
+{Talk}
+{Madison, WI}
+\entryTwoFour
+{2012.09}
+{16th Evolutionary Biology Meeting}
+{Talk, Poster}
+{Marseille, France}
+\entryTwoFour
+{2011.06}
+{Genetics Society of America Mouse Genetics}
+{Poster}
+{Washington D.C.}
+\entryTwoFour
+{2011.06}
+{National Centers for Systems Biology Annual Meeting}
+{Poster}
+{Duke University}
+\entryTwoFour
+{2010.10}
+{24th Intl. Mammalian Genome Conference}
+{Talk}
+{Heraklion, Greece}
+\entryTwoFour
+{2010.05}
+{9th Annual Meeting of the Complex Traits Community}
+{Talk}
+{Chicago, IL}
+\entryTwoFour
+{2009.09}
+{23rd Intl. Mammalian Genome Conference}
+{Talk}
+{San Diego, CA}
+\end{entrylistTwoFour}
+
+
+\section{Other Invited Talks}
+\begin{entrylistTwo}
+\entryTwo
+{2017.04}
+{NIAID Genomics and Immunology Speaker Series}
+{Bethesda, MD}
+\entryTwo
+{2017.01}
+{NIH Data Science Interest Group}
+{Bethesda, MD}
+\entryTwo
+{2015.10}
+{NIH Digital Summit}
+{Bethesda, MD}
+\entryTwo
+{2012.09}
+{UNC Genetics Department Retreat}
+{Myrtle Beach, SC}
+\end{entrylistTwo}
+
+
+\section{Teaching Experience}
+\begin{entrylistThree}
+\entryThree
+{2016 to Present}
+{NIH}
+{Software Carpentry, Instructor}
+\entryThree
+{2016 to Present}
+{FAES (NIH)}
+{American Academy of Bioinformatics, Instructor (paid)}
+\entryThree
+{2015 to Present}
+{NHGRI}
+{Graduate and undergraduate students, Mentor}
+\entryThree
+{2013 to 2014}
+{University of North Carolina at Chapel Hill}
+{Undergraduate (senior research project), Mentor}
+\entryThree
+{2013 Fall}
+{University of North Carolina at Chapel Hill}
+{Genetic Analysis 2, Teaching Assistant}
+\end{entrylistThree}
+
+
 \section{Professional Memberships \& Service}
 \begin{entrylistThree}
 \entryThree
-{2016.08 to present}
+{2016 to Present}
 {Software Carpentry}
 {Certified Instructor}
 \entryThree
-{2016.01 to present}
+{2016 to Present}
 {NHGRI Preprint Journal Club}
 {Organizer}
 \entryThree
-{2016.01, 2016.08, 2016.10}
-{NCBI Hackathons}
+{2016}
+{NCBI Hackathons (multiple dates)}
 {Team Lead}
 \entryThree
-{2013.09 to 2015.09}
+{2013 to 2015}
 {International Mammalian Genome Society}
 {Secretariat member (honorary)}
 \entryThree
-{2013.08}
+{2013}
 {UNC Genetics Department Retreat}
 {Abstract Review Committee}
 \end{entrylistThree}

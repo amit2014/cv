@@ -1,0 +1,13 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\begin{entrylistTwo4}
+~< for conf in items >~
+\entryTwo4
+{<< conf.date >>}
+{<< conf.venue >>}
+{<< conf.type >>}
+{<< conf.location >>}
+~< endfor >~
+\end{entrylistTwo4}
+~< endblock body >~

@@ -65,6 +65,21 @@
 	\vspace{\parsep}%
   }\\}
 
+\setlength{\tabcolsep}{6pt}
+\newenvironment{entrylistTwo4}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryTwo4}[4]{%
+  #1&\parbox[t]{140mm}{%
+    \textbf{#2}%
+    #3%
+    \hfill%
+    {\footnotesize #3}%
+	\vspace{\parsep}%
+  }\\}
+
 \newenvironment{entrylistThree}{%
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%

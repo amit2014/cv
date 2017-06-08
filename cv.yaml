@@ -31,8 +31,8 @@ order:
   - [industry, Industry Experience]
   - [teaching, Teaching Experience]
   - [publications, Publications]
-  - [talks, Oral Presentations]
-  - [posters, Poster Presentations]
+  - [conferences, "Conference Participation"]
+  - [talks, Other Invited Presentations]
   - [funding, Funding]
   - [honors, Honors \& Awards]
   - [service, Professional Memberships \& Service]
@@ -58,9 +58,9 @@ research:
     dates: 2014.09 to Present
     area: Computational biology, epignentics of common disease
     details:
-      - Leveraging a large, multi-`omics dataset to investigate epigenetic mechanisms
+      - Leveraging a large, multi-omics dataset to investigate epigenetic mechanisms
         underlying regulatory variants implicated in type 2 diabetes.
-      - Developing machine-learning approaches for imputation of multi-`omics data.
+      - Developing machine-learning approaches for imputation of multi-omics data.
       - Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.
       - Using single-cell gene expression and chromatin accessibility data to understand
         cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.
@@ -137,6 +137,55 @@ teaching:
 
 publications: publications.bib
 
+conferences:
+  - venue: Biological Data Science Meeting
+    location: Cold Spring Harbor, NY
+    date: "2016.10"
+  - venue: American Society of Human Genetics Conference
+    location: Baltimore, MD
+    date: "2015.10"
+    type: Poster
+  - venue: Biology of Genomes Conference
+    location: Cold Spring Harbor, NY
+    date: 2015.05
+    type: Poster
+  - venue: 28th Intl. Mammalian Genome Conference
+    location: Bar Harbor, ME
+    date: "2014.10"
+    type: Poster
+  - venue: 27th Intl. Mammalian Genome Conference
+    location: Salamanca, Spain
+    date: 2013.09
+    type: Talk
+  - venue: 12th Annual Meeting of the Complex Traits Community
+    location: Madison, WI
+    date: 2013.05
+    type: Talk
+  - venue: 16th Evolutionary Biology Meeting
+    location: Marseille, France
+    date: 2012.09
+    type: Talk, Poster
+  - venue: Genetics Society of America Mouse Genetics
+    location: Washington D.C.
+    date: 2011.06
+    type: Poster
+  - venue: National Centers for Systems Biology Annual Meeting
+    location: Duke University
+    date: 2011.06
+    type: Poster
+  - venue: 24th Intl. Mammalian Genome Conference
+    location: Heraklion, Greece
+    date: "2010.10"
+    type: Talk
+  - venue: 9th Annual Meeting of the Complex Traits Community
+    location: Chicago, IL
+    date: 2010.05
+    type: Talk
+  - venue: 23rd Intl. Mammalian Genome Conference
+    location: San Diego, CA
+    date: 2009.09
+    type: Talk
+
 talks:
   - venue: NIAID Genomics and Immunology Speaker Series
     location: Bethesda, MD
@@ -147,53 +196,9 @@ talks:
   - venue: NIH Digital Summit
     location: Bethesda, MD
     date: "2015.10"
-  - venue: 27th Intl. Mammalian Genome Conference
-    location: Salamanca, Spain
-    date: 2013.09
-  - venue: 12th Annual Meeting of the Complex Traits Community
-    location: Madison, WI
-    date: 2013.05
-  - venue: 16th EBM Conference
-    location: Marseille, France
-    date: 2012.09
   - venue: UNC Genetics Department Retreat
     location: Myrtle Beach, SC
     date: 2012.09
-  - venue: 24th Intl. Mammalian Genome Conference
-    location: Heraklion, Greece
-    date: "2010.10"
-  - venue: 9th Annual Meeting of the Complex Traits Community
-    location: Chicago, IL
-    date: 2010.05
-  - venue: 23rd Intl. Mammalian Genome Conference
-    location: San Diego, CA
-    date: 2009.09
-
-posters:
-  - venue: American Society of Human Genetics Conference
-    location: Baltimore, MD
-    date: "2015.10"
-  - venue: Biology of Genomes Conference
-    location: Cold Spring Harbor, NY
-    date: 2015.05
-  - venue: 28th Intl. Mammalian Genome Conference
-    location: Bar Harbor, ME
-    date: "2014.10"
-  - venue: UNC Genetics Department Retreat
-    location: Myrtle Beach, SC
-    date: 2011.09
-  - venue: Genetics Society of America Mouse Genetics
-    location: Washington D.C.
-    date: 2011.06
-  - venue: National Centers for Systems Biology Annual Meeting
-    location: Duke University
-    date: 2011.06
-  - venue: UNC Genetics Department Retreat
-    location: Myrtle Beach, SC
-    date: 2010.09
-  - venue: UNC Genetics Department Retreat
-    location: Asheville, NC
-    date: 2009.09
 
 funding:
   - name: NIH 1 K22 ES028024-01 BD2K Career Transition Award
