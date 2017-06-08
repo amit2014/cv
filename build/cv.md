@@ -9,7 +9,7 @@ title: John Didion, PhD
 ## Contact
 
 * **Email**: john DOT didion AT nih DOT gov
-* **Website**: [john.didion.net](http://john.didion.net)
+* **Website**: john.didion.net
 * **ORCiD**: [0000-0002-8111-6261](http://orcid.org/0000-0002-8111-6261)
 * **Twitter**: [jdidion](http://twitter.com/jdidion)
 * **GitHub**: [jdidion](https://github.com/jdidion)
@@ -21,9 +21,9 @@ title: John Didion, PhD
 
 |   |
 |---|---|
-| <span class="dates">2008.08 to 2014.05</span> | **Doctor of Philosophy, Bioinformatics and Computational Biology** |
+| <span class="dates">2008 to 2014</span> | **Doctor of Philosophy, Bioinformatics and Computational Biology** |
 | | _University of North Carolina, Chapel Hill, NC_ |
-| <span class="dates">1996.09 to 2001.06</span> | **Bachelor of Science, Computer Science** |
+| <span class="dates">1996 to 2001</span> | **Bachelor of Science, Computer Science** |
 | | _Northwestern University, Evanston, IL_ |
 
 
@@ -33,15 +33,23 @@ title: John Didion, PhD
 
 |   |
 |---|---|
-| <span class="dates">2014.09 to Present</span> | __National Human Genome Research Institute, Bethesda, MD__ |
+| <span class="dates">2014 to Present</span> | __National Human Genome Research Institute, Bethesda, MD__ |
 |               | _Postdoctoral Fellow, Laboratory of Dr. Francis S Collins_ |
-|               | {::nomarkdown}<ul><li>Leveraging a large, multi-'omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.</li><li>Developing machine-learning approaches to imputation for multi-'omics data.</li><li>Designed and currently optimizing a novel sequencing assay for single-molecule resolution transcriptome analysis.</li><li>Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.</li><li>Developed user-friendly software tools for QC and pre-processing of NGS reads.</li><li>Applied for and awarded six grants, including an American Diabetes Association fellowship and an NIH K22.</li></ul> {:/} |
-| <span class="dates">2009.05 to 2014.08</span> | __University of North Carolina at Chapel Hill, Chapel Hill, NC__ |
+|               |   
+* Leveraging a large, multi-omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.  
+* Developing machine-learning approaches to imputation for multi-omics data.  
+* Using single-cell gene expression and chromatin accessibility data to understand cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.  
+* Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.  
+* Developed Atropos, user-friendly software for QC and pre-processing of NGS reads.  
+* Applied for and awarded six grants, including an American Diabetes Association fellowship and an NIH K22.   |
+| <span class="dates">2009 to 2014</span> | __University of North Carolina at Chapel Hill, Chapel Hill, NC__ |
 |               | _Research Assistant, Laboratory of Dr. Fernando Pardo-Manuel de Villena_ |
-|               |   {::nomarkdown}<ul><li>Characterized the genetic determinants of two meiotic drive systems in the mouse. First, conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. Second, mapped a novel meiotic drive locus, *R2d2*, and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross.</li><li>Developed CLASP, a software tool for validation of cell lines used in research.</li></ul>{:/}   |
-| <span class="dates">2007.08 to 2008.08</span> | __Institute for Systems Biology, Seattle, WA__ |
+|               |   * Mapped a novel meiotic drive locus, *R2d2*, and multiple modifier loci responsible for extreme transmission distortion in the Collaborative Cross.  
+* Conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations. 
+* Developed CLASP, a software tool for validation of cell lines used in research.   |
+| <span class="dates">2007 to 2008</span> | __Institute for Systems Biology, Seattle, WA__ |
 |               | _Computational Biology Software Engineer, Laboratory of Dr. Ruedi Aebersold_ |
-|               |  Developed informatics software to support proteomics research. Created TIQAM, a work flow management system for Multiple Reaction Monitoring (MRM) experiments.  |
+|               |  Developed informatics software to support proteomics research. Created TIQAM, a work flow management system for MRM (Multiple Reaction Monitoring) experiments.  |
 
 
 <br/>
@@ -50,35 +58,16 @@ title: John Didion, PhD
 
 |   |
 |---|---|
-| <span class="dates">2004.09 to 2007.08</span> | **Muze, Inc., Seattle, WA** |
+| <span class="dates">2004 to 2007</span> | **Muze, Inc., Seattle, WA** |
 | | _Software Development Engineer_ |
-| <span class="dates">2003.09 to 2004.09</span> | **Encyclopaedia Britannica, Online Services, Chicago, IL** |
+| <span class="dates">2003 to 2004</span> | **Encyclopaedia Britannica, Online Services, Chicago, IL** |
 | | _Software Developer_ |
-| <span class="dates">2001.05 to 2003.08</span> | **ThoughtWorks, LLC, Chicago, IL** |
+| <span class="dates">2001 to 2003</span> | **ThoughtWorks, LLC, Chicago, IL** |
 | | _Software Developer/Consultant_ |
 
 
 <br/>
 
-## Teaching Experience
-
-|   |
-|---|---|
-| <span class="dates">2016.10 to present</span> | **NIH** |
-| | _Software Carpentry, Instructor_ |
-| <span class="dates">2016.10 to present</span> | **FAES (NIH)** |
-| | _American Academy of Bioinformatics, Instructor (paid)_ |
-| <span class="dates">2016.06 to present</span> | **NHGRI** |
-| | _Post-baccalaureate student, Mentor_ |
-| <span class="dates">2015.06 to 2015.09</span> | **NHGRI** |
-| | _Summer student, Mentor_ |
-| <span class="dates">2013.09 to 2014.05</span> | **University of North Carolina at Chapel Hill** |
-| | _Undergraduate senior research project, Mentor_ |
-| <span class="dates">2013.09 to 2013.12</span> | **University of North Carolina at Chapel Hill** |
-| | _Genetic Analysis 2, Teaching Assistant_ |
-
-
-<br/>
 
 ## Publications
 
@@ -102,49 +91,6 @@ title: John Didion, PhD
 [17] Yang H, Wang JR, **Didion JP**, et al., "Subspecific origin and haplotype diversity in the laboratory mouse," <em>Nature Genetics</em>, 2011<br><br>
 [18] Eisener-Dorman AF, **Didion JP**, Santos C, Calaway JD, "The 23rd International Mammalian Genome Conference meeting report," <em>Mammalian Genome</em>, 2010<br><br>
 [19] Lange V, Malmstrom JA, **Didion JP**, et al., "Targeted quantitative analysis of Streptococcus pyogenes virulence factors by multiple reaction monitoring," <em>Molecular and Cellular Proteomics</em>, 2008<br><br>
-
-
-<br/>
-
-## Oral Presentations
-
-|   |
-|---|---|
-|  <span class="dates">2017.04</span> | **NIAID Genomics and Immunology Speaker Series, Bethesda, MD** |
- 
-|  <span class="dates">2017.01</span> | **NIH Data Science Interest Group, Bethesda, MD** |
- 
-|  <span class="dates">2015.1</span> | **NIH Digital Summit, Bethesda, MD** |
- 
-|  <span class="dates">2013.09</span> | **27th Intl. Mammalian Genome Conference, Salamanca, Spain** |
- 
-|  <span class="dates">2013.05</span> | **12th Annual Meeting of the Complex Traits Community, Madison, WI** |
- 
-|  <span class="dates">2012.09</span> | **16th EBM Conference, Marseille, France** |
- 
-|  <span class="dates">2012.09</span> | **UNC Genetics Department Retreat, Myrtle Beach, SC** |
- 
-|  <span class="dates">2010.10</span> | **24th Intl. Mammalian Genome Conference, Heraklion, Greece** |
- 
-|  <span class="dates">2010.05</span> | **9th Annual Meeting of the Complex Traits Community, Chicago, IL** |
- 
-|  <span class="dates">2009.09</span> | **23rd Intl. Mammalian Genome Conference, San Diego, CA** |
-
-
-<br/>
-
-## Poster Presentations
-
-|   |
-|---|---|
-|  <span class="dates">2015.10</span> | **American Society of Human Genetics Conference Baltimore, MD** |
-|  <span class="dates">2015.05</span> | **Biology of Genomes Conference Cold Spring Harbor, NY** |
-|  <span class="dates">2014.10</span> | **28th Intl. Mammalian Genome Conference Bar Harbor, ME** |
-|  <span class="dates">2011.09</span> | **UNC Genetics Department Retreat Myrtle Beach, SC** |
-|  <span class="dates">2011.06</span> | **Genetics Society of America Mouse Genetics Washington D.C.** |
-|  <span class="dates">2011.06</span> | **National Centers for Systems Biology Annual Meeting Duke University** |
-|  <span class="dates">2010.09</span> | **UNC Genetics Department Retreat Myrtle Beach, SC** |
-|  <span class="dates">2009.09</span> | **UNC Genetics Department Retreat Asheville, NC** |
 
 
 <br/>
@@ -199,6 +145,71 @@ title: John Didion, PhD
 | <span class="dates">2010.10</span> | **Genome Research Award for Outstanding Poster** |
 | | _International Mammalian Genome Society_ |
 | | Outstanding poster at the International Mammalian Genome Conference |
+
+
+<br/>
+
+## Conference Participation
+
+|   |   |
+|---|---|---|
+
+|  <span class="dates">2016.10</span> | **Biological Data Science Meeting, Cold Spring Harbor, NY** | |
+|  <span class="dates">2015.10</span> | **American Society of Human Genetics Conference, Baltimore, MD** | Poster |
+|  <span class="dates">2015.05</span> | **Biology of Genomes Meeting, Cold Spring Harbor, NY** | Poster |
+|  <span class="dates">2014.10</span> | **28th Intl. Mammalian Genome Conference Bar Harbor, ME** | Poster |
+ 
+|  <span class="dates">2013.09</span> | **27th Intl. Mammalian Genome Conference, Salamanca, Spain** | Talk |
+ 
+|  <span class="dates">2013.05</span> | **12th Annual Meeting of the Complex Traits Community, Madison, WI** | Talk |
+ 
+|  <span class="dates">2012.09</span> | **16th Evolutionary Biology Meeting, Marseille, France** | Talk, Poster |
+
+|  <span class="dates">2011.06</span> | **Genetics Society of America Mouse Genetics Washington D.C.** | Poster |
+
+|  <span class="dates">2011.06</span> | **National Centers for Systems Biology Annual Meeting Duke University** | Poster |
+
+|  <span class="dates">2010.10</span> | **24th Intl. Mammalian Genome Conference, Heraklion, Greece** | Talk |
+ 
+|  <span class="dates">2010.05</span> | **9th Annual Meeting of the Complex Traits Community, Chicago, IL** | Talk |
+ 
+|  <span class="dates">2009.09</span> | **23rd Intl. Mammalian Genome Conference, San Diego, CA** | Talk |
+
+
+<br/>
+
+## Other Invited Talks
+
+|   |
+|---|---|
+|  <span class="dates">2017.04</span> | **NIAID Genomics and Immunology Speaker Series, Bethesda, MD** |
+ 
+|  <span class="dates">2017.01</span> | **NIH Data Science Interest Group, Bethesda, MD** |
+ 
+|  <span class="dates">2015.10</span> | **NIH Digital Summit, Bethesda, MD** |
+
+|  <span class="dates">2012.09</span> | **UNC Genetics Department Retreat, Myrtle Beach, SC** |
+
+
+<br/>
+
+
+## Teaching Experience
+
+|   |
+|---|---|
+| <span class="dates">2016 to Present</span> | **NIH** |
+| | _Software Carpentry, Instructor_ |
+| <span class="dates">2016 to Present</span> | **FAES (NIH)** |
+| | _American Academy of Bioinformatics, Instructor (paid)_ |
+| <span class="dates">2016 to Present</span> | **NHGRI** |
+| | _Post-baccalaureate project, Mentor_ |
+| <span class="dates">2015 to 2015</span> | **NHGRI** |
+| | _Summer student reserach project, Mentor_ |
+| <span class="dates">2013 to 2014</span> | **University of North Carolina at Chapel Hill** |
+| | _Undergraduate senior research project, Mentor_ |
+| <span class="dates">2013 Fall</span> | **University of North Carolina at Chapel Hill** |
+| | _Genetic Analysis 2, Teaching Assistant_ |
 
 
 <br/>
