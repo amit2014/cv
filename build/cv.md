@@ -145,26 +145,17 @@ title: John Didion, PhD
 
 |   |   |
 |---|---|---|
-
 |  <span class="dates">2016.10</span> | **Biological Data Science Meeting, Cold Spring Harbor, NY** | |
 |  <span class="dates">2015.10</span> | **American Society of Human Genetics Conference, Baltimore, MD** | Poster |
 |  <span class="dates">2015.05</span> | **Biology of Genomes Meeting, Cold Spring Harbor, NY** | Poster |
 |  <span class="dates">2014.10</span> | **28th Intl. Mammalian Genome Conference Bar Harbor, ME** | Poster |
- 
 |  <span class="dates">2013.09</span> | **27th Intl. Mammalian Genome Conference, Salamanca, Spain** | Talk |
- 
 |  <span class="dates">2013.05</span> | **12th Annual Meeting of the Complex Traits Community, Madison, WI** | Talk |
- 
 |  <span class="dates">2012.09</span> | **16th Evolutionary Biology Meeting, Marseille, France** | Talk, Poster |
-
 |  <span class="dates">2011.06</span> | **Genetics Society of America Mouse Genetics Washington D.C.** | Poster |
-
 |  <span class="dates">2011.06</span> | **National Centers for Systems Biology Annual Meeting Duke University** | Poster |
-
 |  <span class="dates">2010.10</span> | **24th Intl. Mammalian Genome Conference, Heraklion, Greece** | Talk |
- 
 |  <span class="dates">2010.05</span> | **9th Annual Meeting of the Complex Traits Community, Chicago, IL** | Talk |
- 
 |  <span class="dates">2009.09</span> | **23rd Intl. Mammalian Genome Conference, San Diego, CA** | Talk |
 
 
@@ -175,11 +166,8 @@ title: John Didion, PhD
 |   |
 |---|---|
 |  <span class="dates">2017.04</span> | **NIAID Genomics and Immunology Speaker Series, Bethesda, MD** |
- 
 |  <span class="dates">2017.01</span> | **NIH Data Science Interest Group, Bethesda, MD** |
- 
 |  <span class="dates">2015.10</span> | **NIH Digital Summit, Bethesda, MD** |
-
 |  <span class="dates">2012.09</span> | **UNC Genetics Department Retreat, Myrtle Beach, SC** |
 
 
