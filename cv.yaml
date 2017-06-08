@@ -42,48 +42,46 @@ education:
     location: Chapel Hill, NC
     degree: Doctor of Philosophy
     department: Bioinformatics and Computational Biology
-    dates: 2008.08 to 2014.05
+    dates: 2008 to 2014
 
   - school: Northwestern University
     location: Evanston, IL
     degree: Bachelor of Science
     department: Computer Science
-    dates: 1996.09 to 2001.06
+    dates: 1996 to 2001
 
 research:
   - place: National Human Genome Research Institute
     location: Bethesda, MD
     title: Postdoctoral Fellow
     advisor: Dr. Francis S Collins
-    dates: 2014.09 to Present
+    dates: 2014 to Present
     area: Computational biology, epignentics of common disease
     details:
       - Leveraging a large, multi-omics dataset to investigate epigenetic mechanisms
         underlying regulatory variants implicated in type 2 diabetes.
       - Developing machine-learning approaches for imputation of multi-omics data.
-      - Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.
       - Using single-cell gene expression and chromatin accessibility data to understand
         cell-to-cell variability in pancreatic islets, including responses to glucose perturbation.
-      - Developed user-friendly software tools for QC and pre-processing of NGS reads.
+      - Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.
+      - Developed Atropos, user-friendly software for QC and pre-processing of NGS reads.
       - Awarded six grants, including an American Diabetes Association fellowship
         and an NIH K22.
   - place: University of North Carolina at Chapel Hill
     location: Chapel Hill, NC
     title: Research Assistant
     advisor: Dr. Fernando Pardo-Manuel de Villena
-    dates: 2009.05 to 2014.08
+    dates: 2009 to 2014
     area: Computational biology, mammalian geneitics
     details:
-      - Characterized the genetic determinants of two meiotic drive systems in the mouse.
-        First, conducted a GWAS of wild mice to identify genes associated with the accumulation
-        of Robertsonian translocations. Second, mapped a novel meiotic drive locus, *R2d2*,
-        and multiple modifier loci responsible for extreme transmission distortion in interspecific crosses. 
+      - Characterized a novel meiotic drive locus, \textit{R2d2}, and multiple modifier loci responsible for extreme transmission distortion in interspecific crosses.
+      - Conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations.
       - Developed CLASP, a software tool for validation of cell lines used in research.
   - place: Institute for Systems Biology
     location: Seattle, WA
     title: Computational Biology Software Engineer
     advisor: Dr. Ruedi Aebersold
-    dates: 2007.08 to 2008.08
+    dates: 2007 to 2008
     area: Computational proteomics
     details:
       Created TIQAM, a work flow management system to support MRM 
@@ -93,46 +91,46 @@ industry:
   - place: Muze, Inc.
     location: Seattle, WA
     title: Software Development Engineer
-    dates: 2004.09 to 2007.08
+    dates: 2004 to 2007
   - place: Encyclopaedia Britannica, Online Services
     location: Chicago, IL
     title: Software Developer
-    dates: 2003.09 to 2004.09
+    dates: 2003 to 2004
   - place: ThoughtWorks, LLC
     location: Chicago, IL
     title: Software Developer/Consultant
-    dates: 2001.05 to 2003.08
+    dates: 2001 to 2003
 
 teaching:
   - university: NIH
     course:
       name: Software Carpentry
-    dates: 2016.10 to present
+    dates: 2016 to Present
     details: Instructor
   - university: FAES (NIH)
     course:
       name: American Academy of Bioinformatics
-    dates: 2016.10 to present
+    dates: 2016 to Present
     details: Instructor (paid)
   - university: NHGRI
     course:
       name: Post-baccalaureate student
-    dates: 2016.06 to present
+    dates: 2016 to Present
     details: Mentor
   - university: NHGRI
     course:
       name: Summer student
-    dates: 2015.06 to 2015.09
+    dates: 2015 to 2015
     details: Mentor
   - university: University of North Carolina at Chapel Hill
     course:
       name: Undergraduate senior research project
-    dates: 2013.09 to 2014.05
+    dates: 2013 to 2014
     details: Mentor
   - university: University of North Carolina at Chapel Hill
     course:
       name: Genetic Analysis 2
-    dates: 2013.09 to 2013.12
+    dates: 2013 Fall
     details: Teaching Assistant
 
 publications: publications.bib
@@ -203,39 +201,39 @@ talks:
 funding:
   - name: NIH 1 K22 ES028024-01 BD2K Career Transition Award
     title: A Big Data Approach to Learning the Type 2 Diabetes Regulome
-    dates: 2017.04 to 2021.04
+    dates: 2017
     descr: Career transition award with 3 years tenure-track funding
   - name: American Diabetes Association Postdoctoral Fellowship
     title: "The Type 2 Diabetes Epigenome: A Multi-Tissue and Multi-Omics Investigaton of a Complex Disease"
-    dates: 2017.01 to 2019.12
+    dates: 2017
     descr: Postdoctoral fellowship with up to 3 years salary and research support
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Transcriptome analysis at single-molecule resolution
-    dates: 2016.09
+    dates: 2016
     descr: Institutional award with funding for sequencing services
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Extending ATAC-Seq to archival frozen and fixed tissue samples
-    dates: 2015.11
+    dates: 2015
     descr: Institutional award with funding for sequencing services
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Identifying functional variants in T2D GWAS loci using CATCh-PET
-    dates: 2015.05
+    dates: 2015
     descr: Institutional award with funding for sequencing services
   - name: NIH Intramural Sequencing Center Pilot Grant
     title: Epigenomic regulation of glucose response in a human pancreatic islet Beta cell line
-    dates: 2014.12
+    dates: 2014
     descr: Institutional award with funding for sequencing services
   - name: Department of Health and Human Services Ignite
-    dates: 2014.12 to 2015.04
+    dates: 2014
     title: "LabGenius: The Smart Lab Notebook for Scientists"
-    descr: Incubator program to fund innovated projects within HHS
+    descr: 3-month incubator program to fund innovated projects within HHS
   - name: Bioinformatics and Computational Biology Training Grant
     title: NIH GM067553-04
-    dates: 2009.09 to 2010.08
-    descr: Institution-awarded fellowship
+    dates: 2009
+    descr: Institution-awarded fellowship; 1 year stipend support
   - name: International Mammalian Genome Society Fellowship
     title: Travel grant
-    dates: 2009.09
+    dates: 2009
 
 honors:
   - title: Dean's Distinguished Dissertation Award (Nominee)
@@ -256,21 +254,18 @@ honors:
     descr: Outstanding poster at the International Mammalian Genome Conference
 
 service:
-  - position: Team Lead
-    org: CSHL Biological Data Science Hackathon
-    dates: "2016.10"
   - position: Certified Instructor
     org: Software Carpentry
-    dates: 2016.08 to present
+    dates: 2016 to Present
   - position: Organizer
     org: NHGRI Preprint Journal Club
-    dates: 2016.01 to present
+    dates: 2016 to Present
   - position: Team Lead
-    org: NCBI Hackathon
-    dates: 2016.01, 2016.08
+    org: NCBI Hackathon (multiple dates)
+    dates: 2016
   - position: Secretariat member (honorary)
     org: International Mammalian Genome Society
-    dates: 2013.09 to 2015.09
+    dates: 2013 to 2015
   - position: Abstract Review Committee
     org: UNC Genetics Department Retreat
-    dates: 2013.08
+    dates: 2013
