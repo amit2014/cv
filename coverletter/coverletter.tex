@@ -1,4 +1,4 @@
-\documentclass[11pt,letter,sans]{moderncv}
+\documentclass[12pt,letter,sans]{moderncv}
 \DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
 \DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
 \DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
@@ -167,6 +167,7 @@
     #4\vspace{\parsep}%
   } & #1\\}
 
+
 \name{John}{Didion}
 \title{PhD}
 %\address{street and number}{postcode city}{country}
@@ -181,7 +182,6 @@
 %\photo[64pt][0.4pt]{picture}
 %\quote{Some quote}
 
-
 \newenvironment{mypar}
     {\setlength{\parskip}{0.5em}}
     {}
@@ -189,12 +189,24 @@
 \begin{document}
 \makecvtitle
 
-\\textbf{<company>}
-<address, phone, etc>
+\textbf{Gigantum} \\
+840 First St. NE, Third Floor \\
+Washington, DC 20002 \\
 
-\textbf{To the Team at <company>:}
+\textbf{To the Team at Gigantum:} \\
 
-<body>
+As a veteran software engineer and computational biologist with a strong background in reproducible research, I believe I am well-positioned to succeed as a Platform Engineer at Gigantum. \\
+ 
+My current research as an American Diabetes Association Postdoctoral Fellow in the laboratory of NIH director Dr. Francis Collins involves using high-performance computing and advanced machine learning to study type 2 diabetes using large-scale genomic data. A central component of this work involves building scalable and reproducible analysis pipelines to support research findings and to enable other researchers to leverage our data and methods in their own work. A recent example of this work is \href{https://github.com/jdidion/atropos}{\textbf{\color{blue}Atropos}}, a tool I developed for preprocessing next-generation sequencing data. I wrote Atropos in Python/Cython, yet it \href{https://peerj.com/preprints/2452/}{\textbf{\color{blue}outperforms}} similar tools written in pure C++. Additionally, I developed a benchmark \href{https://github.com/jdidion/atropos/tree/master/paper}{\textbf{\color{blue}workflow}} using Nextflow and Docker containers that generates all figures and tables presented in the publication. \\
+ 
+My background in computer science (BS, Northwestern University) and professional software engineering (7 years professional experience), my expertise in developing user-friendly, highly performant software and reproducible pipelines, and my scientific research experience (Computational Biology PhD, UNC Chapel Hill, 3 years postdoctoral research, 19 publications) provide a solid foundation for success as a platform engineer at Gigantum. I believe that the talent, insight, and creativity that I will bring to the already exceptional team at Gigantum will advance to the ability of researchers conduct reproducible, collaborative, and extensible science. \\
+ 
+I look forward to speaking with you further about how I can work with Gigantum to help make the the promising future of reproducible research a reality. \\
+
+Sincerely, \\ \\ \\
+ 
+John P Didion, PhD
 
 \end{document}
+
 
