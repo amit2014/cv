@@ -179,7 +179,7 @@ class RenderContext(object):
                                  'industry','research',
                                  'skills','teaching',
                                  'funding', 'service',
-                                 'talks', 'posters']:
+                                 'talks', 'posters', 'conferences']:
                 section_data['items'] = section_content
                 section_template_name = os.path.join(
                     self.SECTIONS_DIR, section_tag + self._file_ending)
