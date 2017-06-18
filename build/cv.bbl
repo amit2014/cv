@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.7 $
+% $ biblatex bbl format version 2.8 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -23,12 +23,14 @@
       \name{author}{1}{}{%
         {{hash=259ebd01b7b95bdfe91038cd12d4d3cb}{%
            family={{\authorname, Martin M, and Collins FS}},
-           family_i={{\authorname, Martin M, and Collins FS}\bibinitperiod}}}%
+           familyi={{\authorname, Martin M, and Collins FS}\bibinitperiod}}}%
       }
       \strng{namehash}{259ebd01b7b95bdfe91038cd12d4d3cb}
       \strng{fullhash}{259ebd01b7b95bdfe91038cd12d4d3cb}
+      \strng{authornamehash}{259ebd01b7b95bdfe91038cd12d4d3cb}
+      \strng{authorfullhash}{259ebd01b7b95bdfe91038cd12d4d3cb}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Preprint, Submitted}
@@ -43,12 +45,14 @@
       \name{author}{1}{}{%
         {{hash=9711b2d8e06351c9b4c4cc124a352fa9}{%
            family={{Varshneya A, Scott LJ, Welch R, Erdos MR, Chines PS, Narisu N, D'Oliveira RA, Orchard P, Wolford BN, Kursawee R, Vadlamudi S, Cannon ME, \authorname, et al.}},
-           family_i={V\bibinitperiod}}}%
+           familyi={V\bibinitperiod}}}%
       }
       \strng{namehash}{9711b2d8e06351c9b4c4cc124a352fa9}
       \strng{fullhash}{9711b2d8e06351c9b4c4cc124a352fa9}
+      \strng{authornamehash}{9711b2d8e06351c9b4c4cc124a352fa9}
+      \strng{authorfullhash}{9711b2d8e06351c9b4c4cc124a352fa9}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Proc Nat Acad Sci USA}}
@@ -59,16 +63,40 @@
       \endverb
       \keyw{journal}
     \endentry
+    \entry{Didion:2017b}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ecb0ea418fbfd53b4632f509f0419dc9}{%
+           family={{\authorname}},
+           familyi={{\authorname}\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecb0ea418fbfd53b4632f509f0419dc9}
+      \strng{fullhash}{ecb0ea418fbfd53b4632f509f0419dc9}
+      \strng{authornamehash}{ecb0ea418fbfd53b4632f509f0419dc9}
+      \strng{authorfullhash}{ecb0ea418fbfd53b4632f509f0419dc9}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{title}{{xphyle: Extraordinarily simple file handling}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb http://dx.doi.org/10.21105/joss.00255
+      \endverb
+      \keyw{journal}
+    \endentry
     \entry{Morgan:2016b}{article}{}
       \name{author}{1}{}{%
         {{hash=05179319211a6f375c2e1989eaab74a7}{%
            family={{Morgan AP, \authorname, et al.}},
-           family_i={M\bibinitperiod}}}%
+           familyi={M\bibinitperiod}}}%
       }
       \strng{namehash}{05179319211a6f375c2e1989eaab74a7}
       \strng{fullhash}{05179319211a6f375c2e1989eaab74a7}
+      \strng{authornamehash}{05179319211a6f375c2e1989eaab74a7}
+      \strng{authorfullhash}{05179319211a6f375c2e1989eaab74a7}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{G3}
@@ -83,12 +111,14 @@
       \name{author}{1}{}{%
         {{hash=71d00772ea0a5fe0762af1345041eb38}{%
            family={{\authorname, Morgan AP, et al.}},
-           family_i={{\authorname, Morgan AP, et al.}\bibinitperiod}}}%
+           familyi={{\authorname, Morgan AP, et al.}\bibinitperiod}}}%
       }
       \strng{namehash}{71d00772ea0a5fe0762af1345041eb38}
       \strng{fullhash}{71d00772ea0a5fe0762af1345041eb38}
+      \strng{authornamehash}{71d00772ea0a5fe0762af1345041eb38}
+      \strng{authorfullhash}{71d00772ea0a5fe0762af1345041eb38}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Molecular Biology and Evolution}}
@@ -107,12 +137,14 @@
       \name{author}{1}{}{%
         {{hash=c5ec3dc418381ff34b1d37ce0fc1d0c5}{%
            family={{Morgan AP, Holt JM, McMullan RC, Bell TA, Clayshulte AM-F, \authorname, et al.}},
-           family_i={M\bibinitperiod}}}%
+           familyi={M\bibinitperiod}}}%
       }
       \strng{namehash}{c5ec3dc418381ff34b1d37ce0fc1d0c5}
       \strng{fullhash}{c5ec3dc418381ff34b1d37ce0fc1d0c5}
+      \strng{authornamehash}{c5ec3dc418381ff34b1d37ce0fc1d0c5}
+      \strng{authorfullhash}{c5ec3dc418381ff34b1d37ce0fc1d0c5}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Genetics}
@@ -127,12 +159,14 @@
       \name{author}{1}{}{%
         {{hash=73027230195b7d4ae00e9eda9618b48b}{%
            family={{Scott LJ, Erdos MR, Huyghe JR, Welch RP, Beck AT, Wolford BN, Chines PS, \authorname, et al.}},
-           family_i={S\bibinitperiod}}}%
+           familyi={S\bibinitperiod}}}%
       }
       \strng{namehash}{73027230195b7d4ae00e9eda9618b48b}
       \strng{fullhash}{73027230195b7d4ae00e9eda9618b48b}
+      \strng{authornamehash}{73027230195b7d4ae00e9eda9618b48b}
+      \strng{authorfullhash}{73027230195b7d4ae00e9eda9618b48b}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Nature Communications}}
@@ -150,12 +184,14 @@
       \name{author}{1}{}{%
         {{hash=c69ec834736d0fa7ca7228b24f573e2a}{%
            family={{Chandler RL, Damrauer JS, Raab JR, Schisler JC, Wilkerson MD, \authorname, et al.}},
-           family_i={C\bibinitperiod}}}%
+           familyi={C\bibinitperiod}}}%
       }
       \strng{namehash}{c69ec834736d0fa7ca7228b24f573e2a}
       \strng{fullhash}{c69ec834736d0fa7ca7228b24f573e2a}
+      \strng{authornamehash}{c69ec834736d0fa7ca7228b24f573e2a}
+      \strng{authorfullhash}{c69ec834736d0fa7ca7228b24f573e2a}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Nature Communications}}
@@ -173,12 +209,14 @@
       \name{author}{1}{}{%
         {{hash=3a0347abeec7b736ab622387594d3676}{%
            family={{Crowley JJ, ...13 others..., \authorname, et al.}},
-           family_i={C\bibinitperiod}}}%
+           familyi={C\bibinitperiod}}}%
       }
       \strng{namehash}{3a0347abeec7b736ab622387594d3676}
       \strng{fullhash}{3a0347abeec7b736ab622387594d3676}
+      \strng{authornamehash}{3a0347abeec7b736ab622387594d3676}
+      \strng{authorfullhash}{3a0347abeec7b736ab622387594d3676}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Nature Genetics}}
@@ -197,12 +235,14 @@
       \name{author}{1}{}{%
         {{hash=0b02d48c92eb2b74707754d445856f4e}{%
            family={{\authorname, Morgan AP, Clayshulte AMF, et al.}},
-           family_i={{\authorname, Morgan AP, Clayshulte AMF, et al.}\bibinitperiod}}}%
+           familyi={{\authorname, Morgan AP, Clayshulte AMF, et al.}\bibinitperiod}}}%
       }
       \strng{namehash}{0b02d48c92eb2b74707754d445856f4e}
       \strng{fullhash}{0b02d48c92eb2b74707754d445856f4e}
+      \strng{authornamehash}{0b02d48c92eb2b74707754d445856f4e}
+      \strng{authorfullhash}{0b02d48c92eb2b74707754d445856f4e}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{PLoS Genetics}}
@@ -221,12 +261,14 @@
       \name{author}{1}{}{%
         {{hash=c9a99a083570872ac782b9d14a1182ac}{%
            family={{Morgan AP, Fu C-P, Kao C-Y, Welsh CE, \authorname, et al.}},
-           family_i={M\bibinitperiod}}}%
+           familyi={M\bibinitperiod}}}%
       }
       \strng{namehash}{c9a99a083570872ac782b9d14a1182ac}
       \strng{fullhash}{c9a99a083570872ac782b9d14a1182ac}
+      \strng{authornamehash}{c9a99a083570872ac782b9d14a1182ac}
+      \strng{authorfullhash}{c9a99a083570872ac782b9d14a1182ac}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{G3}
@@ -245,12 +287,14 @@
       \name{author}{1}{}{%
         {{hash=07889b0c405b3896d5c89a8ea38c6494}{%
            family={{\authorname, Buus RJ, Naghashfar Z, et al.}},
-           family_i={{\authorname, Buus RJ, Naghashfar Z, et al.}\bibinitperiod}}}%
+           familyi={{\authorname, Buus RJ, Naghashfar Z, et al.}\bibinitperiod}}}%
       }
       \strng{namehash}{07889b0c405b3896d5c89a8ea38c6494}
       \strng{fullhash}{07889b0c405b3896d5c89a8ea38c6494}
+      \strng{authornamehash}{07889b0c405b3896d5c89a8ea38c6494}
+      \strng{authorfullhash}{07889b0c405b3896d5c89a8ea38c6494}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{BMC Genomics}}
@@ -268,12 +312,14 @@
       \name{author}{1}{}{%
         {{hash=976e47fb4debaf1cc7cf4a4946e00f72}{%
            family={{\authorname and Pardo-Manuel de Villena F}},
-           family_i={{\authorname and Pardo\bibinithyphendelim Manuel de Villena F}\bibinitperiod}}}%
+           familyi={{\authorname and Pardo\bibinithyphendelim Manuel de Villena F}\bibinitperiod}}}%
       }
       \strng{namehash}{976e47fb4debaf1cc7cf4a4946e00f72}
       \strng{fullhash}{976e47fb4debaf1cc7cf4a4946e00f72}
+      \strng{authornamehash}{976e47fb4debaf1cc7cf4a4946e00f72}
+      \strng{authorfullhash}{976e47fb4debaf1cc7cf4a4946e00f72}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Mammalian Genome}}
@@ -292,12 +338,14 @@
       \name{author}{1}{}{%
         {{hash=6063430c11e507c3257c3cb99d68c3a5}{%
            family={{Calaway JD, Lenarcic AB, \authorname, et al.}},
-           family_i={C\bibinitperiod}}}%
+           familyi={C\bibinitperiod}}}%
       }
       \strng{namehash}{6063430c11e507c3257c3cb99d68c3a5}
       \strng{fullhash}{6063430c11e507c3257c3cb99d68c3a5}
+      \strng{authornamehash}{6063430c11e507c3257c3cb99d68c3a5}
+      \strng{authorfullhash}{6063430c11e507c3257c3cb99d68c3a5}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{PLoS Genetics}}
@@ -316,12 +364,14 @@
       \name{author}{1}{}{%
         {{hash=c7333a6d64a1e9760cc6901a6e51d2ab}{%
            family={{Collaborative Cross Consortium}},
-           family_i={C\bibinitperiod}}}%
+           familyi={C\bibinitperiod}}}%
       }
       \strng{namehash}{c7333a6d64a1e9760cc6901a6e51d2ab}
       \strng{fullhash}{c7333a6d64a1e9760cc6901a6e51d2ab}
+      \strng{authornamehash}{c7333a6d64a1e9760cc6901a6e51d2ab}
+      \strng{authorfullhash}{c7333a6d64a1e9760cc6901a6e51d2ab}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Genetics}
@@ -340,12 +390,14 @@
       \name{author}{1}{}{%
         {{hash=4bdcc3626ec245ea5227adb10ce12d80}{%
            family={{\authorname, Yang H, Sheppard K, et al.}},
-           family_i={{\authorname, Yang H, Sheppard K, et al.}\bibinitperiod}}}%
+           familyi={{\authorname, Yang H, Sheppard K, et al.}\bibinitperiod}}}%
       }
       \strng{namehash}{4bdcc3626ec245ea5227adb10ce12d80}
       \strng{fullhash}{4bdcc3626ec245ea5227adb10ce12d80}
+      \strng{authornamehash}{4bdcc3626ec245ea5227adb10ce12d80}
+      \strng{authorfullhash}{4bdcc3626ec245ea5227adb10ce12d80}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{BMC Genomics}}
@@ -363,12 +415,14 @@
       \name{author}{1}{}{%
         {{hash=14302ca6b3dbe617e3a1fb9b05a1ea14}{%
            family={{Aylor DL, ...11 others..., \authorname, et al.}},
-           family_i={A\bibinitperiod}}}%
+           familyi={A\bibinitperiod}}}%
       }
       \strng{namehash}{14302ca6b3dbe617e3a1fb9b05a1ea14}
       \strng{fullhash}{14302ca6b3dbe617e3a1fb9b05a1ea14}
+      \strng{authornamehash}{14302ca6b3dbe617e3a1fb9b05a1ea14}
+      \strng{authorfullhash}{14302ca6b3dbe617e3a1fb9b05a1ea14}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Genome Research}}
@@ -387,12 +441,14 @@
       \name{author}{1}{}{%
         {{hash=16ae315da244d3f3d7db54cfdf872675}{%
            family={{Yang H, Wang JR, \authorname, et al.}},
-           family_i={Y\bibinitperiod}}}%
+           familyi={Y\bibinitperiod}}}%
       }
       \strng{namehash}{16ae315da244d3f3d7db54cfdf872675}
       \strng{fullhash}{16ae315da244d3f3d7db54cfdf872675}
+      \strng{authornamehash}{16ae315da244d3f3d7db54cfdf872675}
+      \strng{authorfullhash}{16ae315da244d3f3d7db54cfdf872675}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Nature Genetics}}
@@ -411,12 +467,14 @@
       \name{author}{1}{}{%
         {{hash=12482102bdcdefaa5ff4955aa33f7d90}{%
            family={{Eisener-Dorman AF, \authorname, Santos C, Calaway JD}},
-           family_i={E\bibinitperiod}}}%
+           familyi={E\bibinitperiod}}}%
       }
       \strng{namehash}{12482102bdcdefaa5ff4955aa33f7d90}
       \strng{fullhash}{12482102bdcdefaa5ff4955aa33f7d90}
+      \strng{authornamehash}{12482102bdcdefaa5ff4955aa33f7d90}
+      \strng{authorfullhash}{12482102bdcdefaa5ff4955aa33f7d90}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Mammalian Genome}}
@@ -435,12 +493,14 @@
       \name{author}{1}{}{%
         {{hash=7131d23694452c3a8d3875df3f2a292d}{%
            family={{Lange V, Malmstrom JA, \authorname, et al.}},
-           family_i={L\bibinitperiod}}}%
+           familyi={L\bibinitperiod}}}%
       }
       \strng{namehash}{7131d23694452c3a8d3875df3f2a292d}
       \strng{fullhash}{7131d23694452c3a8d3875df3f2a292d}
+      \strng{authornamehash}{7131d23694452c3a8d3875df3f2a292d}
+      \strng{authorfullhash}{7131d23694452c3a8d3875df3f2a292d}
       \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Molecular and Cellular Proteomics}}
