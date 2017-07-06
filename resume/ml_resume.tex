@@ -1,0 +1,403 @@
+\documentclass[11pt,letter,sans]{moderncv}
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+%\renewcommand{\familydefault}{\sfdefault}
+%\newcommand*{\orcidsocialsymbol} {https://orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.png}
+\usepackage[margin=0.7in,scale=0.7]{geometry}
+\addtolength{\topmargin}{-0.1in}
+\addtolength{\textheight}{0.1in}
+\setlength{\hintscolumnwidth}{3cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+\usepackage{enumitem}
+\setlist{noitemsep}
+\setlist[itemize]{topsep=0.2em}
+
+\usepackage[american]{babel}
+\usepackage[backend=biber,style=ieee,defernumbers=true,sorting=ydnt]{biblatex}
+
+\AtDataInput{%
+  \csnumgdef{entrycount:\therefsection}{%
+    \csuse{entrycount:\therefsection}+1}}
+
+% Print the labelnumber as the total number of entries in the
+% current refsection, minus the actual labelnumber, plus one
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}    
+\newrobustcmd*{\mkbibdesc}[1]{%
+  \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
+
+\addbibresource{../publications.bib}
+
+% Make the author's name bold in publications.
+\DeclareNameFormat{author}{%
+  \ifthenelse{\equal{\namepartfamily}{Didion}}%
+    {\textbf{\ifblank{\namepartsuffix}{}{\namepartsuffix\space}#1}}%
+    {\ifblank{\namepartsuffix}{}{\namepartsuffix\space}\namepartfamily}%
+  \ifthenelse{\value{listcount}=1 \AND \value{liststop}=2}%
+    {\space and\space}
+    {\ifthenelse{\value{listcount}<\value{liststop}}%
+      {\addcomma\space}
+      {}
+    }
+}
+
+\usepackage{longtable}
+\usepackage{lastpage}
+\cfoot{\addressfont\itshape\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+
+\newcommand\authorname{\textbf{Didion JP}}
+
+\setlength{\tabcolsep}{6pt}
+\newenvironment{entrylistDict}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryDict}[2]{%
+  \textbf{#1} & \parbox[t]{140mm}{%
+    #2%
+    \hfill%
+    \vspace{\parsep}%
+  }\\}
+
+\setlength{\tabcolsep}{6pt}
+\newenvironment{entrylistTwo}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryTwo}[3]{%
+  #1&\parbox[t]{140mm}{%
+    \textbf{#2}%
+    \hfill%
+    {\footnotesize #3}%
+	\vspace{\parsep}%
+  }\\}
+
+\usepackage{ifthen}
+
+\setlength{\tabcolsep}{6pt}
+\newenvironment{entrylistTwoFour}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryTwoFour}[4]{%
+  #1&\parbox[t]{140mm}{%
+    \textbf{#2}%
+    \ifthenelse{\equal{#3}{}}{ }{, }%
+    #3%
+    \hfill%
+    {\footnotesize #4}%
+	\vspace{\parsep}%
+  }\\}
+
+\newenvironment{entrylistThree}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryThree}[3]{%
+  \parbox[t]{140mm}{%
+    \textbf{#2}\\%
+    \textit{#3}\vspace{\parsep}%
+  } & #1 \\}
+
+\newenvironment{entrylistFour}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entryFour}[4]{%
+  #1&\parbox[t]{140mm}{%
+    \textbf{#2}%
+    \hfill%
+    {\footnotesize #3}\\%
+	\emph{#4}%
+    \vspace{\parsep}%
+  }\\}
+
+\newenvironment{entrylistFive}{%
+  \begin{longtable}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{longtable}
+}
+\newcommand{\entryFive}[5]{%
+  \parbox[t]{170mm}{%
+    \textbf{#2}%
+    \hfill%
+    {\footnotesize #3~|~#1}\\%
+	\emph{#4}\\%
+    #5\vspace{\parsep}%
+  }\\}
+
+\newenvironment{entrylistSix}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entrySix}[4]{%
+  #1&\parbox[t]{140mm}{%
+    \textbf{#2}%
+    \hfill\\%
+    \emph{#3}\\%
+    #4\vspace{\parsep}%
+  }\\}
+
+\newenvironment{entrylistSeven}{%
+  \begin{longtable}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{longtable}
+}
+\newcommand{\entrySeven}[4]{%
+  \parbox[t]{140mm}{%
+    \textbf{#2}%
+    \hfill\\%
+    \emph{#3}\\%
+    #4\vspace{\parsep}%
+  } & #1\\}
+
+\name{John}{Didion}
+\title{PhD}
+%\address{street and number}{postcode city}{country}
+\phone{~(919)~536~9924}
+\email{john.didion@nih.gov}
+\homepage{john.didion.net}
+\social[linkedin]{jdidion}
+\social[twitter]{jdidion}
+\social[github]{jdidion}
+\social[ORCiD][orcid.org/0000-0002-8111-6261]{ORCiD 0000-0002-8111-6261}
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture}
+%\quote{Some quote}
+
+
+\newenvironment{mypar}
+    {\setlength{\parskip}{0.5em}}
+    {}
+
+\begin{document}
+\makecvtitle
+    
+\section{Machine Learning Research Innovator}
+
+\scalebox{.8}{\textbf{Results-Oriented Research~\textbullet~Applied Machine Learning~\textbullet~Professional Software Engineering}}
+
+\begin{mypar}
+Creative and highly productive researcher with a passion for leveraging high-throughput computing and advanced machine and deep learning to interpret and exploit complex datasets.
+\end{mypar}
+
+\begin{itemize}
+\item {Expert in experimental design, data processing, informatics, and computational analytics development.}
+\item {Talented engineer with 15+ years experience developing production-grade software using Python, R, SQL, C++, Ruby, and Java.}
+\item {Effective and award-winning communicator who has won competitive research grants and authored 20 peer-reviewed publications.}
+\item {Versatile team member who excels as a leader, collaborator, or individual contributor.}
+\end{itemize}
+
+
+\section{Experience}
+\begin{entrylistFive}
+\entryFive
+{2014 to Present}
+{National Human Genome Research Institute}
+{Bethesda, MD}
+{Postdoctoral Fellow, Laboratory of Dr. Francis S Collins}
+{\vspace{-5mm}
+\begin{itemize}
+\item {Developed machine-learning approaches for imputation of missing data in multi-omics experiments.}
+\item {Leveraged a large, multi-omics dataset to investigate epigenetic mechanisms underlying regulatory variants implicated in type 2 diabetes.}
+\item {Developed Atropos, user-friendly software for QC and pre-processing of NGS reads. Created reproducible benchmark pipeline using software containers for accompanying publication.}
+\item {Initiated collaborative project to undestand genomic diversity of biofilm communities.}
+\item {Designed a novel sequencing assay for single-molecule resolution transcriptome analysis.}
+\item {Awarded six grants, including an American Diabetes Association fellowship and an NIH K22.}
+\end{itemize}
+}
+
+\entryFive
+{2016 to Present}
+{American Academy of Bioinformatics}
+{Bethesda, MD}
+{Instructor of Bioinformatics}
+{\vspace{-5mm}
+\begin{itemize}
+\item {Developed comprehensive, open-source course materials for workshops in DNA-Seq and RNA-Seq data analysis.}
+\item {Taught workshops and earned highly positive student reviews.}
+\end{itemize}
+}
+
+\entryFive
+{2009 to 2014}
+{University of North Carolina at Chapel Hill}
+{Chapel Hill, NC}
+{Research Assistant, Laboratory of Dr. Fernando Pardo-Manuel de Villena}
+{\vspace{-5mm}
+\begin{itemize}
+\item {Characterized a novel meiotic drive locus, \textit{R2d2}, and multiple modifier loci responsible for extreme transmission distortion in interspecific crosses.}
+\item {Conducted a GWAS of wild mice to identify genes associated with the accumulation of Robertsonian translocations.}
+\item {Developed CLASP, a software tool for validation of cell lines used in research.}
+\end{itemize}
+}
+\entryFive
+{2007 to 2008}
+{Institute for Systems Biology}
+{Seattle, WA}
+{Computational Biology Software Engineer, Laboratory of Dr. Ruedi Aebersold}
+{\vspace{-5mm}
+\begin{itemize}
+\item {Created TIQAM, a work flow management system to support Multiple Reaction Monitoring (MRM) proteomics experiments.}
+\end{itemize}
+}
+\entryFive
+{2004 to 2007}
+{Muze, Inc.}
+{Seattle, WA}
+{Software Development Engineer}
+{\vspace{-5mm}
+\begin{itemize}
+\item {Implemented key components of web services platform for purchase and distribution of digital media, including consumer management and security.}
+\item {Created an intelligent installation system that decreased deployment time for the web services platform from days to less than an hour.}
+\item {Improved team efficiency by implementing a code generation framework that produced a large percentage of the domain and persistence code for the web services platform.}
+\end{itemize}
+}
+\entryFive
+{2003 to 2004}
+{Encyclopaedia Britannica, Online Services}
+{Chicago, IL}
+{Software Developer}
+{\vspace{-5mm}
+\begin{itemize}
+\item {Developed and tested releases of several new web products, including Spanish- and Chinese- language editions of the company's flagship product.}
+\item {Elimiated substantial software licensing costs by migrating marketing and e-commerce systems from outsourced to internal solutions.}
+\end{itemize}
+}
+\entryFive
+{2001 to 2003}
+{ThoughtWorks, LLC}
+{Chicago, IL}
+{Software Developer/Consultant}
+{\vspace{-5mm}
+\begin{itemize}
+\item {Designed, developed, and enhanced user interface, business logic, and persistence-layer components of large-scale financial software package for the commercial leasing industry.}
+\item {Trained members of India development team and helped transition project to an international, round-the-clock effort.}
+\item {Co-lead efforts to build web services interoperability lab. Developed Java tools for automated compatibility testing of web service runtime environments.}
+\end{itemize}
+}
+\end{entrylistFive}
+
+\section{Technical Skills}
+\begin{entrylistDict}
+\entryDict
+{Programming Languages}
+{\textit{Expert:} Python, R \\ \textit{Proficient:} C++, Java, SQL, Ruby, Go}
+\entryDict
+{Machine Learning}
+{\textit{Python:} scikit-learn, keras, networkX \\ \textit{R:} xgboost, e1071, caret}
+\entryDict
+{Data Science/Visualization}
+{\textit{Python:} Numpy, Pandas, Seaborn \\ \textit{R:} ggplot2, other "tidyverse" packages}
+\entryDict
+{High-Performance Computing}
+{\textit{Containerization:} Docker, Singularity \\
+ \textit{Pipelines:} Nextflow, Snakemake, CWL \\
+ \textit{Job Scheduling:} SGE, SLURM, LSF}
+\entryDict
+{Genomics}
+{\textit{NGS Assays:} DNA-Seq, RNA-Seq, Methyl-Seq, ATAC-Seq, ChIP-Seq, \\ HiC, Single-Cell (10X, Fluidigm) \\
+ \textit{Bioinformatics:} Samtools, BWA, GATK \\
+ \textit{Other:} SNP and methylation array analysis}
+\end{entrylistDict}
+
+
+\section{Education}
+\begin{entrylistThree}
+\entryThree
+{2008 to 2014~~~}
+{Doctor of Philosophy, Bioinformatics and Computational Biology}
+{University of North Carolina, Chapel Hill, NC}
+\entryThree
+{1996 to 2001~~~}
+{Bachelor of Science, Computer Science}
+{Northwestern University, Evanston, IL}
+\end{entrylistThree}
+
+
+\section{Honors \& Awards}
+\begin{entrylistSeven}
+\entrySeven
+{2017 to Present}
+{NIH 1 K22 ES028024-01 BD2K Career Transition Award}
+{A Big Data Approach to Learning the Type 2 Diabetes Regulome}
+{Career transition award with 3 years tenure-track funding}
+\entrySeven
+{2017 to Present}
+{American Diabetes Association Postdoctoral Fellowship}
+{A Multi-Tissue and Multi-Omics Investigaton of Type 2 Diabetes}
+{Postdoctoral fellowship with up to 3 years salary and research support}
+\entrySeven
+{2014 to 2016}
+{NIH Intramural Sequencing Center Pilot Grants}
+{Four separate project proposals funded}
+{Institutional award with funding for sequencing services}
+\entrySeven
+{2014}
+{Department of Health and Human Services Ignite}
+{LabGenius: The Smart Lab Notebook for Scientists}
+{3-month incubator program to fund innovative projects within HHS}
+\entrySeven
+{2014}
+{Dean's Distinguished Dissertation Award (Department Nominee)}
+{University of North Carolina at Chapel Hill}
+{Nominee from the Bioinformatics and Computational Biology program}
+\entrySeven
+{2013}
+{Verne Chapman Young Scientist Award}
+{International Mammalian Genome Society}
+{Best trainee talk at the International Mammalian Genome Conference}
+\entrySeven
+{2013}
+{Chicago Prize}
+{Complex Traits Consortium}
+{Best graduate student talk at the Complex Traits Consortium meeting}
+\entrySeven
+{2010}
+{Genome Research Award for Outstanding Poster}
+{International Mammalian Genome Society}
+{Outstanding poster at the International Mammalian Genome Conference}
+\end{entrylistSeven}
+
+
+\section{Leadership \& Service}
+\begin{entrylistThree}
+\entryThree
+{2016 to Present}
+{Certified Software Carpentry instructor}
+{Co-taught mutliple workshops on biological data science to novices.}
+\entryThree
+{2016 to Present}
+{Organizer, NHGRI Preprint Journal Club}
+{Started journal club to review and provide feedback on scientific preprints.}
+\entryThree
+{2016 to 2017}
+{Hackathon team leader}
+{Lead teams in prototyping novel bioinformatics tools in multiple hackathons organized by NCBI.}
+\entryThree
+{2013 to Present}
+{Graduate and undergraduate student mentor}
+{Designed and oversaw student projects that lead to peer-reviewed publications.}
+\entryThree
+{2013 to 2015}
+{Secretariat member (honorary), International Mammalian Genome Society}
+{}
+\end{entrylistThree}
+\end{document}
+
