@@ -85,6 +85,25 @@
       \endverb
       \keyw{journal}
     \endentry
+    \entry{Zou:2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=57ca6aafd5be253481fbf940d15a276b}{%
+           family={{Zou LS, \ldots, Collins FS, \authorname}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{57ca6aafd5be253481fbf940d15a276b}
+      \strng{fullhash}{57ca6aafd5be253481fbf940d15a276b}
+      \strng{authornamehash}{57ca6aafd5be253481fbf940d15a276b}
+      \strng{authorfullhash}{57ca6aafd5be253481fbf940d15a276b}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Submitted}
+      \field{title}{{BoostMe accurately predicts DNA methylation values in whole-genome bisulfite sequencing of multiple human tissues}}
+      \field{year}{2017}
+      \keyw{journal}
+    \endentry
     \entry{Morgan:2016b}{article}{}
       \name{author}{1}{}{%
         {{hash=05179319211a6f375c2e1989eaab74a7}{%
