@@ -130,3 +130,6 @@ Name | Stargazers | Description
 [cv.tmpl.tex]: https://github.com/bamos/cv/blob/master/tmpl/cv.tmpl.tex
 [cv.tmpl.md]: https://github.com/bamos/cv/blob/master/tmpl/cv.tmpl.md
 [bibtexparser]: https://bibtexparser.readthedocs.org/en/latest/index.html
+
+
+https://github.com/salomonelli/best-resume-ever
