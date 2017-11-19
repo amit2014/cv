@@ -13,6 +13,12 @@ by using Jinja templates.
 Statistics about my blog and github account are obtained
 using [blog-info.py][blog-info.py] and [github-info.py][github-info.py].
 
+# Note
+
+I'm finding that this doesn't work well for me anymore. At some point I'll want to redo this using a better framework. Some options are:
+
+* https://github.com/salomonelli/best-resume-ever
+
 # Building and running
 The dependencies are included in `requirements.txt` and can be
 installed
